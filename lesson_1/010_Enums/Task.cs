@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace 009_Operators
+namespace _010_Enums
 {
     class Task
     {
