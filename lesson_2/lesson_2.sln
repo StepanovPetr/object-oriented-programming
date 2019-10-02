@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance_09(virtual)", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance_10(is, as)", "Inheritance_10(is, as)\Inheritance_10(is, as).csproj", "{B525EF25-6671-4CBA-90DF-C355F779FB07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialize_01", "Serialize_01\Serialize_01.csproj", "{713414DF-9450-41AA-9DCA-0BA5CC657CB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialize_02", "Serialize_02\Serialize_02.csproj", "{40EBD2F1-C4F8-484B-AE1A-F55AA5DBEA72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{B525EF25-6671-4CBA-90DF-C355F779FB07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B525EF25-6671-4CBA-90DF-C355F779FB07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B525EF25-6671-4CBA-90DF-C355F779FB07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{713414DF-9450-41AA-9DCA-0BA5CC657CB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{713414DF-9450-41AA-9DCA-0BA5CC657CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{713414DF-9450-41AA-9DCA-0BA5CC657CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{713414DF-9450-41AA-9DCA-0BA5CC657CB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40EBD2F1-C4F8-484B-AE1A-F55AA5DBEA72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40EBD2F1-C4F8-484B-AE1A-F55AA5DBEA72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40EBD2F1-C4F8-484B-AE1A-F55AA5DBEA72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40EBD2F1-C4F8-484B-AE1A-F55AA5DBEA72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
