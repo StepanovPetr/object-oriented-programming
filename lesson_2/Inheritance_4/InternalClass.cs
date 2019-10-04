@@ -1,6 +1,4 @@
-﻿
-
-namespace internal_Library
+﻿namespace internal_Library
 {
     internal class InternalClassInThisAssebly
     {
