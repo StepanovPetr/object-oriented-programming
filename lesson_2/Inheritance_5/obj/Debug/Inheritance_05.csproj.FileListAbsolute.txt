@@ -1,0 +1,5 @@
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_5\bin\Debug\Inheritance_5.exe.config
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_5\bin\Debug\Inheritance_5.exe
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_5\bin\Debug\Inheritance_5.pdb
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_5\obj\Debug\Inheritance_5.exe
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_5\obj\Debug\Inheritance_5.pdb

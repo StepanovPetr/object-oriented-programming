@@ -1,0 +1,5 @@
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_10(is, as)\bin\Debug\Inheritance_10(is, as).exe.config
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_10(is, as)\bin\Debug\Inheritance_10(is, as).exe
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_10(is, as)\bin\Debug\Inheritance_10(is, as).pdb
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_10(is, as)\obj\Debug\Inheritance_10(is, as).exe
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_10(is, as)\obj\Debug\Inheritance_10(is, as).pdb

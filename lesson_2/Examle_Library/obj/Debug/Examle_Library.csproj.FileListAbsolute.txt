@@ -1,0 +1,5 @@
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Examle_Library\bin\Debug\Examle_Library.dll
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Examle_Library\bin\Debug\Examle_Library.pdb
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Examle_Library\obj\Debug\Examle_Library.csprojResolveAssemblyReference.cache
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Examle_Library\obj\Debug\Examle_Library.dll
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Examle_Library\obj\Debug\Examle_Library.pdb

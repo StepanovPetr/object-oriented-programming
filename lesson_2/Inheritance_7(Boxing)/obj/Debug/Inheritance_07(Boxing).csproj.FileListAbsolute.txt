@@ -1,0 +1,5 @@
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_7(Boxing)\bin\Debug\Inheritance_7(Boxing).exe.config
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_7(Boxing)\bin\Debug\Inheritance_7(Boxing).exe
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_7(Boxing)\bin\Debug\Inheritance_7(Boxing).pdb
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_7(Boxing)\obj\Debug\Inheritance_7(Boxing).exe
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_7(Boxing)\obj\Debug\Inheritance_7(Boxing).pdb

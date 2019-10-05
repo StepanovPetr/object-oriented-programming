@@ -1,0 +1,11 @@
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\NUnit_1\bin\Debug\NUnit_1.dll.config
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\NUnit_1\bin\Debug\NUnit_1.dll
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\NUnit_1\bin\Debug\NUnit_1.pdb
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\NUnit_1\bin\Debug\Examle_Library.dll
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\NUnit_1\bin\Debug\nunit.framework.dll
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\NUnit_1\bin\Debug\Examle_Library.pdb
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\NUnit_1\bin\Debug\nunit.framework.pdb
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\NUnit_1\bin\Debug\nunit.framework.xml
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\NUnit_1\obj\Debug\NUnit_1.csprojResolveAssemblyReference.cache
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\NUnit_1\obj\Debug\NUnit_1.dll
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\NUnit_1\obj\Debug\NUnit_1.pdb

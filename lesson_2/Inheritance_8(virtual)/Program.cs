@@ -10,7 +10,7 @@ namespace Inheritance_8
             derivedClass.ShowFileds();
 
             // UpCast
-            BaseClass baseClass = (DerivedClass)derivedClass;
+            BaseClass baseClass = (BaseClass)derivedClass;
             baseClass.ShowFileds();
 
             Console.ReadLine();

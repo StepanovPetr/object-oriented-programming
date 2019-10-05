@@ -8,7 +8,7 @@ namespace NUnit_1
     {
         //Install-Package NUnit -Version 3.12.0
       
-        [TestCase()]
+        [Test]
         public void AmperageIsTrue()
         {
             double result = ExamleLibrary.Amperage(50, 5);

@@ -1,0 +1,6 @@
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_1\002_Classes\bin\Debug\002_Classes.exe.config
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_1\002_Classes\bin\Debug\002_Classes.exe
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_1\002_Classes\bin\Debug\002_Classes.pdb
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_1\002_Classes\obj\Debug\002_Classes.csprojResolveAssemblyReference.cache
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_1\002_Classes\obj\Debug\002_Classes.exe
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_1\002_Classes\obj\Debug\002_Classes.pdb

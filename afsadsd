@@ -1,0 +1,35 @@
+[33mcommit 1111d96cb16e0fc4f21cc2f5d56d0adce17b14ee[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: DruiD <omsk.petr@gmail.com>
+Date:   Fri Oct 4 22:01:55 2019 +0600
+
+    Add Nunit Examples add Refactoring
+
+[33mcommit 001d662f3a453a7675767b8361b003c1b4000766[m
+Author: DruiD <omsk.petr@gmail.com>
+Date:   Wed Oct 2 21:37:09 2019 +0600
+
+    Add Serialize Examples
+
+[33mcommit 32091fb6fd67fbb2de933b0615b916875913fe6d[m
+Author: DruiD <omsk.petr@gmail.com>
+Date:   Tue Oct 1 22:49:23 2019 +0600
+
+    Add examples for lesson 2
+
+[33mcommit 8e96db02dca19793111a09996947ee7a156499f1[m
+Author: DruiD <omsk.petr@gmail.com>
+Date:   Tue Oct 1 08:28:24 2019 +0600
+
+    Change lesson 2
+
+[33mcommit 7c1981ad2a62546dcab9dfa3ae25ecb2d2e66730[m
+Author: DruiD <omsk.petr@gmail.com>
+Date:   Tue Oct 1 08:25:34 2019 +0600
+
+    add lesson 2
+
+[33mcommit 3f8a80b7caca8a6a17d4b2d1cac73149c9bb9741[m
+Author: DruiD <omsk.petr@gmail.com>
+Date:   Sun Sep 29 13:39:46 2019 +0600
+
+    Add lesson_1

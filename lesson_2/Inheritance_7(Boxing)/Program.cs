@@ -10,14 +10,14 @@ namespace Inheritance_7
             derivedClass.ShowFileds();
 
             // UpCast
-            BaseClass baseClass = (DerivedClass) derivedClass;
+            BaseClass baseClass = (BaseClass) derivedClass;
             baseClass.ShowFileds();
 
             BaseClass baseClassForDownCast = new BaseClass();
            //baseClass.ShowFileds();
 
             // DownCast возможен только после после UpCast
-            DerivedClass derivedClasForDownCast = (DerivedClass)derivedClass; //baseClassForDownCast
+            DerivedClass derivedClasForDownCast = (DerivedClass)baseClass; //baseClassForDownCast
             derivedClasForDownCast.ShowFileds();
 
             Console.ReadLine();

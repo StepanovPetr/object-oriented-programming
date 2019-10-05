@@ -15,9 +15,9 @@ namespace Inheritance_6
             Console.WriteLine(derivedClass.publicField5);
             Console.WriteLine(derivedClass.GetHashCode());
             Console.WriteLine("************************************************************************************************************************");
-            
+
             // UpCast
-            BaseClass baseClass = (BaseClass) derivedClass;
+            BaseClass baseClass = derivedClass;//(BaseClass) derivedClass;
             Console.WriteLine(baseClass.publicField1);
             Console.WriteLine(baseClass.publicField2);
             Console.WriteLine(baseClass.publicField3);
