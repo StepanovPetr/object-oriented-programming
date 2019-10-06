@@ -1,4 +1,4 @@
-﻿namespace internal_Library
+﻿namespace Internal_Library
 {
     internal class InternalClass
     {

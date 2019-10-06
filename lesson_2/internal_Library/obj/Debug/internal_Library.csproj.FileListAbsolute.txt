@@ -3,3 +3,9 @@ D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\intern
 D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\internal_Library\obj\Debug\internal_Library.csprojResolveAssemblyReference.cache
 D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\internal_Library\obj\Debug\internal_Library.dll
 D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\internal_Library\obj\Debug\internal_Library.pdb
+E:\Sources\C#\OOP\lesson_2\internal_Library\bin\Debug\internal_Library.dll
+E:\Sources\C#\OOP\lesson_2\internal_Library\bin\Debug\internal_Library.pdb
+E:\Sources\C#\OOP\lesson_2\internal_Library\obj\Debug\internal_Library.csprojResolveAssemblyReference.cache
+E:\Sources\C#\OOP\lesson_2\internal_Library\obj\Debug\internal_Library.csproj.CoreCompileInputs.cache
+E:\Sources\C#\OOP\lesson_2\internal_Library\obj\Debug\internal_Library.dll
+E:\Sources\C#\OOP\lesson_2\internal_Library\obj\Debug\internal_Library.pdb

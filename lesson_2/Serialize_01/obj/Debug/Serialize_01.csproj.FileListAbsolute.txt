@@ -1,5 +1,0 @@
-D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Serialize_01\bin\Debug\Serialize_01.exe.config
-D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Serialize_01\bin\Debug\Serialize_01.exe
-D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Serialize_01\bin\Debug\Serialize_01.pdb
-D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Serialize_01\obj\Debug\Serialize_01.exe
-D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Serialize_01\obj\Debug\Serialize_01.pdb

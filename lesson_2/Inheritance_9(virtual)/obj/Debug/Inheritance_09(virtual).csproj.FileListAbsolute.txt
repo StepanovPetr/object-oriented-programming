@@ -1,5 +1,0 @@
-D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_9(virtual)\bin\Debug\Inheritance_9(virtual).exe.config
-D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_9(virtual)\bin\Debug\Inheritance_9(virtual).exe
-D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_9(virtual)\bin\Debug\Inheritance_9(virtual).pdb
-D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_9(virtual)\obj\Debug\Inheritance_9(virtual).exe
-D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_9(virtual)\obj\Debug\Inheritance_9(virtual).pdb

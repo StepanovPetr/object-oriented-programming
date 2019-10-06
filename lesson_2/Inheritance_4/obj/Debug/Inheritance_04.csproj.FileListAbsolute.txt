@@ -1,8 +1,0 @@
-D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_4\bin\Debug\Inheritance_4.exe.config
-D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_4\bin\Debug\Inheritance_4.exe
-D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_4\bin\Debug\Inheritance_4.pdb
-D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_4\bin\Debug\internal_Library.dll
-D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_4\bin\Debug\internal_Library.pdb
-D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_4\obj\Debug\Inheritance_04.csprojResolveAssemblyReference.cache
-D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_4\obj\Debug\Inheritance_4.exe
-D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\Inheritance_4\obj\Debug\Inheritance_4.pdb
