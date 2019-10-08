@@ -13,6 +13,7 @@ namespace Inheritance_9
         {
             // вызов ShowFileds() базового метода
             base.ShowFileds();
+            //base.base.publicField10;
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(this.publicField4);

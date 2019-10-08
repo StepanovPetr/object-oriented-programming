@@ -19,7 +19,7 @@ namespace Serialize_02
             }
             Console.WriteLine(man.ManInfo());
 
-            using (StreamReader file = File.OpenText(@"Man.json"))
+            using (StreamReader file = File.OpenText("Man.json"))
             {
                 JsonSerializer serializer = new JsonSerializer();
                 manFromFile = (Man)serializer.Deserialize(file, typeof(Man));

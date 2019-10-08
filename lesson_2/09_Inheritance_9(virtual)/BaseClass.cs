@@ -2,7 +2,7 @@
 
 namespace Inheritance_9
 {
-    public class BaseClass
+    public class BaseClass : BaseClassForBaseClass
     {
         // Открытые поле.
         public string publicField1 = "public Field1";
@@ -12,6 +12,7 @@ namespace Inheritance_9
         //Открытый виртуальный метод
         public virtual void ShowFileds()
         {
+            Console.WriteLine(base.publicField10);
             Console.BackgroundColor = ConsoleColor.White;
             Console.ForegroundColor = ConsoleColor.Black;        
             Console.WriteLine(this.publicField1);
