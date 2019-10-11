@@ -44,6 +44,5 @@ namespace _17_NUnit_4
             Man man = Man.JsonDeserialization("Example.json");
             Assert.NotNull(man);
         }
-
     }
 }
