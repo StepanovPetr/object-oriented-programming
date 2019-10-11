@@ -1,0 +1,5 @@
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\03_Inheritance_3\bin\Debug\Inheritance_3.exe.config
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\03_Inheritance_3\bin\Debug\Inheritance_3.exe
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\03_Inheritance_3\bin\Debug\Inheritance_3.pdb
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\03_Inheritance_3\obj\Debug\Inheritance_3.exe
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\03_Inheritance_3\obj\Debug\Inheritance_3.pdb

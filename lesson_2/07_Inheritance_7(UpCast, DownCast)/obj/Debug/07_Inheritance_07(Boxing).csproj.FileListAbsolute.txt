@@ -1,0 +1,5 @@
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\07_Inheritance_7(UpCast, DownCast)\bin\Debug\Inheritance_7(Boxing).exe.config
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\07_Inheritance_7(UpCast, DownCast)\bin\Debug\Inheritance_7(Boxing).exe
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\07_Inheritance_7(UpCast, DownCast)\bin\Debug\Inheritance_7(Boxing).pdb
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\07_Inheritance_7(UpCast, DownCast)\obj\Debug\Inheritance_7(Boxing).exe
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\07_Inheritance_7(UpCast, DownCast)\obj\Debug\Inheritance_7(Boxing).pdb

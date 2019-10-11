@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 namespace Serialize_03
 {
     [System.Serializable()]
-    class Man
+  public  class Man
     {
         #region public fields
         public string FirstName;
@@ -49,7 +49,7 @@ namespace Serialize_03
         public static Man BinaryDeserialization(string fileName = "Man.bin")
         {
             Man result = null;
-            using (FileStream stream = new FileStream("Man.bin", FileMode.Open))
+            using (FileStream stream = new FileStream(fileName, FileMode.Open))
             {
                 BinaryFormatter binaryFormatter = new BinaryFormatter();
                 result = binaryFormatter.Deserialize(stream) as Man;
@@ -71,10 +71,10 @@ namespace Serialize_03
         public static Man JsonDeserialization(string fileName = "Man.json")
         {
             Man result = null;
-            using (StreamReader file = File.OpenText("Man.json"))
+            using (StreamReader file = File.OpenText(fileName))
             {
                 JsonSerializer serializer = new JsonSerializer();
-                result = serializer.Deserialize(file, this.GetType()) as Man;
+                result = serializer.Deserialize(file, typeof(Man)) as Man;
             }
             return result;
         }
