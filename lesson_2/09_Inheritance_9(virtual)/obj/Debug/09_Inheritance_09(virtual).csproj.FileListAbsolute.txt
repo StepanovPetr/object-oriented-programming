@@ -3,3 +3,10 @@ D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\09_Inh
 D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\09_Inheritance_9(virtual)\bin\Debug\Inheritance_9(virtual).pdb
 D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\09_Inheritance_9(virtual)\obj\Debug\Inheritance_9(virtual).exe
 D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\09_Inheritance_9(virtual)\obj\Debug\Inheritance_9(virtual).pdb
+E:\Sources\C#\OOP\lesson_2\09_Inheritance_9(virtual)\bin\Debug\Inheritance_9(virtual).exe.config
+E:\Sources\C#\OOP\lesson_2\09_Inheritance_9(virtual)\bin\Debug\Inheritance_9(virtual).exe
+E:\Sources\C#\OOP\lesson_2\09_Inheritance_9(virtual)\bin\Debug\Inheritance_9(virtual).pdb
+E:\Sources\C#\OOP\lesson_2\09_Inheritance_9(virtual)\obj\Debug\09_Inheritance_09(virtual).csprojResolveAssemblyReference.cache
+E:\Sources\C#\OOP\lesson_2\09_Inheritance_9(virtual)\obj\Debug\09_Inheritance_09(virtual).csproj.CoreCompileInputs.cache
+E:\Sources\C#\OOP\lesson_2\09_Inheritance_9(virtual)\obj\Debug\Inheritance_9(virtual).exe
+E:\Sources\C#\OOP\lesson_2\09_Inheritance_9(virtual)\obj\Debug\Inheritance_9(virtual).pdb

@@ -3,3 +3,10 @@ D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\10_Inh
 D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\10_Inheritance_10(is, as)\bin\Debug\Inheritance_10(is, as).pdb
 D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\10_Inheritance_10(is, as)\obj\Debug\Inheritance_10(is, as).exe
 D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\10_Inheritance_10(is, as)\obj\Debug\Inheritance_10(is, as).pdb
+E:\Sources\C#\OOP\lesson_2\10_Inheritance_10(is, as)\bin\Debug\Inheritance_10(is, as).exe.config
+E:\Sources\C#\OOP\lesson_2\10_Inheritance_10(is, as)\bin\Debug\Inheritance_10(is, as).exe
+E:\Sources\C#\OOP\lesson_2\10_Inheritance_10(is, as)\bin\Debug\Inheritance_10(is, as).pdb
+E:\Sources\C#\OOP\lesson_2\10_Inheritance_10(is, as)\obj\Debug\10_Inheritance_10(is, as).csprojResolveAssemblyReference.cache
+E:\Sources\C#\OOP\lesson_2\10_Inheritance_10(is, as)\obj\Debug\10_Inheritance_10(is, as).csproj.CoreCompileInputs.cache
+E:\Sources\C#\OOP\lesson_2\10_Inheritance_10(is, as)\obj\Debug\Inheritance_10(is, as).exe
+E:\Sources\C#\OOP\lesson_2\10_Inheritance_10(is, as)\obj\Debug\Inheritance_10(is, as).pdb

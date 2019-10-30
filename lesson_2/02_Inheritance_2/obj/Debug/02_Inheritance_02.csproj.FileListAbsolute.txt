@@ -4,3 +4,10 @@ D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\02_Inh
 D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\02_Inheritance_2\obj\Debug\02_Inheritance_02.csprojResolveAssemblyReference.cache
 D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\02_Inheritance_2\obj\Debug\Inheritance_2.exe
 D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\02_Inheritance_2\obj\Debug\Inheritance_2.pdb
+E:\Sources\C#\OOP\lesson_2\02_Inheritance_2\bin\Debug\Inheritance_2.exe.config
+E:\Sources\C#\OOP\lesson_2\02_Inheritance_2\bin\Debug\Inheritance_2.exe
+E:\Sources\C#\OOP\lesson_2\02_Inheritance_2\bin\Debug\Inheritance_2.pdb
+E:\Sources\C#\OOP\lesson_2\02_Inheritance_2\obj\Debug\02_Inheritance_02.csprojResolveAssemblyReference.cache
+E:\Sources\C#\OOP\lesson_2\02_Inheritance_2\obj\Debug\02_Inheritance_02.csproj.CoreCompileInputs.cache
+E:\Sources\C#\OOP\lesson_2\02_Inheritance_2\obj\Debug\Inheritance_2.exe
+E:\Sources\C#\OOP\lesson_2\02_Inheritance_2\obj\Debug\Inheritance_2.pdb

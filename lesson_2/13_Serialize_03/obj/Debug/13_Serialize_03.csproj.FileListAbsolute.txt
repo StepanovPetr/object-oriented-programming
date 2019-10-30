@@ -6,3 +6,12 @@ D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\13_Ser
 D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\13_Serialize_03\bin\Debug\Newtonsoft.Json.xml
 D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\13_Serialize_03\obj\Debug\13_Serialize_02.exe
 D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\13_Serialize_03\obj\Debug\13_Serialize_02.pdb
+E:\Sources\C#\OOP\lesson_2\13_Serialize_03\bin\Debug\13_Serialize_02.exe.config
+E:\Sources\C#\OOP\lesson_2\13_Serialize_03\bin\Debug\13_Serialize_02.exe
+E:\Sources\C#\OOP\lesson_2\13_Serialize_03\bin\Debug\13_Serialize_02.pdb
+E:\Sources\C#\OOP\lesson_2\13_Serialize_03\bin\Debug\Newtonsoft.Json.dll
+E:\Sources\C#\OOP\lesson_2\13_Serialize_03\bin\Debug\Newtonsoft.Json.xml
+E:\Sources\C#\OOP\lesson_2\13_Serialize_03\obj\Debug\13_Serialize_03.csprojResolveAssemblyReference.cache
+E:\Sources\C#\OOP\lesson_2\13_Serialize_03\obj\Debug\13_Serialize_03.csproj.CoreCompileInputs.cache
+E:\Sources\C#\OOP\lesson_2\13_Serialize_03\obj\Debug\13_Serialize_02.exe
+E:\Sources\C#\OOP\lesson_2\13_Serialize_03\obj\Debug\13_Serialize_02.pdb

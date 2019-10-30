@@ -3,3 +3,10 @@ D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\07_Inh
 D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\07_Inheritance_7(UpCast, DownCast)\bin\Debug\Inheritance_7(Boxing).pdb
 D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\07_Inheritance_7(UpCast, DownCast)\obj\Debug\Inheritance_7(Boxing).exe
 D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\07_Inheritance_7(UpCast, DownCast)\obj\Debug\Inheritance_7(Boxing).pdb
+E:\Sources\C#\OOP\lesson_2\07_Inheritance_7(UpCast, DownCast)\bin\Debug\Inheritance_7(Boxing).exe.config
+E:\Sources\C#\OOP\lesson_2\07_Inheritance_7(UpCast, DownCast)\bin\Debug\Inheritance_7(Boxing).exe
+E:\Sources\C#\OOP\lesson_2\07_Inheritance_7(UpCast, DownCast)\bin\Debug\Inheritance_7(Boxing).pdb
+E:\Sources\C#\OOP\lesson_2\07_Inheritance_7(UpCast, DownCast)\obj\Debug\07_Inheritance_07(Boxing).csprojResolveAssemblyReference.cache
+E:\Sources\C#\OOP\lesson_2\07_Inheritance_7(UpCast, DownCast)\obj\Debug\07_Inheritance_07(Boxing).csproj.CoreCompileInputs.cache
+E:\Sources\C#\OOP\lesson_2\07_Inheritance_7(UpCast, DownCast)\obj\Debug\Inheritance_7(Boxing).exe
+E:\Sources\C#\OOP\lesson_2\07_Inheritance_7(UpCast, DownCast)\obj\Debug\Inheritance_7(Boxing).pdb

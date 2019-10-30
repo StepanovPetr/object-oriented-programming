@@ -10,3 +10,17 @@ D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\16_NUn
 D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\16_NUnit_3\obj\Debug\16_NUnit_3(SetUp, TearDown).csprojResolveAssemblyReference.cache
 D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\16_NUnit_3\obj\Debug\16_NUnit_3.dll
 D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\16_NUnit_3\obj\Debug\16_NUnit_3.pdb
+E:\Sources\C#\OOP\lesson_2\16_NUnit_3\bin\Debug\16_NUnit_3.dll
+E:\Sources\C#\OOP\lesson_2\16_NUnit_3\bin\Debug\16_NUnit_3.pdb
+E:\Sources\C#\OOP\lesson_2\16_NUnit_3\bin\Debug\13_Serialize_02.exe
+E:\Sources\C#\OOP\lesson_2\16_NUnit_3\bin\Debug\nunit.framework.dll
+E:\Sources\C#\OOP\lesson_2\16_NUnit_3\bin\Debug\Newtonsoft.Json.dll
+E:\Sources\C#\OOP\lesson_2\16_NUnit_3\bin\Debug\13_Serialize_02.pdb
+E:\Sources\C#\OOP\lesson_2\16_NUnit_3\bin\Debug\13_Serialize_02.exe.config
+E:\Sources\C#\OOP\lesson_2\16_NUnit_3\bin\Debug\nunit.framework.pdb
+E:\Sources\C#\OOP\lesson_2\16_NUnit_3\bin\Debug\nunit.framework.xml
+E:\Sources\C#\OOP\lesson_2\16_NUnit_3\bin\Debug\Newtonsoft.Json.xml
+E:\Sources\C#\OOP\lesson_2\16_NUnit_3\obj\Debug\16_NUnit_3(SetUp, TearDown).csprojResolveAssemblyReference.cache
+E:\Sources\C#\OOP\lesson_2\16_NUnit_3\obj\Debug\16_NUnit_3(SetUp, TearDown).csproj.CoreCompileInputs.cache
+E:\Sources\C#\OOP\lesson_2\16_NUnit_3\obj\Debug\16_NUnit_3.dll
+E:\Sources\C#\OOP\lesson_2\16_NUnit_3\obj\Debug\16_NUnit_3.pdb

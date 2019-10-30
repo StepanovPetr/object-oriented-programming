@@ -8,3 +8,14 @@ D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\15_NUn
 D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\15_NUnit_2\obj\Debug\15_NUnit_2.csprojResolveAssemblyReference.cache
 D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\15_NUnit_2\obj\Debug\NUnit_2.dll
 D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\15_NUnit_2\obj\Debug\NUnit_2.pdb
+E:\Sources\C#\OOP\lesson_2\15_NUnit_2\bin\Debug\NUnit_2.dll
+E:\Sources\C#\OOP\lesson_2\15_NUnit_2\bin\Debug\NUnit_2.pdb
+E:\Sources\C#\OOP\lesson_2\15_NUnit_2\bin\Debug\Examle_Library.dll
+E:\Sources\C#\OOP\lesson_2\15_NUnit_2\bin\Debug\nunit.framework.dll
+E:\Sources\C#\OOP\lesson_2\15_NUnit_2\bin\Debug\Examle_Library.pdb
+E:\Sources\C#\OOP\lesson_2\15_NUnit_2\bin\Debug\nunit.framework.pdb
+E:\Sources\C#\OOP\lesson_2\15_NUnit_2\bin\Debug\nunit.framework.xml
+E:\Sources\C#\OOP\lesson_2\15_NUnit_2\obj\Debug\15_NUnit_2.csprojResolveAssemblyReference.cache
+E:\Sources\C#\OOP\lesson_2\15_NUnit_2\obj\Debug\15_NUnit_2.csproj.CoreCompileInputs.cache
+E:\Sources\C#\OOP\lesson_2\15_NUnit_2\obj\Debug\NUnit_2.dll
+E:\Sources\C#\OOP\lesson_2\15_NUnit_2\obj\Debug\NUnit_2.pdb
