@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor001", "Constructor001\Constructor001.csproj", "{A28A8707-5B94-43B6-B9B4-78A3B641E0AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCathEx", "TryCathEx\TryCathEx.csproj", "{7CCC25BB-AF95-4CA8-BC6F-609B44593680}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatchEx", "TryCathEx\TryCatchEx.csproj", "{7CCC25BB-AF95-4CA8-BC6F-609B44593680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{A4320672-2267-41D1-A071-C58A300AB904}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7CCC25BB-AF95-4CA8-BC6F-609B44593680}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CCC25BB-AF95-4CA8-BC6F-609B44593680}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CCC25BB-AF95-4CA8-BC6F-609B44593680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4320672-2267-41D1-A071-C58A300AB904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4320672-2267-41D1-A071-C58A300AB904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4320672-2267-41D1-A071-C58A300AB904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4320672-2267-41D1-A071-C58A300AB904}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
