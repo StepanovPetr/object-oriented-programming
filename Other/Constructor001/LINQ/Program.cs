@@ -20,14 +20,15 @@ namespace LINQ
 
             var filter = list.Where(x => x != "a");
             filter = filter.Where(x => x != "b");
-            filter = filter.OrderByDescending(x => x);
+            filter = filter.OrderByDescending(x => x).ToList();
 
             string totalString = null;
+            int count = 0;
             foreach (string itel in filter)
-                totalString += itel;
+                count++;
 
 
-           var comeNew = filter.First() + filter.Last();
+            var comeNew = filter.First() + filter.Last();
 
             DateTime stopTime = DateTime.Now;
             TimeSpan timeWorked = new TimeSpan();
