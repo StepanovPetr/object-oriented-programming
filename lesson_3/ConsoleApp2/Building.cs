@@ -14,7 +14,15 @@ namespace lesson_3
         public string _ownerLastName ="Пупкин";
 
         // Не абстактный метод.
-        public abstract int Price();
+
+        public abstract int Price( int Value);
+
+        public override City City
+        {
+            get;
+            set;
+        }
+
 
         public string GetOwner()
         {

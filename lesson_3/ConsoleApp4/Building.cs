@@ -9,8 +9,6 @@ namespace lesson_3
     // Абстрактный класс.
    interface IBuilding 
     {
-
-
         int Price();
         int Area
         {

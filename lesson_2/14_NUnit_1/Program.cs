@@ -11,7 +11,7 @@ namespace NUnit_1
         public void AmperageIsTrue()
         {
             double result = ExamleLibrary.Amperage(50, 5);
-            Assert.IsTrue(result==10);
+            Assert.IsTrue(result == 10);
         }
 
         [Test]

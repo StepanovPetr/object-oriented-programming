@@ -13,5 +13,7 @@ namespace lesson_3
             get;
             set;
         }
+
+        public abstract int Price();
     }
 }

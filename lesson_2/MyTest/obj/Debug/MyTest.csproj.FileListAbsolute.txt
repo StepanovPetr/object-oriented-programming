@@ -1,0 +1,8 @@
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\MyTest\bin\Debug\MyTest.dll
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\MyTest\bin\Debug\MyTest.pdb
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\MyTest\bin\Debug\nunit.framework.dll
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\MyTest\bin\Debug\nunit.framework.pdb
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\MyTest\bin\Debug\nunit.framework.xml
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\MyTest\obj\Debug\MyTest.csprojResolveAssemblyReference.cache
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\MyTest\obj\Debug\MyTest.dll
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_2\MyTest\obj\Debug\MyTest.pdb

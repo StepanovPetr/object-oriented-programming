@@ -20,7 +20,7 @@ namespace Serialize_01
             using (FileStream stream = new FileStream("Man.bin", FileMode.Open))
             {
                 BinaryFormatter binaryFormatter = new BinaryFormatter();
-                manFromFile =  binaryFormatter.Deserialize(stream) as Man;
+                manFromFile = (Man)binaryFormatter.Deserialize(stream);// as Man;
             }
             Console.WriteLine(manFromFile.ManInfo());
             Console.ReadLine();

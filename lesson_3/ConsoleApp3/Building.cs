@@ -16,9 +16,9 @@ namespace lesson_3
         // Не абстактный метод.
         int Price();
 
-        //public string GetOwner()
+        //string GetOwner()
         //{
-        //    return string.Format("Имя владельца - {0}, Фамилия владельца - {1}", _ownerName , _ownerLastName);
+           // return string.Format("Имя владельца - {0}, Фамилия владельца - {1}", _ownerName , _ownerLastName);
         //}
         int Area
         {

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace lesson_3
 {
     // Абстрактный класс.
-   /* sealed*/ abstract class Building
+    /*sealed*/ abstract class Building
     {
        public abstract int Price();
        public abstract int Area

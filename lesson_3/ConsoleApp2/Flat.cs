@@ -32,16 +32,12 @@ namespace lesson_3
             City = city;
         }
 
-        public override int Price()
-        {
-            return _roomCount * _floor;
-        }
+        //public override int Price()
+        //{
 
-        public override City City
-        {
-            get;
-            set;
-        }
+        //    return _roomCount * _floor;
+        //}
+
         public override int Area
         {
             get

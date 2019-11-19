@@ -1,0 +1,6 @@
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_3\ConsoleApp2\obj\Debug\03_Abstract Classes.csprojResolveAssemblyReference.cache
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_3\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_3\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_3\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_3\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_3\ConsoleApp2\obj\Debug\ConsoleApp2.pdb

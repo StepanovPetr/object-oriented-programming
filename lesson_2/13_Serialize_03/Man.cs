@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 
 namespace Serialize_03
 {
-    [System.Serializable()]
+  [System.Serializable()]
   public  class Man
     {
         #region public fields
