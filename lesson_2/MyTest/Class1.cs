@@ -14,7 +14,7 @@ namespace MyTest
         public void Test()
         {
             int result = 4 / 2;
-            Assert.IsFalse(result == 2); 
+            Assert.IsTrue(result == 2); 
         }
 
     }

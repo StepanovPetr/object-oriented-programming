@@ -19,26 +19,25 @@ namespace Constructor001
     {
         static A()
         {
-            Console.WriteLine("Static constractor of A class ");
+            Console.WriteLine("Static constructor of A class ");
         }
 
         public A()
         {
-            Console.WriteLine("Normal constractor of A class ");
+            Console.WriteLine("Normal constructor of A class ");
         }
     }
-
 
     public class B : A 
     {
         static B()
         {
-            Console.WriteLine("Static constractor of B class ");
+            Console.WriteLine("Static constructor of B class ");
         }
 
         public B()
         {
-            Console.WriteLine("Normal constractor of B class ");
+            Console.WriteLine("Normal constructor of B class ");
         }
     }
 }
