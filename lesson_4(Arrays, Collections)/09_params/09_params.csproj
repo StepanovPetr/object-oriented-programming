@@ -7,7 +7,7 @@
     <ProjectGuid>{85B051BB-0003-494C-8E12-6583D6EC7EF8}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_09_params</RootNamespace>
-    <AssemblyName>_09_params</AssemblyName>
+    <AssemblyName>09_params</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IndexerExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

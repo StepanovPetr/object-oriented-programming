@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IindexerExample.cs" />
     <Compile Include="IndexerExample.cs" />
     <Compile Include="Man.cs" />
     <Compile Include="Program.cs" />

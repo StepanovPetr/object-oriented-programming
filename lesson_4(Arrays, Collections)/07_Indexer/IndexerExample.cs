@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lesson_4
 {
-    class IndexerExample
+    class IndexerExample : IindexerExample
     {
         private Man[] _man;
         private int _count = 10;
