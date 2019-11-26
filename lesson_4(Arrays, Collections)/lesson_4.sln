@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Array", "lesson_4\01_Array.csproj", "{27CDED4C-48A6-4BD6-86BF-5340E9D7CA5B}"
 EndProject
@@ -13,7 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Array", "04_Array\04_Arr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Array", "05_Array\05_Array.csproj", "{6C763F7F-4145-4B46-BD88-8D5C69F2C0A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Indexer", "06_Indexer\06_Indexer.csproj", "{68E01A85-64A1-414D-9DD9-43B216C64EA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Indexer.csproj", "06_Indexer\06_Indexer.csproj.csproj", "{68E01A85-64A1-414D-9DD9-43B216C64EA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Indexer", "07_Indexer\07_Indexer.csproj", "{7D3A3FF8-3EFF-4D6E-B29A-5304F4A96203}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,8 +47,15 @@ Global
 		{68E01A85-64A1-414D-9DD9-43B216C64EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68E01A85-64A1-414D-9DD9-43B216C64EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68E01A85-64A1-414D-9DD9-43B216C64EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D3A3FF8-3EFF-4D6E-B29A-5304F4A96203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D3A3FF8-3EFF-4D6E-B29A-5304F4A96203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D3A3FF8-3EFF-4D6E-B29A-5304F4A96203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D3A3FF8-3EFF-4D6E-B29A-5304F4A96203}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F183C28-578C-4BAD-850B-FE0A34726050}
 	EndGlobalSection
 EndGlobal
