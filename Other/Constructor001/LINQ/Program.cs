@@ -18,7 +18,7 @@ namespace LINQ
 
             var filter = list.Where(x => x != "a");
             filter = filter.Where(x => x != "b");
-            filter = filter.OrderByDescending(x => x).ToList();
+            filter = filter.OrderByDescending(x => x);
 
             string totalString = null;
             int count = 0;
