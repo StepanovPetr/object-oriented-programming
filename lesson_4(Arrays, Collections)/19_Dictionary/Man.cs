@@ -44,6 +44,11 @@ namespace lesson_4
         #endregion
 
         #region public metods
+
+        public override string ToString()
+        {
+            return ManInfo();
+        }
         public static Man GetMan()
         {
             return new Man()
