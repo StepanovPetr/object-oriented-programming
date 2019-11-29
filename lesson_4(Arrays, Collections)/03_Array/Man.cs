@@ -42,8 +42,10 @@ namespace lesson_4
         #region static metods
 
         #endregion
+
+        #region public metods
         public static Man GetMan()
-        {            
+        {
             return new Man()
             {
                 FirstName = _firstNames[_rand.Next(0, _firstNames.Length)],
@@ -51,8 +53,6 @@ namespace lesson_4
                 Age = _rand.Next(1, 101)
             };
         }
-
-        #region public metods
 
         public bool BinarySerialization(string fileName = "Man.bin")
         {

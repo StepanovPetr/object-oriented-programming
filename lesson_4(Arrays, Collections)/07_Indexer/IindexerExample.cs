@@ -2,7 +2,6 @@
 {
     interface IindexerExample
     {
-
         Man this[int i]
         {
             get;
@@ -12,6 +11,5 @@
         {
             get;
         }
-
     }
 }
