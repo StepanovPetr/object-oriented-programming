@@ -33,25 +33,25 @@
             }
         }
 
-        public string this[string i]
-        {
-            get
-            {
-                switch (i)
-                {
-                    case "1":
-                        return _first;
-                        break;
-                    case "2":
-                        return _second;
-                        break;
+        //public string this[string i]
+        //{
+        //    get
+        //    {
+        //        switch (i)
+        //        {
+        //            case "1":
+        //                return _first;
+        //                break;
+        //            case "2":
+        //                return _second;
+        //                break;
 
-                    default:
-                        return  "Sorry value not finded";
-                        break;
-                }
-            }
-        }
+        //            default:
+        //                return  "Sorry value not finded";
+        //                break;
+        //        }
+        //    }
+        //}
     }
 }
 

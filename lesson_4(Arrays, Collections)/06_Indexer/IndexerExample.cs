@@ -15,11 +15,12 @@ namespace lesson_4
             }        
         }
 
-        public Man this[int i]
+        public int this[int i]
         {
             get
             {
-                return _man[i];
+                return 6665455;
+                // return _man[i];
             }
         }
 
@@ -27,7 +28,8 @@ namespace lesson_4
         {
             get
             {
-                return _count;
+                return 666;
+               // return _count;
             }
         }
     }

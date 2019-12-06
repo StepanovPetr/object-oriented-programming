@@ -9,9 +9,11 @@ namespace lesson_4
 
         {
             IndexerExample indexerExample = new IndexerExample();
+            //indexerExample._man[1].Age;
+
             for (int i = 0; i < indexerExample.Count; i++)
             {
-                Console.WriteLine(indexerExample[i].ManInfo());
+                Console.WriteLine(indexerExample[i]);
             }
             Console.ReadKey();
         }
