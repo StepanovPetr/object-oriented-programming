@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO; // необходимое пространство имен для работы с файлама, папками, дисками и файловыми потоками
 
 namespace lesson_5

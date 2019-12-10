@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.IO; // необходимое пространство имен для работы с файлама, папками, дисками и файловыми потоками
+﻿using System.IO; // необходимое пространство имен для работы с файлама, папками, дисками и файловыми потоками
 namespace _03_File
 {
     class Program
