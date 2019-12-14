@@ -12,8 +12,12 @@ namespace _20_StreamReader
             {                
                 StreamReader streamReader = new StreamReader(stream);
                 while(!streamReader.EndOfStream)
-                    Console.WriteLine( streamReader.ReadLine());
+                    //  Считывание построчно.
+                    Console.WriteLine(streamReader.ReadLine());
 
+                stream.Position = 0;
+                //  Считывание всего файла в строку.
+                Console.WriteLine(streamReader.ReadToEnd());
                 Console.ReadLine();
             }
         }
