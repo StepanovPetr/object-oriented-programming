@@ -16,21 +16,25 @@ namespace _04_File
 
                 using (var stream = File.OpenRead("04_File.exe"))
                 {
+                    // Пример получения Md5 хеша файла.
                     Console.WriteLine(Encoding.Default.GetString(md5.ComputeHash(stream)));
                 }
 
                 using (var stream = File.OpenRead("Copy04"))
                 {
+                    // Пример получения Md5 хеша файла.
                     Console.WriteLine(Encoding.Default.GetString(md5.ComputeHash(stream)));
                 }
 
                 using (var stream = File.OpenRead("CopyCopy04"))
                 {
+                    // Пример получения Md5 хеша файла.
                     Console.WriteLine(Encoding.Default.GetString(md5.ComputeHash(stream)));
                 }
 
                 using (var stream = File.OpenRead("Example.txt"))
                 {
+                    // Пример получения Md5 хеша файла.
                     Console.WriteLine(Encoding.Default.GetString(md5.ComputeHash(stream)));
                 }
             }
