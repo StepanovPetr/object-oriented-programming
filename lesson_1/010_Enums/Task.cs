@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _010_Enums
 {
@@ -19,6 +15,5 @@ namespace _010_Enums
 
         public string Message { get { return $"{(int)this._dayOfWeek} я должен сделать {this._taskOfDay}";} }
         //public string Message { get { return $"{(int)this._dayOfWeek} я должен сделать {this._taskOfDay}"; } }
-
     }
 }

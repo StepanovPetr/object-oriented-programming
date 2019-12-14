@@ -1,5 +1,4 @@
-﻿
-namespace _004_Properties
+﻿namespace _004_Properties
 {
     class Man
     {

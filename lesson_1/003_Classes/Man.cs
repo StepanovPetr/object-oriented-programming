@@ -1,5 +1,4 @@
-﻿
-namespace _003_Classes
+﻿namespace _003_Classes
 {
         class Man
         {
