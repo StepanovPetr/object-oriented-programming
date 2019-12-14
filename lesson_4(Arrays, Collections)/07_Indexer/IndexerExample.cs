@@ -1,6 +1,6 @@
 ﻿namespace lesson_4
 {
-    class IndexerExample : IindexerExample
+    class IndexerExample : IIndexerExample
     {
         private Man[] _man;
         private int _count = 10;

@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-// Зубчатые массивы
+// Зубчатые массивы.
 namespace _05_Array
 {
     class Program

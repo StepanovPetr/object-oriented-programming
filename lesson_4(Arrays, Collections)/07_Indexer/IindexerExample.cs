@@ -1,6 +1,6 @@
 ﻿namespace lesson_4
 {
-    interface IindexerExample
+    interface IIndexerExample
     {
         Man this[int i]
         {

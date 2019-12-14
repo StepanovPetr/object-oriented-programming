@@ -1,5 +1,4 @@
-﻿
-namespace lesson3
+﻿namespace lesson3
 {
     interface Interface2
     {

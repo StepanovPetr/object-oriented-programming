@@ -1,8 +1,8 @@
 ﻿using System;
 
+//https://docs.microsoft.com/ru-ru/dotnet/csharp/programming-guide/indexers/+
 namespace lesson_4
-{
-    //https://docs.microsoft.com/ru-ru/dotnet/csharp/programming-guide/indexers/+
+{    
     class Program
     {
         static void Main(string[] args)
