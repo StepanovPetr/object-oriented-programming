@@ -8,21 +8,21 @@ namespace _08_Path
     {
         static void Main(string[] args)
         {
-            string goodFileName = @"C:\mydir\myfile.com.extension";
+            string goodFileName = @"C:\mydir\myfile.com";
             string badFileName = @"C:\mydir\";
             string result;
 
 
             result = Path.ChangeExtension(goodFileName, ".old");
-            Console.WriteLine("ChangeExtension({0}, '.old') returns '{1}'",
+            Console.WriteLine("ChangeExtension(   {0},  '.old') returns '{1}' ",
                 goodFileName, result);
 
             result = Path.ChangeExtension(goodFileName, "");
-            Console.WriteLine("ChangeExtension({0}, '') returns '{1}'",
+            Console.WriteLine("ChangeExtension({0},  '') returns '{1}'",
                 goodFileName, result);
 
             result = Path.ChangeExtension(badFileName, ".old");
-            Console.WriteLine("ChangeExtension({0}, '.old') returns '{1}'",
+            Console.WriteLine("ChangeExtension({0},  '.old') returns '{1}'",
                 badFileName, result);
             Console.ReadLine();
         }

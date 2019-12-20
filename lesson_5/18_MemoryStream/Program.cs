@@ -12,8 +12,8 @@ namespace _18_MemoryStream
             {
                 Console.WriteLine("Чтение, Запись побайтово.");
                 // Записываем байты в файл.
-                for (int i = 0; i < 256; i++)
-                //for (int i = 0; true ; i++)
+                //for (int i = 0; i < 256; i++)
+                for (int i = 0; true ; i++)
                 {
                     stream.WriteByte((byte)i);
                 }

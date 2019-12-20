@@ -13,7 +13,7 @@ namespace _13_Directory
             Console.WriteLine(path);
 
             // Установка текущей директории .. -- директория на уровень выше.
-            Directory.SetCurrentDirectory("..");
+            Directory.SetCurrentDirectory(@"..\");
             Console.WriteLine(Directory.GetCurrentDirectory());
 
             // Установка текущей директории.

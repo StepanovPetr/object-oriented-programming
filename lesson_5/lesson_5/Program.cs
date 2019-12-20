@@ -21,6 +21,7 @@ namespace lesson_5
                 Console.WriteLine("Value -- {0}", disk.TotalSize);
                 Console.WriteLine("Free Value -- {0}", disk.TotalFreeSpace);
 
+                
                 //Получение информации о кореневой директории диска.
                 DirectoryInfo folders = disk.RootDirectory;
 

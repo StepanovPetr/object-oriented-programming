@@ -8,7 +8,7 @@ namespace _19_StreamWriter
     {
         static void Main(string[] args)
         {
-            using (Stream stream = new FileStream("Test.dat", FileMode.OpenOrCreate, FileAccess.ReadWrite))
+            using (Stream stream = new FileStream("Test.dat", FileMode.Open, FileAccess.ReadWrite))
             {
                 StreamWriter streamWriter = new StreamWriter(stream);
                 streamWriter.Write("1");

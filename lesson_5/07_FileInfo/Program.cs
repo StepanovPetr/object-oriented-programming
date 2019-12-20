@@ -12,10 +12,10 @@ namespace _07_FileInfo
             fileInfo.CopyTo("Example.txt.bak");
             fileInfo.CopyTo("ExampleNew.txt.bak");
             //fileInfo.CopyTo("ExampleNew.txt.bak");
-            fileInfo.CopyTo("ExampleNew.txt.bak",true);
+            fileInfo.CopyTo("ExampleNew.txt.bak", true);
 
             fileInfo.MoveTo("Example.MoveTo.txt");
-
+            //fileInfo.("Example.MoveTo.txt");
         }
     }
 }

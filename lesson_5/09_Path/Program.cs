@@ -12,14 +12,14 @@ namespace _09_Path
     {
         static void Main(string[] args)
         {
-            string goodFileName = @"C:\mydir\myfile.com.extension";
+            string goodFileName = @"C:\mydir\myfile.com";
             string badFileName = @"C:\mydir\";
 
-            Console.WriteLine("Получение имение файла");
+            Console.WriteLine("Получение имени файла");
             Console.WriteLine(Path.GetFileName(goodFileName));
             Console.WriteLine(Path.GetFileName(badFileName));
 
-            Console.WriteLine("Получение имение файла без расширения");
+            Console.WriteLine("Получение имени файла без расширения");
             Console.WriteLine(Path.GetFileNameWithoutExtension(goodFileName));
             Console.WriteLine(Path.GetFileNameWithoutExtension(badFileName));
 
