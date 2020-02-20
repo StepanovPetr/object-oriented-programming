@@ -29,7 +29,6 @@ namespace _006_LINQ
                 Console.WriteLine(i.ManInfo());
             }
 
-
             // Определите выражение запроса.
             personQuery =
                 from person in persons
