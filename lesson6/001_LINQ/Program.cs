@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 //https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/
 namespace _001_LINQ
