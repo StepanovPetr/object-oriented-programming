@@ -11,7 +11,6 @@ namespace _002_LINQ
         {
             // Источник данных.
             List<int> scores = new List<int> { 100, 101, 97, 92, 81, 60 };
-
             // Определите выражение запроса.
             var scoreQuery =
                 from score in scores
