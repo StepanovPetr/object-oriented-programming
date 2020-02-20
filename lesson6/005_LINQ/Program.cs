@@ -80,7 +80,6 @@ namespace _005_LINQ
                 Console.WriteLine(i.ManInfo());
             }
 
-
             Console.ReadLine();
         }
     }
