@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6E67D4A2-33E1-42F3-BC1A-8882D351EC3A}</ProjectGuid>
+    <ProjectGuid>{2267B077-9446-4F3E-9A5E-060092B8B3F6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_0007_LINQ</RootNamespace>
-    <AssemblyName>0007_LINQ</AssemblyName>
+    <RootNamespace>_011_LINQ</RootNamespace>
+    <AssemblyName>011_LINQ</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -42,8 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Man.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Сity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

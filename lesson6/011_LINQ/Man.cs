@@ -2,7 +2,7 @@
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 
-namespace _010_LINQ
+namespace _011_LINQ
 {
     [System.Serializable()]
     public class Man
@@ -11,8 +11,10 @@ namespace _010_LINQ
         #region static fields
         static string[] _firstNames = new string[] { "Вова", "Алексей", "Егор", "Дима", "Николай", "Петр", "Максим", "Иван" };
         static string[] _secondNames = new string[] { "Мусихин", "Цыганок", "Чердынцев", "Степанов", "Куянов", "Атинк", "Максим", "Блинов" };
+        static string[] _cities = new string[] { "Омск", "Москва", "Хацупетовка" };
         static Random _rand = new Random();
         #endregion
+
 
         #region public fields
         public string FirstName;
@@ -49,6 +51,7 @@ namespace _010_LINQ
             {
                 FirstName = _firstNames[_rand.Next(0, _firstNames.Length)],
                 SecondName = _secondNames[_rand.Next(0, _secondNames.Length)],
+                City = _cities[_rand.Next(0, _cities.Length)],
                 Age = _rand.Next(1, 101)
             };
         }
@@ -90,6 +93,10 @@ namespace _010_LINQ
             //https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated Стандарт C# 6
             //return string.Format($"FirstName - {this.FirstName} SecondName - {this.SecondName} Age - {this.Age}");
         }
+        #endregion
+
+        #region public property
+        public string City { get; set; }
         #endregion
     }
 }

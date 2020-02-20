@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("0007_LINQ")]
+[assembly: AssemblyTitle("012_LINQ")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("0007_LINQ")]
+[assembly: AssemblyProduct("012_LINQ")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("6e67d4a2-33e1-42f3-bc1a-8882d351ec3a")]
+[assembly: Guid("133e2c3b-c1ef-460b-8750-e1fca7e0ef6c")]
 
 // Version information for an assembly consists of the following four values:
 //
