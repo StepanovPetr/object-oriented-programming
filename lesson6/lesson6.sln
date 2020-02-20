@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_LINQ", "001_LINQ\001_LINQ.csproj", "{5ED71001-7ACA-4A03-A52E-C3FCE9CC6474}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_LINQ", "002_LINQ\002_LINQ.csproj", "{50B1C233-6EB8-45A1-BDD0-879558E982B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_LINQ", "003_LINQ\003_LINQ.csproj", "{54681BBA-930A-42A9-995C-5C622F75B290}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5ED71001-7ACA-4A03-A52E-C3FCE9CC6474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED71001-7ACA-4A03-A52E-C3FCE9CC6474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED71001-7ACA-4A03-A52E-C3FCE9CC6474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED71001-7ACA-4A03-A52E-C3FCE9CC6474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50B1C233-6EB8-45A1-BDD0-879558E982B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B1C233-6EB8-45A1-BDD0-879558E982B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50B1C233-6EB8-45A1-BDD0-879558E982B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50B1C233-6EB8-45A1-BDD0-879558E982B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54681BBA-930A-42A9-995C-5C622F75B290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54681BBA-930A-42A9-995C-5C622F75B290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54681BBA-930A-42A9-995C-5C622F75B290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54681BBA-930A-42A9-995C-5C622F75B290}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {682C371F-9CE8-45E4-ABDA-F48687BB396D}
+	EndGlobalSection
+EndGlobal
