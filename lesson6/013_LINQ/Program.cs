@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 
-//https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/join-clause#inner-join
-namespace _012_LINQ
+// https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/join-clause#left-outer-join
+namespace _013_LINQ
 {
     class Program
     {
-        // Пример Внутреннее соединение.
+        // Пример Левого внешнего соединения.
         static void Main(string[] args)
         {
             List<Man> persons = new List<Man>() { Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan() };
@@ -35,7 +35,7 @@ namespace _012_LINQ
 
             var queryMenByFirstName =
             from person in persons
-            // Пример Внутренненнего соединения двух таблиц по названию города .
+             // // Пример левого внешнего соединения.я двух таблиц по названию города.
             join city in cities on person.City equals city.Name
             select new { person.FirstName, person.Age, city.Name, city.Population, city.Mayor };
 
