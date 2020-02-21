@@ -7,7 +7,7 @@ namespace _011_LINQ
 {
     class Program
     {
-        // Пример Внутреннее соединение.
+        // Пример Внутреннеего соединение.
         static void Main(string[] args)
         {
             List<Man> persons = new List<Man>() { Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan() };
