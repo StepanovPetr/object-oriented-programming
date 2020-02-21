@@ -10,7 +10,6 @@ namespace _018_LINQ
     {
         static void Main(string[] args)
         {
-
             // Источник данных.
             List<int> scores = new List<int> { 100, 101, 97, 92, 81, 60 };
 
