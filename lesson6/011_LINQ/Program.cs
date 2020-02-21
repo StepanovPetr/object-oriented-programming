@@ -7,7 +7,6 @@ namespace _011_LINQ
 {
     class Program
     {
-
         // Пример Внутреннее соединение.
         static void Main(string[] args)
         {

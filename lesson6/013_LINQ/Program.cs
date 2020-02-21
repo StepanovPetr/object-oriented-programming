@@ -7,7 +7,7 @@ namespace _013_LINQ
 {
     class Program
     {
-        // Пример Левого внешнего соединения.
+        // Пример Левого внуреннего соединения.
         static void Main(string[] args)
         {
             List<Man> persons = new List<Man>() { Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan() };
