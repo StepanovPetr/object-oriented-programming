@@ -35,7 +35,7 @@ namespace _005_LINQ
                 from score in scores
                 //where (score > 0 && score != 100)
                 // сотрировка от большего к меньшему.
-                orderby score  descending
+                orderby score descending
                 select score;
 
             // выполнение запроса.

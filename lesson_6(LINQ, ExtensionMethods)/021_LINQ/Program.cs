@@ -16,7 +16,7 @@ namespace _021_LINQ
             }
 
             // Определите выражение запроса.
-            var personQuery = persons.OrderBy(p => p.FirstName).OrderBy(p => p.Age);
+            var personQuery = persons.OrderBy(p => p.FirstName).ThenBy(p => p.Age);
 
                 //from person in persons
                 //orderby person.FirstName
@@ -30,7 +30,7 @@ namespace _021_LINQ
             }
 
             // Определите выражение запроса.
-            personQuery = persons.OrderByDescending(p => p.FirstName).OrderByDescending(p => p.Age);
+            personQuery = persons.OrderByDescending(p => p.FirstName).ThenByDescending(p => p.Age);
             //from person in persons
             //orderby person.FirstName descending
             //orderby person.Age descending

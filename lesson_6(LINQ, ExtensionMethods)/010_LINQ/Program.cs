@@ -13,7 +13,7 @@ namespace _010_LINQ
 
             var queryMenByFirstName =
             from person in persons
-            select new { person.FirstName, person.Age};
+            select new {person.FirstName, person.Age};
 
             foreach (var person in queryMenByFirstName)
             {

@@ -7,7 +7,6 @@ namespace _016_LINQ
     {
         static void Main(string[] args)
         {
-
             // Источник данных.
             int[] scores = new int[] { 97, 92, 81, 60 };
 

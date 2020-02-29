@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-
-//https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/
+// https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/
 namespace _001_LINQ
 {
     class Program

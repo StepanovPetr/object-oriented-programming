@@ -36,7 +36,7 @@ namespace _026_LINQ
             var queryMenByFirstName = persons.Join(cities,
                     person => person.City,
                     city => city.Name,
-                    (person, city) => new { person.FirstName, person.Age, city.Name, city.Population, city.Mayor});
+                    (p, c) => new { p.FirstName, p.Age, c.Name, c.Population, c.Mayor});
 
             //from person in persons                
             //join city in cities on person.City equals city.Name

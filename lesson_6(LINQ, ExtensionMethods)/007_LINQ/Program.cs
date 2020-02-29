@@ -15,7 +15,9 @@ namespace _007_LINQ
                var queryMenByFirstName =
                from person in persons
                // Группировка по полю FirstName;
-               group person by person.FirstName;
+               group person by person.FirstName
+               ;
+               
 
             // customerGroup is an IGrouping<string, Customer>
             foreach (var manGroup in queryMenByFirstName)
