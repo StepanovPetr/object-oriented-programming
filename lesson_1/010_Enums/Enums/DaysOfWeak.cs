@@ -1,6 +1,4 @@
-﻿
-
-namespace _010_Enums.Enums
+﻿namespace _010_Enums.Enums
 {
     enum WeekDays
     {

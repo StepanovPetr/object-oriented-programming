@@ -1,6 +1,5 @@
 ﻿namespace _006_Properties
 {
-
     class Man
     {
         #region private fields

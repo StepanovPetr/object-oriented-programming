@@ -8,7 +8,7 @@
         public int Age;
         #endregion
 
-        #region public  metods
+        #region public metods
         public string ManInfo()
         {
             return string.Format("FirstName - {0} SecondName - {1} Age - {2}", this.FirstName, this.SecondName, this.Age);
