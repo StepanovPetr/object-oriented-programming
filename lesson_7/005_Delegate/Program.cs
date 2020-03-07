@@ -1,5 +1,6 @@
 ﻿using System;
 
+// Комбинированные (групповые) возвращающие значение.
 namespace _005_Delegate
 {
     class Program

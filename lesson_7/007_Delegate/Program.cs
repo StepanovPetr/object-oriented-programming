@@ -1,9 +1,10 @@
 ﻿using System;
 
-public delegate int MyDelegate(int a, int b);
 
+// Анонимные (лямбда) методы принимающие и возвращающие значения.
 namespace _007_Delegate
 {
+    public delegate int MyDelegate(int a, int b);
     class Program
     {
         static void Main(string[] args)

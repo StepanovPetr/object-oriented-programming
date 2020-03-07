@@ -2,6 +2,7 @@
 {
     class SimpleClass
     {
+        // Обычный метод связанный с делегатом.
         public string DelegateMethod(string message)
         {
             return  message;

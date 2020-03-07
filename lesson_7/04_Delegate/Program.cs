@@ -1,6 +1,6 @@
 ﻿using System;
 
-// Комбинированные (групповые) делегаты.
+// Комбинированные (групповые).
 namespace _004_Delegate
 {
     class Program

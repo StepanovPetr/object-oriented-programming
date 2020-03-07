@@ -9,7 +9,6 @@ namespace _003_Delegate
         {
             SimpleClass simpleClass = new SimpleClass();
 
-            // Пример друго синтаксиса при создании 
             MyDelegate handler1 = simpleClass.Method1;
             MyDelegate handler2 = simpleClass.Method2;
             MyDelegate handler3 = SimpleClass.Method3;

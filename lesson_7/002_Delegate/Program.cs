@@ -1,5 +1,9 @@
 ﻿using System;
 
+/*
+ Возвращаемое значение делегата.
+ Экземплярный метод.
+*/
 namespace _002_Delegate
 {
     class Program
@@ -11,8 +15,8 @@ namespace _002_Delegate
             // Пример создания делегата используя конструктор.
             MyDelegate handler1 = new MyDelegate(simpleClass.DelegateMethod);
 
-            // Пример друго синтаксиса при создании 
-            MyDelegate handler2 = new MyDelegate(simpleClass.DelegateMethod);
+            // Пример предположения типа делегата.
+            MyDelegate handler2 = simpleClass.DelegateMethod;
 
             // Пример вызова делегата.
             string resultHandler1 = handler1.Invoke("Hello word for handler1");

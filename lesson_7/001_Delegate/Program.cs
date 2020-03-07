@@ -9,25 +9,25 @@ namespace _001_Delegate
 {
     class Program
     {
+        // Пример обьявления класса длелагата.
         public delegate void Del(string message);
 
-        // Create a method for a delegate.
+        // Статический метод связанный с делегатом.
         public static void DelegateMethod(string message)
         {
             Console.WriteLine(message);
         }
         static void Main(string[] args)
         {
-
             // Пример создания делегата используя конструктор.
             Del handler1 = new Del(DelegateMethod);
 
-            // Пример друго синтаксиса при создании 
+            // Пример предположения типа делегата.
             Del handler2 = DelegateMethod;
 
             // Пример вызова делегата.
             handler1.Invoke("Hello word for handler1");
-            // Пример вызова делегата.
+            // Еше один способ вызова делегата.
             handler2("Hello World");
             Console.ReadLine();
         }
