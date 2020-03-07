@@ -15,7 +15,7 @@ namespace Events
 
     public class MyClass
     {
-        public event  EventDelegate HitTheWater = null;
+        public event EventDelegate HitTheWater = null;
 
         public void InvokeEvent()
         {
@@ -42,7 +42,7 @@ namespace Events
             MyClass instance = new MyClass();
 
             // Присоединение обработчиков событий. (Подписка на событие)
-            instance.HitTheWater += new EventDelegate(Handler1);
+            // instance.HitTheWater += new EventDelegate(Handler1);
             instance.HitTheWater += new EventDelegate(Handler2);
 
 
@@ -52,10 +52,10 @@ namespace Events
 
             Console.WriteLine(new string('-', 20));
 
-            // Открепляем Handler2().
-            instance.HitTheWater -= new EventDelegate(Handler2);
+            //// Открепляем Handler2().
+            //instance.HitTheWater -= new EventDelegate(Handler2);
 
-            instance.InvokeEvent();
+            //instance.InvokeEvent();
 
             // Delay.
             Console.ReadKey();

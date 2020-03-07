@@ -13,7 +13,7 @@ namespace Events
 
     public class MyClass
     {
-        EventDelegate sessionStart = null;
+        event EventDelegate sessionStart = null;
 
         public event EventDelegate SessionStart
         {

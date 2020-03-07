@@ -17,7 +17,7 @@ namespace _005_Delegate
             string result;
 
             MyDelegate handler4 = handler1 + handler2 + handler3;
-            result =  handler4();
+            result = handler4();
             Console.WriteLine($"Результат {result}");
 
             handler4 -= handler3;
