@@ -42,7 +42,7 @@ namespace Events
             MyClass instance = new MyClass();
 
             // Присоединение обработчиков событий. (Подписка на событие)
-            // instance.HitTheWater += new EventDelegate(Handler1);
+            instance.HitTheWater += new EventDelegate(Handler1);
             instance.HitTheWater += new EventDelegate(Handler2);
 
 

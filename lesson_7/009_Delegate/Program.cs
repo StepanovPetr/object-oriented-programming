@@ -12,9 +12,9 @@ namespace Delegates
         {
             MyDelegate myDelegate;
 
-            //myDelegate = delegate (int x) { return x * 2; }; // Лямбда-Метод 
+            myDelegate = delegate (int x) { return x * 2; }; // Лямбда-Метод 
 
-            //myDelegate = (x) => { return x * 2; };          // Лямбда-Оператор.
+            myDelegate = (x) => { return x * 2; };          // Лямбда-Оператор.
 
             myDelegate = x => x * 2;                        // Лямбда-Выражение.
 
