@@ -1,1 +1,0 @@
-D:\Исходники\Sources\C#\OOP\object-oriented-programming\lesson_3\01_Abstract Classes\bin\Debug\lesson_3.exe.config
