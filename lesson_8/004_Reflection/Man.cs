@@ -2,7 +2,7 @@
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 
-namespace _011_LINQ
+namespace _004_Reflection
 {
     [System.Serializable()]
     public class Man
@@ -40,10 +40,6 @@ namespace _011_LINQ
         #endregion
 
         #region static metods
-
-        #endregion
-
-        #region public metods
         public static Man GetMan()
         {
             return new Man()
@@ -54,6 +50,9 @@ namespace _011_LINQ
                 Age = _rand.Next(1, 101)
             };
         }
+        #endregion
+
+        #region public metods
 
         public bool BinarySerialization(string fileName = "Man.bin")
         {

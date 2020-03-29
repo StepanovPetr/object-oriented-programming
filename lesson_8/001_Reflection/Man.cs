@@ -2,7 +2,7 @@
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 
-namespace _011_LINQ
+namespace _001_Reflection
 {
     [System.Serializable()]
     public class Man
