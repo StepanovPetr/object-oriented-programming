@@ -9,7 +9,6 @@ namespace _006_Reflection
     {
         static void Main(string[] args)
         {
-
             Man man = Man.GetMan();
             Console.WriteLine(man.ManInfo());
 
