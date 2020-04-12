@@ -5,7 +5,6 @@ namespace _001_Reflection
 {
     class Program
     {
-
         // Первый способ создания обьекта класса type.
         static void Main(string[] args)
         {
