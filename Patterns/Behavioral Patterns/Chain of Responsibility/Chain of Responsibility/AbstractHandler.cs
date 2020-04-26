@@ -6,7 +6,7 @@
 
         public void SetNext(AbstractHandler handler)
         {
-            this.NextHandler = handler;
+            NextHandler = handler;
         }
 
         public abstract bool Handle(Student request);

@@ -3,7 +3,7 @@ using Chain_of_Responsibility.Enums;
 
 namespace Chain_of_Responsibility
 {
-    public class FITIXHandler : AbstractHandler
+    public class FitixHandler : AbstractHandler
     {
         public override bool Handle(Student request)
         {
@@ -12,18 +12,14 @@ namespace Chain_of_Responsibility
                 Console.WriteLine("Студент успешно отчислен Деканатом Фитикс.");
                 return true;
             }
-            else
+
+            if (NextHandler != null)
             {
-                if (NextHandler != null)
-                {
-                    return NextHandler.Handle(request);
-                }
-                else
-                {
-                    Console.WriteLine("К сожалению студента не удалось отчислить.");
-                    return false;
-                }
+                return NextHandler.Handle(request);
             }
+
+            Console.WriteLine("К сожалению студента не удалось отчислить.");
+            return false;
         }
     }
 }
