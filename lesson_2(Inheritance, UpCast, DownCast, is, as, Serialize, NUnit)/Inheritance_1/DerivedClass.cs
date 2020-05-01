@@ -1,20 +1,24 @@
 ﻿using System;
 
-namespace Inheritance_2
+namespace Inheritance_1
 {
+    // Класс наследник.
     class DerivedClass : BaseClass
     {
         public DerivedClass()
         {
             // Изменяем все доступные поля унаследованные от базового класса.
+            protectedField = "New protected  Field";
             publicField = "New public Field";
-            protectedField = "New protected  Field";           
+        }
+
+        public void ShowFilds()
+        {
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Derived Class constractor");
             Console.WriteLine(this.publicField);
             //Console.WriteLine(this.privateField);
             Console.WriteLine(this.protectedField);
-        }     
+        }
     }
 }

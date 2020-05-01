@@ -4,7 +4,8 @@ namespace Inheritance_3
 {
     class DerivedClass : BaseClass
     {
-        public DerivedClass(string publicField, string publicFild) : base(publicField, publicFild)
+        public DerivedClass(string publicField, string publicFild) 
+            : base(publicField, publicFild)
         {           
             //publicField = "New public Field";
             //protectedField = "New protected  Field";           

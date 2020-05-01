@@ -1,5 +1,8 @@
 ﻿using System;
 
+
+
+
 namespace Inheritance_9
 {
     class DerivedClass : BaseClass

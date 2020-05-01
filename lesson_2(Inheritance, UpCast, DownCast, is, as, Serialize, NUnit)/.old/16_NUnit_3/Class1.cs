@@ -7,9 +7,9 @@ namespace _16_NUnit_3
 {
     public class Class1
     {
-        //Install-Package NUnit -Version 3.12.0 
+        // Install-Package NUnit -Version 3.12.0 
 
-        //Выполняется перед запуском каждого теста.
+        // Выполняется перед запуском каждого теста.
         [SetUp]
         public void SetUp()
         {
@@ -21,7 +21,7 @@ namespace _16_NUnit_3
             man.JsonSerialization("Example.json");
         }
 
-        //Выполняется после  запуска каждого теста.
+        // Выполняется после  запуска каждого теста.
         [TearDown]
         public void TearDown()
         {
