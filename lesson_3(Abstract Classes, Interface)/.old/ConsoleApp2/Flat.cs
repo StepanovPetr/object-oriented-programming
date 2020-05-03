@@ -1,7 +1,7 @@
 ﻿namespace lesson_3
 {
     // Конкретный класс.
-    class Flat : IBuilding, IPlace
+    class Flat : Building
     {
         private int _roomCount;
         private int _floor;
@@ -26,17 +26,13 @@
             City = city;
         }
 
-        public virtual int Price()
+        public override int Price()
         {
+
             return _roomCount * _floor;
         }
 
-        public virtual City City
-        {
-            get;
-            set;
-        }
-        public virtual int Area
+        public override int Area
         {
             get
             {
@@ -44,7 +40,7 @@
             }            
         }
 
-        public virtual bool LivingRoom
+        public override bool LivingRoom
         {
             get
             {

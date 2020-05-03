@@ -5,7 +5,7 @@ namespace _17_Nunit
 {
     // Класс содержит Unit тесты.
     [TestFixture]
-    class Program
+    public class Program
     {
         // Метод помечен как unit тест.
         [Test]
