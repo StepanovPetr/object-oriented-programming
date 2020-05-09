@@ -1,20 +1,21 @@
 ﻿using System;
+using LibExample;
 
-namespace lesson_4
+namespace _004_Array
 {
     class Program
     {
         static void Main(string[] args)
         {
             Random rand = new Random();
-            // Пример заполения массива элемантами при создании 
-            int[,] intArray = new int[5, 5];                          
-                    
+            // Пример заполения массива элемантами при создании.
+            int[,] intArray = new int[5, 5];
+
             for (int i = 0; i < 5; i++)
             {
-                for (int j = 0; j < 5 ; j++)
+                for (int j = 0; j < 5; j++)
                 {
-                    intArray[i,j] = rand.Next(100, 1001);
+                    intArray[i, j] = rand.Next(100, 1001);
                 }
             }
 
@@ -26,9 +27,12 @@ namespace lesson_4
                 }
                 Console.WriteLine();
             }
-            Console.ReadKey();
+            Console.ReadLine();
 
-            string[,] stringArray = new string[3, 3] { {"One","Two","three"}, { "One", "Two", "three" }, { "One", "Two", "three" }};
+            string[,] stringArray = new[,]
+            { {"One","Two","Three"},
+                { "One", "Two", "Three" },
+                { "One", "Two", "Three" }};
             for (int i = 0; i < 3; i++)
             {
                 for (int j = 0; j < 3; j++)
@@ -37,9 +41,12 @@ namespace lesson_4
                 }
                 Console.WriteLine();
             }
-            Console.ReadKey();
+            Console.ReadLine();
 
-            Man[,] customClassArray = new Man[3, 3] { { Man.GetMan(), Man.GetMan(), Man.GetMan() }, { Man.GetMan(), Man.GetMan(), Man.GetMan() }, { Man.GetMan(), Man.GetMan(), Man.GetMan()}};
+            Man[,] customClassArray = 
+            { { Man.GetMan(), Man.GetMan(), Man.GetMan() },
+                { Man.GetMan(), Man.GetMan(), Man.GetMan() },
+                { Man.GetMan(), Man.GetMan(), Man.GetMan()}};
             for (int i = 0; i < 3; i++)
             {
                 for (int j = 0; j < 3; j++)
@@ -48,7 +55,8 @@ namespace lesson_4
                 }
                 Console.WriteLine();
             }
-            Console.ReadKey();
+            Console.ReadLine();
         }
+
     }
 }

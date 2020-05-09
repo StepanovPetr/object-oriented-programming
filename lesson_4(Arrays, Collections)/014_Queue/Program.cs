@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace _14_Queue
+namespace _014_Queue
 {
     class Program
     {
@@ -21,16 +21,15 @@ namespace _14_Queue
 
             if (element is string)
             {
-                Console.WriteLine(queue.Dequeue());  // First.
+                Console.WriteLine(queue.Dequeue());
             }
 
             // Count - возвращает количество элементов в очереди.
             while (queue.Count > 0)
             {
-                Console.WriteLine(queue.Dequeue()); // Second, Third, Fourth.
+                Console.WriteLine(queue.Dequeue());
             }
 
-            // Delay.
             Console.ReadKey();
         }
     }
