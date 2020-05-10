@@ -15,9 +15,9 @@ namespace _03_File
             // Пример копирования файла.
             File.Copy("Example.txt","Example2.txt");
             
-            // Пример переименования, Перемещения файла.
+            // Перемещения файла.
             File.Move("Example2.txt", "Example3.txt");
-            
+
             // Пример проверки существования файла.
             if (File.Exists("Example.txt"))
                 //Пример удаления файла.

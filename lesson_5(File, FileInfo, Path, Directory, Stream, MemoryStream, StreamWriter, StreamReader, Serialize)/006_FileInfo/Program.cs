@@ -1,8 +1,7 @@
 ﻿using System;
-using System.IO;   
+using System.IO;
 
-//https://docs.microsoft.com/en-us/dotnet/api/system.io.fileinfo.open?view=netframework-4.8
-namespace _06_FileInfo
+namespace _006_FileInfo
 {
     class Program
     {
@@ -19,7 +18,7 @@ namespace _06_FileInfo
                 Console.ReadLine();
             }
 
-            using (FileStream fs = fileInfo.Open(FileMode.Open, FileAccess.Read,FileShare.Read))
+            using (FileStream fs = fileInfo.Open(FileMode.Open, FileAccess.Read, FileShare.Read))
             {
                 Console.ReadLine();
             }

@@ -8,12 +8,12 @@ namespace _05_FileInfo
     {
         static void Main(string[] args)
         {
-            // Создание экземпляра  FileInfo
+            // Создание экземпляра FileInfo
             FileInfo fileInfo = new FileInfo("Example.txt");
             // Cоздаение файла 
-            FileStream filestream = fileInfo.Create();
-            // Закрытие потока с  файлом
-            filestream.Close();
+            FileStream millstream = fileInfo.Create();
+            // Закрытие потока с файлом
+            millstream.Dispose();
             // Удаление файла
             fileInfo.Delete();
         }

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO; // необходимое пространство имен для работы с файлама, папками, дисками и файловыми потоками
 
 namespace lesson_5
@@ -22,14 +21,14 @@ namespace lesson_5
                 Console.WriteLine("Free Value -- {0}", disk.TotalFreeSpace);
 
                 
-                //Получение информации о кореневой директории диска.
+                // Получение информации о кореневой директории диска.
                 DirectoryInfo folders = disk.RootDirectory;
 
-                //Получение списка папок директории 
+                // Получение списка папок директории. 
                 foreach (var folder in folders.GetDirectories())
                     Console.WriteLine("   Directory - {0}", folder);
 
-                //Получение списка файлов директории 
+                // Получение списка файлов директории. 
                 foreach (var file in folders.GetFiles())
                     Console.WriteLine("   file - {0}", file);
 
