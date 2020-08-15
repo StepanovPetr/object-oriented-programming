@@ -9,7 +9,7 @@
         #endregion
 
         #region   Constructors
-        //Конструктор по умолчанию
+        // Конструктор по умолчанию.
         public Man()
         {
             this._firstName = "Валерий";
@@ -17,7 +17,7 @@
             this._age = 0;
         }
 
-        //Конструктор с параметрами
+        // Конструктор с параметрами.
         public Man(string firstName, string secondName, int age)
         {
             this._firstName = firstName;
@@ -27,7 +27,7 @@
         #endregion
 
         #region public properties
-        //Примеры использования cвойств
+        // Примеры использования cвойств.
         public string FirstName
         {
             set { _firstName = value; }
@@ -56,9 +56,7 @@
         #region public metods
         public string ManInfo()
         {
-            return string.Format("FirstName - {0} SecondName - {1} Age - {2}", this._firstName, this.SecondName, this.Age);
-            //https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated Стандарт C# 6
-            //return string.Format($"FirstName - {this.FirstName} SecondName - {this.SecondName} Age - {this.Age}");
+            return $"FirstName - {this._firstName} SecondName - {this.SecondName} Age - {this.Age}";
         }
         #endregion
     }

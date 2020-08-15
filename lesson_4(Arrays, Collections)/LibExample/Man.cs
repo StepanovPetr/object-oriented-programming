@@ -21,7 +21,7 @@ namespace LibExample
         #endregion
 
         #region   Constructors
-        // Конструктор по умолчанию
+        // Конструктор по умолчанию.
         public Man()
         {
             this.FirstName = "Энакин";
@@ -29,7 +29,7 @@ namespace LibExample
             this.Age = 33;
         }
 
-        // Конструктор с параметрами
+        // Конструктор с параметрами.
         public Man(string firstName, string secondName, int age)
         {
             this.FirstName = firstName;

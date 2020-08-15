@@ -49,7 +49,7 @@ namespace LibExample
 
         #region Constructors
 
-        // Конструктор по умолчанию
+        // Конструктор по умолчанию.
         public Man()
         {
             FirstName = "Энакин";
@@ -57,7 +57,7 @@ namespace LibExample
             Age = 33;
         }
 
-        // Конструктор с параметрами
+        // Конструктор с параметрами.
         public Man(string firstName, string secondName, int age)
         {
             FirstName = firstName;

@@ -5,7 +5,6 @@ namespace _006_Indexer
 {
     class Program
     {
-
         static void Main(string[] args)
         {
             Indexer indexer = new Indexer();

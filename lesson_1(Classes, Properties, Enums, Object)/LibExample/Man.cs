@@ -9,7 +9,7 @@
         #endregion
 
         #region   Constructors
-        //Конструктор по умолчанию
+        // Конструктор по умолчанию.
         public Man()
         {
             this._firstName = "Валерий";
@@ -17,7 +17,7 @@
             this._age = 0;
         }
 
-        //Конструктор с параметрами
+        // Конструктор с параметрами.
         public Man(string firstName, string secondName, int age)
         {
             this._firstName = firstName;
@@ -27,7 +27,7 @@
         #endregion
 
         #region public properties
-        //Примеры использования Свойств
+        // Примеры использования Свойств.
         public string FirstName
         {
             get

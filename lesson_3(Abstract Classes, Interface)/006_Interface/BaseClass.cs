@@ -1,4 +1,6 @@
-﻿namespace _006_Interface
+﻿using System;
+
+namespace _006_Interface
 {
     public class BaseClass
     {

@@ -9,7 +9,7 @@
         #endregion
 
         #region Constructors
-        // Конструктор по умолчанию
+        // Конструктор по умолчанию.
         public Man()
         {
             FirstName = "Энакин";
@@ -17,7 +17,7 @@
             Age = 33;
         }
 
-        // Конструктор с параметрами
+        // Конструктор с параметрами.
         public Man(string firstName, string secondName, int age)
         {
             FirstName = firstName;
@@ -30,18 +30,13 @@
 
         public string ManInfo()
         {
-            return string.Format("FirstName - {0} SecondName - {1} Age - {2}", FirstName, SecondName, Age);
-            //https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated Стандарт C# 6
-            //return string.Format($"FirstName - {this.FirstName} SecondName - {this.SecondName} Age - {this.Age}");
+            return $"FirstName - {FirstName} SecondName - {SecondName} Age - {Age}";
         }
 
-        // значение переменной по умолчанию.
+        // Значение переменной по умолчанию.
         public string ManInfoWithPlanet(string planet = "Татуин")
         {
-            return string.Format("FirstName - {0} SecondName - {1} Age - {2} Planet - {3}", FirstName, SecondName, Age,
-                planet);
-            //https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated Стандарт C# 6
-            //return string.Format($"FirstName - {this.FirstName} SecondName - {this.SecondName} Age - {this.Age}");
+            return $"FirstName - {FirstName} SecondName - {SecondName} Age - {Age} Planet - {planet}";
         }
 
         #endregion

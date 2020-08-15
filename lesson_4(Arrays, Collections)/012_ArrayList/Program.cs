@@ -19,7 +19,7 @@ namespace _012_ArrayList
             foreach (var item in myList)
                 Console.WriteLine(item.ToString());
             
-            // Поиск элемента
+            // Поиск элемента.
             int index = myList.IndexOf("Hello");
             Console.WriteLine(index);
             Console.ReadLine();
@@ -32,7 +32,7 @@ namespace _012_ArrayList
             foreach (var item in myList)
                 Console.WriteLine(item.ToString());
 
-            // Поиск элемента -1 если нет элемента
+            // Поиск элемента -1 если нет элемента.
             index = myList.IndexOf("Hello");
             Console.WriteLine(index);
             Console.ReadLine();

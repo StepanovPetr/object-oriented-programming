@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Reflection.PortableExecutable;
 using LibExample;
 
 namespace _012_Object

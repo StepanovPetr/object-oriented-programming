@@ -6,4 +6,8 @@
     <RootNamespace>_005_Properties</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Man.cs~RF20a481.TMP" />
+  </ItemGroup>
+
 </Project>

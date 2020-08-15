@@ -1,11 +1,9 @@
-﻿using System.Xml.Schema;
-
-namespace LibExample
+﻿namespace LibExample
 {
     public struct StructExample
     {
         public bool Field1;
-        public int Field2;
+        public int Field2; // = 112233;
         public double Field3;
 
         public string Info => $"{Field1} {Field2} {Field3}";
