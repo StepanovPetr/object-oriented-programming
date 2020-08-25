@@ -6,7 +6,7 @@ namespace _003_Inheritance
     {
         static void Main(string[] args)
         {
-            DerivedClass derivedClass = new DerivedClass("New protected Fild", "New public Fild");
+            DerivedClass derivedClass = new DerivedClass("New protected Field", "New public Field");
             Console.ReadLine();
         }
     }

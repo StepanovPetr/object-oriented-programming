@@ -35,13 +35,11 @@ namespace _003_Abstract
 
         public override int Price()
         {
-
             return _roomCount * _floor;
         }
 
         public override int Price(int value)
         {
-
             return _roomCount * _floor * value;
         }
 

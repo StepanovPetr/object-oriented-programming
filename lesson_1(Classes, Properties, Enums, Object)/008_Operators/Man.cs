@@ -12,17 +12,17 @@
         // Конструктор по умолчанию.
         public Man()
         {
-            this._firstName = "Валерий";
-            this._secondName = "Кипелов ";
-            this._age = 0;
+            _firstName = "Валерий";
+            _secondName = "Кипелов ";
+            _age = 0;
         }
 
         // Конструктор с параметрами.
         public Man(string firstName, string secondName, int age)
         {
-            this._firstName = firstName;
-            this._secondName = secondName;
-            this._age = age;
+            _firstName = firstName;
+            _secondName = secondName;
+            _age = age;
         }
         #endregion
 
@@ -64,7 +64,9 @@
         #region public metods
         public string ManInfo()
         {
-            return $"FirstName - {this._firstName} SecondName - {this.SecondName} Age - {this.Age}";
+            return $"FirstName - {_firstName} " +
+                $"SecondName - {SecondName} " +
+                $"Age - {Age}";
         }
         #endregion
 

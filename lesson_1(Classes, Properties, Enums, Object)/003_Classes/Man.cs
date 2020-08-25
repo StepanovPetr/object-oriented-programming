@@ -9,7 +9,7 @@
         #endregion
 
         #region Constructors
-        // Конструктор по умолчанию.
+        // Конструктор без параметров.
         public Man()
         {
             FirstName = "Энакин";
@@ -27,7 +27,6 @@
         #endregion
 
         #region public metods
-
         public string ManInfo()
         {
             return $"FirstName - {FirstName} SecondName - {SecondName} Age - {Age}";
@@ -38,7 +37,6 @@
         {
             return $"FirstName - {FirstName} SecondName - {SecondName} Age - {Age} Planet - {planet}";
         }
-
         #endregion
     }
 }

@@ -6,17 +6,17 @@ namespace _003_Inheritance
     class DerivedClass : BaseClass
     {   
         // Вызов нужного конструктора базового класса 
-        public DerivedClass(string publicField, string publicFild)
-            : base(publicField, publicFild)
+        public DerivedClass(string protectedField, string publicField)
+            : base(protectedField, publicField)
         {
             //publicField = "New public Field";
             //protectedField = "New protected  Field";           
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Derived Class constractor with params");
-            Console.WriteLine(this.publicField);
-            //Console.WriteLine(this.privateField);
-            Console.WriteLine(this.protectedField);
+            Console.WriteLine("Derived Class constructor with params");
+            Console.WriteLine(publicField);
+            //Console.WriteLine(_privateField);
+            Console.WriteLine(protectedField);
         }
     }
 }

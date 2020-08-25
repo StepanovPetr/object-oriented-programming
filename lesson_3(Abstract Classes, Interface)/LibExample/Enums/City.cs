@@ -2,6 +2,8 @@
 {
     public enum City
     {
-        
+        Moscow = 0,
+        Omsk,
+        Novosibirsk,
     }
 }

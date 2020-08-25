@@ -13,9 +13,9 @@ namespace _007_UpCast
         {
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(this.PublicField3);
-            Console.WriteLine(this.PublicField4);
-            Console.WriteLine(this.PublicField5);
+            Console.WriteLine(PublicField3);
+            Console.WriteLine(PublicField4);
+            Console.WriteLine(PublicField5);
             Console.WriteLine("******************");
         }
     }

@@ -1,11 +1,9 @@
-﻿using System.Threading;
-
-namespace LibExample
+﻿namespace LibExample
 {
     public class Indexer : IIndexer
     {
         private Man[] _man;
-        private int _count = 10;
+        private const int _count = 10;
 
         public Indexer()
         {

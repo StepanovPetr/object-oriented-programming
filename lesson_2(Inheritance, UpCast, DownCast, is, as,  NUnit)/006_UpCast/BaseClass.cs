@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace _006_UpCast
+﻿namespace _006_UpCast
 {
     public class BaseClass
     {

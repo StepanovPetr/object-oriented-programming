@@ -10,7 +10,6 @@ namespace _003_Abstract
         public string _ownerLastName = "Пупкин";
 
         // Не абстактный метод.
-
         public abstract int Price(int value);
 
         public override City City
@@ -21,7 +20,8 @@ namespace _003_Abstract
 
         public string GetOwner()
         {
-            return string.Format("Имя владельца - {0}, Фамилия владельца - {1}", _ownerName, _ownerLastName);
+            return $"Имя владельца - {_ownerName}, " +
+                $"Фамилия владельца - {_ownerLastName}";
         }
         public abstract int Area
         {

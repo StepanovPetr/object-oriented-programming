@@ -12,13 +12,13 @@ namespace Inheritance_1
             publicField = "New public Field";
         }
 
-        public void ShowFilds()
+        public void ShowFields()
         {
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(this.publicField);
-            //Console.WriteLine(this.privateField);
-            Console.WriteLine(this.protectedField);
+            Console.WriteLine(publicField);
+            //Console.WriteLine(privateField);
+            Console.WriteLine(protectedField);
         }
     }
 }

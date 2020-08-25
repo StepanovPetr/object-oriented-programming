@@ -8,7 +8,7 @@ namespace _003_Array
         static void Main(string[] args)
         {
             Random rand = new Random();
-            // Пример заполения массива элемантами при создании.
+            // Пример заполнения массива элементами при создании.
             int[] intArray = new int[] { rand.Next(1, 11) * 10, 
                 rand.Next(1, 11) * 10, rand.Next(1, 11) * 10, 
                 rand.Next(1, 11) * 10, rand.Next(1, 11) * 10,

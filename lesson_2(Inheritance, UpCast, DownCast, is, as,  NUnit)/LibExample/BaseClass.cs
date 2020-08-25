@@ -5,12 +5,11 @@ namespace LibExample
     public class BaseClass
     {
         # region Поля метода
-
         private string _privateField1 = "private Field1";
         private string _privateField2 = "private Field2";
         public string PublicField3 = "public Field3";
-
         #endregion
+
         // Открытый метод.
         public void NormalMethod()
         {

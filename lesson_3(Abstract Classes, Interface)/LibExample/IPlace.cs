@@ -1,4 +1,6 @@
-﻿namespace LibExample
+﻿using LibExample.Enums;
+
+namespace LibExample
 {
     public interface IPlace
     {

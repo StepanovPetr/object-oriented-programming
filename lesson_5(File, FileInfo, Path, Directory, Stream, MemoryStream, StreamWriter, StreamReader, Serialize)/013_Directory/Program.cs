@@ -11,7 +11,7 @@ namespace _013_Directory
             var path = Directory.GetCurrentDirectory();
             Console.WriteLine(path);
 
-            // Установка текущей директории .. -- директория на уровень выше.
+            // Установка текущей директории .. - директория на уровень выше.
             Directory.SetCurrentDirectory(@"..\");
             Console.WriteLine(Directory.GetCurrentDirectory());
 

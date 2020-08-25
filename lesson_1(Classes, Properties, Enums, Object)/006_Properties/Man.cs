@@ -4,25 +4,25 @@
     {
         #region private fields
         private string _firstName;
-        private string _secondName;
-        private int _age;
+        private readonly string _secondName;
+        private readonly int _age;
         #endregion
 
         #region   Constructors
-        // Конструктор по умолчанию.
+        // Конструктор без параметров.
         public Man()
         {
-            this._firstName = "Валерий";
-            this._secondName = "Кипелов ";
-            this._age = 0;
+            _firstName = "Валерий";
+            _secondName = "Кипелов ";
+            _age = 0;
         }
 
         // Конструктор с параметрами.
         public Man(string firstName, string secondName, int age)
         {
-            this._firstName = firstName;
-            this._secondName = secondName;
-            this._age = age;
+            _firstName = firstName;
+            _secondName = secondName;
+            _age = age;
         }
         #endregion
 
@@ -46,17 +46,16 @@
 
         public int Age
         {
-            get
-            {
-                return _age;
-            }
+            get { return _age; }
         }
         #endregion
 
         #region public metods
         public string ManInfo()
         {
-            return $"FirstName - {this._firstName} SecondName - {this.SecondName} Age - {this.Age}";
+            return $"FirstName - {this._firstName} " +
+                   $"SecondName - {this.SecondName} " +
+                   $"Age - {this.Age}";
         }
         #endregion
     }

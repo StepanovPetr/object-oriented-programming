@@ -8,7 +8,8 @@ namespace _016_Stream
         private static void Main(string[] args)
         {
             // Чтение, Запись побайтово.
-            using (Stream stream = new FileStream("Test.dat", FileMode.OpenOrCreate, FileAccess.ReadWrite))
+            using (Stream stream = new FileStream("Test.dat", 
+                FileMode.OpenOrCreate, FileAccess.ReadWrite))
             {
                 Console.WriteLine("Чтение, Запись побайтово.");
                 // Записываем байты в файл.
@@ -23,8 +24,9 @@ namespace _016_Stream
                 Console.WriteLine();
             }
 
-            // Чтение, Запись массива байт.
-            using (Stream stream = new FileStream("Test.dat", FileMode.Create, FileAccess.ReadWrite))
+            // Чтение, запись массива байт.
+            using (Stream stream = new FileStream("Test.dat", 
+                FileMode.Create, FileAccess.ReadWrite))
             {
                 Console.WriteLine("Чтение, Запись массива байт.");
                 var massofByte = new byte[256];

@@ -12,13 +12,13 @@ namespace Inheritance_1
         // Открытое поле.
         public string publicField = "public Field";
 
-        public void ShowFilds()
+        public void ShowFields()
         {
             Console.BackgroundColor = ConsoleColor.White;
             Console.ForegroundColor = ConsoleColor.Black;
-            Console.WriteLine(this._privateField);
-            Console.WriteLine(this.protectedField);
-            Console.WriteLine(this.publicField);
+            Console.WriteLine(_privateField);
+            Console.WriteLine(protectedField);
+            Console.WriteLine(publicField);
         }
     }
 }

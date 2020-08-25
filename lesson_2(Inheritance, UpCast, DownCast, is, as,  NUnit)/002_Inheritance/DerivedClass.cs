@@ -12,9 +12,9 @@ namespace _002_Inheritance
             protectedField = "New protected  Field";
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Derived Class constractor");
-            Console.WriteLine(this.publicField);
-            Console.WriteLine(this.protectedField);
+            Console.WriteLine("Derived Class constructor");
+            Console.WriteLine(publicField);
+            Console.WriteLine(protectedField);
         }
     }
 }

@@ -8,7 +8,7 @@ namespace _004_Array
         static void Main(string[] args)
         {
             Random rand = new Random();
-            // Пример заполения массива элемантами при создании.
+            // Пример заполнения массива элементами при создании.
             int[,] intArray = new int[5, 5];
 
             for (int i = 0; i < 5; i++)

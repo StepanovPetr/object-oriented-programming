@@ -18,11 +18,9 @@ namespace _001_Classes
             person.FirstName = "Ivan";
             person.SecondName = "Ivanov";
             person.Age = 33;
-            Console.WriteLine("FirstName - {0} " +
-                              "SecondName - {1} " +
-                              "Age - {2}",
-                person.FirstName, person.SecondName,
-                person.Age);
+            Console.WriteLine($"FirstName - {person.FirstName} " +
+                              $"SecondName - {person.SecondName} " +
+                              $"Age - {person.Age}");
             Console.Read();
         }
     }

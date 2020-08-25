@@ -1,18 +1,16 @@
-﻿namespace _004_Properties
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace _004_Properties
 {
     internal class Man
     {
-        #region public metods
-
-        public string ManInfo()
-        {
-            return $"FirstName - {FirstName} SecondName - {SecondName} Age - {Age}";
-        }
-
+        #region private fields
+        private string _firstName;
+        private string _secondName;
+        private int _age;
         #endregion
 
         #region Constructors
-
         // Конструктор по умолчанию.
         public Man()
         {
@@ -28,18 +26,36 @@
             SecondName = secondName;
             Age = age;
         }
-
         #endregion
 
         #region public properties
-
         // Примеры использования cвойств.
-        public string FirstName { set; get; }
+        public string FirstName 
+        {
+            set { _firstName = value; }
+            get { return _firstName; }
+        }
 
-        public string SecondName { set; get; }
+        public string SecondName 
+        {
+            set { _secondName = value; }
+            get { return _secondName; } 
+        }
 
-        public int Age { set; get; }
+        public int Age 
+        {
+            set { _age = value; }
+            get { return _age; } 
+        }
+        #endregion
 
+        #region public metods
+        public string ManInfo()
+        {
+            return $"FirstName - {FirstName} " +
+                   $"SecondName - {SecondName} " +
+                   $"Age - {Age}";
+        }
         #endregion
     }
 }

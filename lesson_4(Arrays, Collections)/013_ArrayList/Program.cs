@@ -20,7 +20,6 @@ namespace _013_ArrayList
 
             myList.Sort();
 
-            Console.WriteLine("");
             Console.WriteLine("After sorting");
             Console.WriteLine("--------------");
             foreach (var item in myList)

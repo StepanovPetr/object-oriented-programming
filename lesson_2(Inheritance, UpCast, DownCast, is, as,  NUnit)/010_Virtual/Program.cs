@@ -7,7 +7,6 @@ namespace _010_Virtual
         static void Main(string[] args)
         {
             DerivedClass derivedClass = new DerivedClass();
-
             derivedClass.NormalMethod();
             derivedClass.VirtualMethod();
 

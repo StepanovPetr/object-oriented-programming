@@ -11,10 +11,9 @@
         #region public metods
         public string ManInfo()
         {
-            return string.Format("FirstName - {0} " +
-                                 "SecondName - {1} " +
-                                 "Age - {2}",
-                FirstName, SecondName, Age);
+            return $"FirstName - {FirstName} " 
+                   + $"SecondName - {SecondName} " 
+                   + $"Age - {Age}";
         }
         #endregion
     }

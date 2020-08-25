@@ -8,7 +8,7 @@ namespace _014_Object
         static void Main(string[] args)
         {
             Man man = new Man();
-            Man man2 = man.MemberwiseClone();
+            Man man2 = man.Clone();
 
             Console.WriteLine(man.GetHashCode());
             Console.WriteLine(man2.GetHashCode());

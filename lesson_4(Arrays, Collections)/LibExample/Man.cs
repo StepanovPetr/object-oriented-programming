@@ -9,8 +9,10 @@ namespace LibExample
             { "Вова", "Алексей", "Егор", 
                 "Дима", "Николай", "Петр", "Максим", "Иван" };
         private static readonly string[] _secondNames = new string[] 
-            { "Мусихин", "Цыганок", "Чердынцев", 
-                "Степанов", "Куянов", "Атинк", "Максим", "Блинов" };
+            { "Гагарин", "Цыганок", "Чердынцев", 
+                "Степанов", "Кипелов", "Бутусов", "Горшенев", "Князев",
+                "Брежнев", "Хрущев", "Сталин", "Ленин", "Ельцин"
+            };
         private static readonly Random _rand = new Random();
         #endregion
 
@@ -61,12 +63,11 @@ namespace LibExample
         #endregion
 
         #region Indexers
-        // Индексатор принимающий цело число.
+        // Индексатор принимающий целое число.
         public string this[int i] => "Целочисленный индексатор";
 
         // Индексатор принимающий строку.
-        public string this[string i] => "Строковой индексатор";
-
+        public string this[string i] => "Строковый индексатор";
         #endregion
     }
 }

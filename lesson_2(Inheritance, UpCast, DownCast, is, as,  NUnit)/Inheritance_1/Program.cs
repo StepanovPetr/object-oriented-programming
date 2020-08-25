@@ -10,10 +10,10 @@ namespace Inheritance_1
 
             Console.WriteLine(baseClass.publicField);
             //Console.WriteLine(baseClass.);
-            baseClass.ShowFilds();
+            baseClass.ShowFields();
 
             DerivedClass derivedClass = new DerivedClass();
-            derivedClass.ShowFilds(); 
+            derivedClass.ShowFields(); 
             //Console.WriteLine(derivedClass.protectedField);
             Console.ReadLine();
         }

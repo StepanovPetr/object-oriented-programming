@@ -8,7 +8,7 @@ namespace _014_Directory
         static void Main(string[] args)
         {
             string path = "Example";
-            // Пример создание директории.
+            // Пример создания директории.
             if (!Directory.Exists(path))
                 Directory.CreateDirectory(path);
 

@@ -9,6 +9,7 @@ namespace _016_Object
         {
             Man man = new Man();
             Type type = man.GetType();
+            Console.WriteLine(type);
 
             Console.ReadLine();
         }

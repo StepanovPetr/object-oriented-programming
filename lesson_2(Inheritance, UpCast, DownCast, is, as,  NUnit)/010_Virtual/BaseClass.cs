@@ -20,7 +20,7 @@ namespace _010_Virtual
         // Виртуальный метод.
         public virtual void VirtualMethod()
         {
-            Console.WriteLine("Vritual method from base class");
+            Console.WriteLine("Virtual method from base class");
         }
     }
 }

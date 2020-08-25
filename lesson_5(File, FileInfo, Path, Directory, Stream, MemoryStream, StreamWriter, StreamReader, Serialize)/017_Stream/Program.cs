@@ -7,7 +7,7 @@ namespace _017_Stream
     {
         private static void Main(string[] args)
         {
-            // Чтение, Запись побайтово.
+            // Чтение, запись побайтово.
             using (Stream stream = new MemoryStream())
             {
                 Console.WriteLine("Чтение, Запись побайтово.");
@@ -23,7 +23,7 @@ namespace _017_Stream
                 Console.WriteLine();
             }
 
-            // Чтение, Запись массива байт.
+            // Чтение, запись массива байт.
             using (Stream stream = new MemoryStream())
             {
                 Console.WriteLine("Чтение, Запись массива байт.");

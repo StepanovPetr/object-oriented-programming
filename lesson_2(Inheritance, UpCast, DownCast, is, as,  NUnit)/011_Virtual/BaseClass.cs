@@ -4,10 +4,10 @@ namespace _011_Virtual
 {
     public class BaseClass
     {
-        // Откртое свойтво.
+        // Открытое свойтво.
         public string NormalProperty => "Normal Property from base class";
 
-        // Виртуальный свойство.
+        // Виртуальное свойство.
         public virtual string VirtualProperty => "Virtual Property from base class";
     }
 }

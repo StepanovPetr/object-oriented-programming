@@ -7,7 +7,7 @@ namespace _011_Virtual
         // Откртое свойтво.
         public new string NormalProperty => "Normal Property from derived class";
 
-        // Виртуальный свойство.
+        // Виртуальное свойство.
         public override string VirtualProperty => "Virtual Property from derived class";
     }
 }

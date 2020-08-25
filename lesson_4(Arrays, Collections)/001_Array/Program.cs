@@ -7,7 +7,7 @@ namespace _001_Array
     {
         static void Main(string[] args)
         {
-            // Целоцисленный одномерный массив. 
+            // Целочисленный одномерный массив. 
             int[] intArray;
             // Строковой одномерный массив.
             string[] stringArray;
@@ -49,10 +49,12 @@ namespace _001_Array
             customClassArray = new Man[100];
             for (int i = 0; i < customClassArray.Length; i++)
             {
-                customClassArray[i] = new Man();
-                customClassArray[i].Age = 33;
-                customClassArray[i].FirstName = "Вася";
-                customClassArray[i].SecondName = "Иванов";
+                customClassArray[i] = new Man
+                {
+                    Age = 33,
+                    FirstName = "Вася",
+                    SecondName = "Иванов"
+                };
             }
 
             foreach (var element in customClassArray)

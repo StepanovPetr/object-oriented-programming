@@ -5,24 +5,21 @@ namespace _005_Properties
     internal class Man
     {
         #region public metods
-
         public string ManInfo()
         {
-            return $"FirstName - {FirstName} SecondName - {SecondName} Age - {Age}";
+            return $"FirstName - {FirstName} " +
+                $"SecondName - {SecondName} " +
+                $"Age - {Age}";
         }
-
         #endregion
 
         #region private fields
-
         private string _firstName;
         private string _secondName;
         private int _age;
-
         #endregion
 
         #region Constructors
-
         // Конструктор по умолчанию.
         public Man()
         {
@@ -38,15 +35,13 @@ namespace _005_Properties
             _secondName = secondName;
             _age = age;
         }
-
         #endregion
 
         #region public properties
-
         // Примеры использования свойств.
         public string FirstName
         {
-            set => _firstName = value;
+            set { _firstName = value; }
             get
             {
                 if (_firstName == "")
@@ -57,7 +52,7 @@ namespace _005_Properties
 
         public string SecondName
         {
-            set => _secondName = value;
+            set { _secondName = value; }
             get
             {
                 if (_secondName == "")
@@ -71,13 +66,13 @@ namespace _005_Properties
             set
             {
                 if (value <= 0 || value >= 120)
-                    Console.WriteLine("Вы ввели недопустимое значение. Повторите попытку.");
+                    Console.WriteLine("Вы ввели недопустимое значение." +
+                        " Повторите попытку.");
                 else
                     _age = value;
             }
-            get => _age;
+            get { return _age; }
         }
-
         #endregion
     }
 }

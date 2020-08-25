@@ -8,7 +8,6 @@ namespace _015_Stack
         static void Main(string[] args)
         {
             Stack stack = new Stack();
-
             stack.Push("First");
             stack.Push("Second");
             stack.Push("Third");
@@ -26,7 +25,6 @@ namespace _015_Stack
                 Console.WriteLine(stack.Pop());
             }
 
-            // Delay.
             Console.ReadKey();
         }
     }

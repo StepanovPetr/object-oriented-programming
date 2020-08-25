@@ -30,11 +30,11 @@ namespace _018_Struct
         }
 
         // Структуры копируют значение.
-        private static void StructMethod(StructExample localExample)
+        private static void StructMethod(StructExample strucExample)
         {
-            localExample.Field1 = false;
-            localExample.Field2 = 222;
-            localExample.Field3 = 111.222;
+            strucExample.Field1 = false;
+            strucExample.Field2 = 222;
+            strucExample.Field3 = 111.222;
         }
     }
 }

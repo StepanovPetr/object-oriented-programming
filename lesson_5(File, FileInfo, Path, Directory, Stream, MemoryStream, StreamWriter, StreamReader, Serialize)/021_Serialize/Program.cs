@@ -9,7 +9,7 @@ namespace _021_Serialize
     {
         private static void Main(string[] args)
         {
-            //Install-Package Newtonsoft.Json  -Version 12.0.2
+            //Install-Package Newtonsoft.Json
             var man = new Man("Вася", "Пупкин", 65);
             Man manFromFile = null;
             using (var stream = File.CreateText("Man.json"))
