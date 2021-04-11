@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>1)if_else</RootNamespace>
+    <AssemblyName>1)if-else</AssemblyName>
+  </PropertyGroup>
+
+</Project>
