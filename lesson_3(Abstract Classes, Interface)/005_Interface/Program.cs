@@ -9,7 +9,7 @@ namespace _005_Interface
         {
             FlatFromInterface flat = new FlatFromInterface();
             IBuilding building = flat;
-            IPlace place = flat;
+            //IPlace place = flat;
             Console.ReadLine();
         }
     }

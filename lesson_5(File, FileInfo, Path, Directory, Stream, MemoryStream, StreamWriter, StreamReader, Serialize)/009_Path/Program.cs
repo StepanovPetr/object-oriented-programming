@@ -22,11 +22,11 @@ namespace _009_Path
             Console.WriteLine(Path.GetExtension(goodFileName));
             Console.WriteLine(Path.GetExtension(badFileName));
 
-            Console.WriteLine("Получение папки в которой расположен файл");
+            Console.WriteLine("Получение папки, в которой расположен файл");
             Console.WriteLine(Path.GetDirectoryName(goodFileName));
             Console.WriteLine(Path.GetDirectoryName(badFileName));
 
-            Console.WriteLine("Получение корневой директории  в которой расположен файл");
+            Console.WriteLine("Получение корневой директории,  в которой расположен файл");
             Console.WriteLine(Path.GetPathRoot(goodFileName));
             Console.WriteLine(Path.GetPathRoot(badFileName));
 

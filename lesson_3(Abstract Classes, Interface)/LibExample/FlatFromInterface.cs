@@ -2,7 +2,7 @@
 
 namespace LibExample
 {
-    // Конкретный класс реализующий интерфейс.
+    // Конкретный класс, реализующий интерфейс.
     public class FlatFromInterface : IBuilding, IPlace
     {
         #region Private Fields        
@@ -36,12 +36,9 @@ namespace LibExample
         #endregion
 
         #region Interface realization
-        // Закоментирвоать для примера
-        public int Price()
-        {
-            return _roomCount * _floor;
-        }
-
+        // Закомментировать для примера.
+        public int Price() => _roomCount * _floor;
+     
         public int Area => _roomCount * _length * _width;
 
         public bool LivingRoom => true;

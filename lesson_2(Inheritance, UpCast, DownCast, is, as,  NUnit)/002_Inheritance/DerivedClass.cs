@@ -2,12 +2,12 @@
 
 namespace _002_Inheritance
 {
-    // Класс наследник.
+    // Класс-наследник.
     class DerivedClass : BaseClass
     {
         public DerivedClass()
         {
-            // Изменяем все доступные поля унаследованные от базового класса.
+            // Изменяем все доступные поля, унаследованные от базового класса.
             publicField = "New public Field";
             protectedField = "New protected  Field";
             Console.BackgroundColor = ConsoleColor.Black;

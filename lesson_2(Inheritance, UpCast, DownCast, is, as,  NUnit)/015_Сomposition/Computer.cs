@@ -6,7 +6,7 @@
         private Monitor _monitor;
         private Ram _ram;
 
-        // Пример композоции.
+        // Пример композиции.
         public Computer()
         {
             _hdd = new Hdd();

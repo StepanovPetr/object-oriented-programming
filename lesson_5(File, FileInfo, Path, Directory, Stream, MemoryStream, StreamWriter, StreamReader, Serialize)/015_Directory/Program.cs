@@ -15,7 +15,7 @@ namespace _015_Directory
             for (var i = 0; i < 10; i++)
                 File.Create(Path.Combine(path, Path.GetRandomFileName())).Dispose();
 
-            // Пример перемащения директории.
+            // Пример перемещения директории.
             Directory.Move(Path.GetFullPath(path),
                 Path.GetFullPath(pathMove));
         }

@@ -13,7 +13,7 @@ namespace _014_Queue
             queue.Enqueue("Third");
             queue.Enqueue("Fourth");
 
-            // Peek() - возвращает первый элемент из очереди не удаляя его.
+            // Peek() - возвращает первый элемент из очереди, не удаляя его.
             object element = queue.Peek();
             Console.WriteLine(element as string); //First
 

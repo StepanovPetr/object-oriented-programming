@@ -18,7 +18,7 @@ namespace DriveInfo
             // Получение списка дисков.
             var disks = System.IO.DriveInfo.GetDrives();
 
-            // Вывод информации и каждом диске.
+            // Вывод информации о каждом диске.
             foreach (var disk in disks)
             {
                 Console.WriteLine("Disk Name -- {0}", disk.Name);

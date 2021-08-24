@@ -63,10 +63,10 @@ namespace LibExample
         #endregion
 
         #region Indexers
-        // Индексатор принимающий целое число.
+        // Индексатор, принимающий целое число.
         public string this[int i] => "Целочисленный индексатор";
 
-        // Индексатор принимающий строку.
+        // Индексатор, принимающий строку.
         public string this[string i] => "Строковый индексатор";
         #endregion
     }

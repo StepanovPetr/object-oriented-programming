@@ -24,11 +24,11 @@ namespace _016_Stream
                 Console.WriteLine();
             }
 
-            // Чтение, запись массива байт.
+            // Чтение, запись массива байтов.
             using (Stream stream = new FileStream("Test.dat", 
                 FileMode.Create, FileAccess.ReadWrite))
             {
-                Console.WriteLine("Чтение, Запись массива байт.");
+                Console.WriteLine("Чтение, Запись массива байтов.");
                 var massofByte = new byte[256];
                 var massFromFile = new byte[256];
 

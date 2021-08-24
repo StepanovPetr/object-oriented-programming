@@ -7,10 +7,10 @@ namespace _007_UpCast
         static void Main(string[] args)
         {
             DerivedClass derivedClass = new DerivedClass();
-            // Вызов метода ShowFileds() до приведения с базому типу.
+            // Вызов метода ShowFileds() до приведения к базовому типу.
             derivedClass.ShowFileds();
 
-            // Пример не явного приведения типа.
+            // Пример неявного приведения типа.
             BaseClass baseClass = derivedClass;
             // Вызов метода ShowFileds() после приведения к базовому типу.
             baseClass.ShowFileds();

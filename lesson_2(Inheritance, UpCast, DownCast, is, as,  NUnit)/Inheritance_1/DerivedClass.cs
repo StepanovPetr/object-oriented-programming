@@ -2,12 +2,12 @@
 
 namespace Inheritance_1
 {
-    // Класс наследник.
+    // Класс-наследник.
     class DerivedClass : BaseClass
     {
         public DerivedClass()
         {
-            // Изменяем все доступные поля унаследованные от базового класса.
+            // Изменяем все доступные поля, унаследованные от базового класса.
             protectedField = "New protected  Field";
             publicField = "New public Field";
         }

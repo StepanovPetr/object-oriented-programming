@@ -9,11 +9,11 @@ namespace _019_Serialize
     {
         static void Main(string[] args)
         {
-            Man man = new Man("Вася", "Пупкин", 65);
+            Man man = new Man("Иванов", "Иван", 65);
             Man manFromFile = null;
             using (FileStream stream = new FileStream("Man.bin", FileMode.Create))
             {
-                // Пример двоичной серилизации.
+                // Пример двоичной сериализации.
                 BinaryFormatter binaryFormatter = new BinaryFormatter();
                 binaryFormatter.Serialize(stream, man);
             }
@@ -21,7 +21,7 @@ namespace _019_Serialize
 
             using (FileStream stream = new FileStream("Man.bin", FileMode.Open))
             {
-                // Пример двоичной десерилизации.
+                // Пример двоичной десеарилизации.
                 BinaryFormatter binaryFormatter = new BinaryFormatter();
                 manFromFile = (Man)binaryFormatter.Deserialize(stream);
             }

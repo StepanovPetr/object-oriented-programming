@@ -8,7 +8,7 @@ namespace _017_List
     {
         static void Main(string[] args)
         {
-            // Пример List работающего с пользовательскими классами.
+            // Пример List, работающего с пользовательскими классами.
             List<Man> men = new List<Man>();
             men.Add(Man.GetMan());
             men.Add(Man.GetMan());

@@ -18,15 +18,15 @@ namespace _017_Stream
                 // Переставляем внутренний указатель на начало.
                 stream.Position = 0;
 
-                // Считывам байты из файла.
+                // Считываем байты из файла.
                 for (var i = 0; i < 256; i++) Console.Write(" " + stream.ReadByte());
                 Console.WriteLine();
             }
 
-            // Чтение, запись массива байт.
+            // Чтение, запись массива байтов.
             using (Stream stream = new MemoryStream())
             {
-                Console.WriteLine("Чтение, Запись массива байт.");
+                Console.WriteLine("Чтение, Запись массива байтов.");
                 var massofByte = new byte[256];
                 var massFromFile = new byte[256];
 

@@ -11,7 +11,7 @@ namespace _006_UpCast
             // Пример явного приведения типа.
             BaseClass baseClass = (BaseClass) derivedClass;
 
-            // Пример не явного приведения типа.
+            // Пример неявного приведения типа.
             BaseClass baseClass2 = derivedClass;
 
             Console.WriteLine(derivedClass.GetHashCode());

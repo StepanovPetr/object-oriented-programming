@@ -1,6 +1,6 @@
 ﻿namespace LibExample
 {
-    // Пример декарирования класса модификатором internal.
+    // Пример декорирования класса модификатором internal.
     internal class InternalExample
     {
         public int Age { get; set; }

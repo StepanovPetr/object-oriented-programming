@@ -21,13 +21,13 @@
         // Абстрактный метод.
         public abstract int Price();
         
-        // Абстрактное свойтво.
+        // Абстрактное свойство.
         public abstract int Area
         {
             get;
         }
 
-        // Абстрактное свойтво.
+        // Абстрактное свойство.
         public abstract bool LivingRoom
         {
             get;

@@ -2,7 +2,7 @@
 
 namespace _003_Inheritance
 {
-    // Класс наследник.
+    // Класс-наследник.
     class DerivedClass : BaseClass
     {   
         // Вызов нужного конструктора базового класса 

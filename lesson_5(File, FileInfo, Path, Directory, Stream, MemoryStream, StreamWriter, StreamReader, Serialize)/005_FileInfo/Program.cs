@@ -8,7 +8,7 @@ namespace _005_FileInfo
         {
             // Создание экземпляра FileInfo.
             FileInfo fileInfo = new FileInfo("Example.txt");
-            // Cоздаение файла. 
+            // Cоздание файла. 
             FileStream filestream = fileInfo.Create();
             // Закрытие потока с файлом.
             filestream.Close();

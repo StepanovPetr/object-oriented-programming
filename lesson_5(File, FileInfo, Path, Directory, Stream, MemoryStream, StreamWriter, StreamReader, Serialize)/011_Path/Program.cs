@@ -10,7 +10,7 @@ namespace _011_Path
             for (int i = 0; i < 10; i++)
                 Console.WriteLine(Path.GetRandomFileName());
 
-            Console.WriteLine("Получение дирректории для хранения временных файлов");
+            Console.WriteLine("Получение директории для хранения временных файлов");
             Console.WriteLine(Path.GetTempPath());
 
             Console.WriteLine("Создание временного файла и возвращение его имени");

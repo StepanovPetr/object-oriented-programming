@@ -12,7 +12,7 @@ namespace _003_File
             // Пример добавления текста в конец файла.
             File.AppendAllText("Example.txt", "Some text");
 
-            // Получение аттрибутов файла.
+            // Получение атрибутов файла.
             var fileAttributes = File.GetAttributes("Example.txt");
         }
     }

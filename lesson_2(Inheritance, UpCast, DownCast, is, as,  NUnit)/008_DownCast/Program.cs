@@ -8,15 +8,15 @@ namespace _008_DownCast
         static void Main(string[] args)
         {
             DerivedClass derivedClass = new DerivedClass();
-            // Вызов метода ShowFileds() до приведения с базому типу.
+            // Вызов метода ShowFileds() до приведения к базовому типу.
             derivedClass.ShowFileds();
 
-            // Пример не явного приведения типа.
+            // Пример неявного приведения типа.
             BaseClass baseClass = derivedClass;
             // Вызов метода ShowFileds() после приведения к базовому типу.
             baseClass.ShowFileds();
 
-            // Пример Down Cast (Привдение базового класса к классу потомка).
+            // Пример Down Cast (Приведение базового класса к классу-потомку).
             // Доступен только после выполнить Up Cast
             var downCast = (DerivedClass)baseClass;
             downCast.ShowFileds();

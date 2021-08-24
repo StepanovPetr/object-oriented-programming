@@ -110,7 +110,7 @@ namespace LibExample
         #endregion
 
         #region binary serialize and deserialize
-        // Метод для бинарной серилизации.
+        // Метод для бинарной сериализации.
         public bool BinarySerialization(string fileName = "Man.bin")
         {
             var result = false;
@@ -124,7 +124,7 @@ namespace LibExample
             return result;
         }
 
-        // Метод для бинарной десерилизации.
+        // Метод для бинарной десериализации.
         public Man BinaryDeserialization(string fileName = "Man.bin")
         {
             Man result = null;

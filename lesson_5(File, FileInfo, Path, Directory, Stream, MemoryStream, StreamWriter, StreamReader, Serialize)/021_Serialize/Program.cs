@@ -10,11 +10,11 @@ namespace _021_Serialize
         private static void Main(string[] args)
         {
             //Install-Package Newtonsoft.Json
-            var man = new Man("Вася", "Пупкин", 65);
+            var man = new Man("Иван", "Иванов", 65);
             Man manFromFile = null;
             using (var stream = File.CreateText("Man.json"))
             {
-                // Пример JSON серилизации.
+                // Пример JSON сериализации.
                 var serializer = new JsonSerializer();
                 serializer.Serialize(stream, man);
             }
@@ -23,9 +23,9 @@ namespace _021_Serialize
 
             using (var file = File.OpenText("Man.json"))
             {
-                // Пример JSON десерилизации.
+                // Пример JSON десериализации.
                 var serializer = new JsonSerializer();
-                manFromFile = (Man) serializer.Deserialize(file, typeof(Man));
+                manFromFile = (Man)serializer.Deserialize(file, typeof(Man));
             }
 
             Console.WriteLine(manFromFile.ManInfo());

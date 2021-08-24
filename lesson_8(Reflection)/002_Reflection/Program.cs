@@ -7,16 +7,11 @@ namespace _002_Reflection
     {
         // Второй способ создания обьекта класса type.
         static void Main(string[] args)
-        {
-            string myString = "Example string";
-            // Оператор typeof  возвращает экземпляр класса Type.
-            var type = Type.GetType('string');
-            Console.WriteLine("Class name: " + type.FullName);
-            Console.WriteLine("Class name: " + type.Name);
 
+        { 
             Man man = new Man();
             // Оператор typeof  возвращает экземпляр класса Type.
-            type = Type.GetType("Man");
+            var type = Type.GetType("Man");
             Console.WriteLine("Class name: " + type);
             Console.WriteLine("Class name: " + type.Name);
 
