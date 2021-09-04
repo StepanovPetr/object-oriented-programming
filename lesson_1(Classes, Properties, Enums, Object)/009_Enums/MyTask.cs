@@ -14,6 +14,6 @@ namespace _010_Enums
             this._taskOfDay = taskOfDay;
         }
 
-        public string Message => $"{(int)this._dayOfWeek} я должен сделать {this._taskOfDay}";
+        public string Message => $"{this._dayOfWeek} я должен сделать {this._taskOfDay}";
     }
 }

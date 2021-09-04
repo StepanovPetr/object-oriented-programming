@@ -8,7 +8,7 @@ namespace _008_Operators
         {
             Man firstMan = new Man();
             Man seconMan = new Man();
-            seconMan.FirstName = "Ivan";
+            //seconMan.FirstName = "Ivan";
 
             string result = (firstMan == seconMan) ? "Значения равны" : "Значения не равны";
             Console.WriteLine(result);
