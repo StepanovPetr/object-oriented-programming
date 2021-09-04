@@ -8,7 +8,7 @@ namespace _006_FileInfo
         static void Main(string[] args)
         {
             FileInfo fileInfo = new FileInfo("Example.txt");
-            using (FileStream fs = fileInfo.Open(FileMode.Open))
+            using (FileStream fs = fileInfo.Open(FileMode.Create))
             {
                 Console.ReadLine();
             }
