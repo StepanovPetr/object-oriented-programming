@@ -79,9 +79,6 @@
         #region operators
         public static bool operator ==(Man firstMan, Man secondMan)
         {
-            if (firstMan == null || secondMan == null)
-                return false;
-
             return ((firstMan.Age == secondMan.Age)
                     && (firstMan.FirstName == secondMan.FirstName)
                     && (firstMan._secondName == secondMan._secondName))
@@ -91,9 +88,6 @@
 
         public static bool operator !=(Man firstMan, Man secondMan)
         {
-            if (firstMan == null || secondMan == null)
-                return true;
-
             return ((firstMan.Age == secondMan.Age)
                     && (firstMan.FirstName == secondMan.FirstName)
                     && (firstMan._secondName == secondMan._secondName))
