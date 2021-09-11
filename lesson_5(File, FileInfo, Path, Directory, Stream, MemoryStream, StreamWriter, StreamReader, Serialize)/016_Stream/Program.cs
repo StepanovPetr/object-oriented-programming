@@ -7,7 +7,7 @@ namespace _016_Stream
     {
         private static void Main(string[] args)
         {
-            // Чтение, Запись побайтово.
+            // Чтение, запись побайтово.
             using (Stream stream = new FileStream("Test.dat", 
                 FileMode.OpenOrCreate, FileAccess.ReadWrite))
             {
@@ -19,7 +19,7 @@ namespace _016_Stream
                 // Переставляем внутренний указатель на начало.
                 stream.Position = 0;
 
-                // Считывам байты из файла.
+                // Считываем байты из файла.
                 for (var i = 0; i < 256; i++) Console.Write(" " + stream.ReadByte());
                 Console.WriteLine();
             }

@@ -1,6 +1,6 @@
 ﻿namespace LibExample
 {
-    // Интерфес.
+    // Интерфейс.
     public interface IBuilding
     {
         // Сигнатура метода.
