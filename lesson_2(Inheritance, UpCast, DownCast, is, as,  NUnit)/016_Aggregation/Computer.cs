@@ -7,7 +7,7 @@
         private Ram _ram;
 
         // Пример Агрегации.
-        public Computer(Hdd hdd, Monitor monitor, Ram ram )
+        public Computer(Hdd hdd, Monitor monitor, Ram ram)
         {
             _hdd = hdd;
             _monitor = monitor;
