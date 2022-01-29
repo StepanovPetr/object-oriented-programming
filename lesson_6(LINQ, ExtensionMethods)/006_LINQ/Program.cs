@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using LibExample;
 
 namespace _006_LINQ
 {
     class Program
     {
-        //Примеры сортировок по нескольким полям
+        //Примеры сортировок по нескольким полям.
         static void Main(string[] args)
         {
             List<Man> persons = new List<Man>() { Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan() };
@@ -19,8 +20,7 @@ namespace _006_LINQ
             var personQuery =
                 from person in persons
                     //where (person.FirstName != "Петр" && person.Age <= 40)
-                orderby person.FirstName
-                orderby person.Age
+                orderby person.FirstName, person.Age
                 select person;
 
             Console.WriteLine("Отсортированная коллекция по возрастанию.");
@@ -33,8 +33,7 @@ namespace _006_LINQ
             personQuery =
                 from person in persons
                     //where (person.FirstName != "Петр" && person.Age <= 40)
-                orderby person.FirstName descending
-                orderby person.Age descending
+                orderby person.FirstName descending, person.Age descending
                 select person;
 
             Console.WriteLine("Отсортированная коллекция по убыванию.");

@@ -43,7 +43,7 @@ namespace LibExample
 
         public bool LivingRoom => true;
 
-        public City City { get;set; }
+        public City City { get; set; }
         #endregion
     }
 }

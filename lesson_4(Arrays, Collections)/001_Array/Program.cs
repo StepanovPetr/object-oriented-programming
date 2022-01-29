@@ -18,7 +18,7 @@ namespace _001_Array
             intArray = new int[100];
             // Переменная для счетчика.
             int iterator = 0;
-            // Переменная для спользования генератора случайных чисел.
+            // Переменная для использования генератора случайных чисел.
             Random rand = new Random();
             while (iterator < intArray.Length)
             {

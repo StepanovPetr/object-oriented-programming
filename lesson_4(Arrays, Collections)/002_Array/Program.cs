@@ -14,8 +14,8 @@ namespace _002_Array
                 "SomeString", "SomeString", "SomeString", 
                 "SomeString", "SomeString" };
             Man[] customClassArray = new Man[4] { 
-                new Man(), new Man(), new Man(), new Man() 
-            { 
+                new Man(), new Man(), new Man(), new Man 
+                { 
                     Age = 44, 
                     FirstName = "Владимир", 
                     SecondName = "Цыганок" 

@@ -1,13 +1,19 @@
-﻿using System;
+﻿using LibExample;
 
 namespace _014_ExtensionMethods
 {
     public static class MyExtensions
     {
-        // Пример создания метода использования для типа string.
-        public static string AddSomthing(this String str)
+        // Пример создания метода расширения для типа string.
+        public static string AddSomething(this string str)
         {
             return "!@#$%^&*()" + str + "!@#$%^&*()";
+        }
+
+        // Пример создания метода расширения для типа string.
+        public static string AddSomething(this Man man)
+        {
+            return "!@#$%^&*()" + man.GetType() + "!@#$%^&*()";
         }
     }
 }

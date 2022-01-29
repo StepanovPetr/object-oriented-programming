@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using LibExample;
 
 // https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/basic-linq-query-operations#filtering
 namespace _005_LINQ
 {
     class Program
     {
-        //Примеры сортировок
+        // Примеры сортировок.
         static void Main(string[] args)
         {
             // Источник данных.
@@ -21,7 +22,7 @@ namespace _005_LINQ
                 orderby score
                 select score;
 
-            // выполнение запроса.
+            // Выполнение запроса.
             Console.WriteLine("Отсортированная коллекция по возрастанию.");
             foreach (int i in scoreQuery)
             {
@@ -38,7 +39,7 @@ namespace _005_LINQ
                 orderby score descending
                 select score;
 
-            // выполнение запроса.
+            // Выполнение запроса.
             Console.WriteLine("Отсортированная коллекция по убыванию.");
             foreach (int i in scoreQuery)
             {

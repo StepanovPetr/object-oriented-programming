@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using LibExample;
 
 //https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/join-clause#inner-join
 namespace _011_LINQ
@@ -11,9 +12,9 @@ namespace _011_LINQ
         static void Main(string[] args)
         {
             List<Man> persons = new List<Man>() { Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan() };
-            List<Сity> cities = new List<Сity>() { new Сity() { Name ="Омск", Population=10000, Mayor="Оксана"},
-                new Сity() { Name = "Москва", Population = 1000000, Mayor = "Сергей" },
-                new Сity() { Name = "Хацупетовка", Population = 10, Mayor = "Денис Борисов" }};
+            List<City> cities = new List<City>() { new City() { Name ="Омск", Population=10000, Mayor="Оксана"},
+                new City() { Name = "Москва", Population = 1000000, Mayor = "Сергей" },
+                new City() { Name = "Хацупетовка", Population = 10, Mayor = "Денис Борисов" }};
 
 
             foreach (var person in persons)
@@ -35,7 +36,7 @@ namespace _011_LINQ
 
             foreach (var person in queryMenByFirstName)
             {
-                Console.WriteLine("Имя - {0}, Возраст - {1} Название города - {2} Население - {3} Мэр - {4}", person.FirstName, person.Age, person.Name, person.Population, person.Mayor);
+                Console.WriteLine($"Имя - {0}, Возраст - {1} Название города - {2} Население - {3} Мэр - {4}", person.FirstName, person.Age, person.Name, person.Population, person.Mayor);
             }
             Console.ReadLine();
         }

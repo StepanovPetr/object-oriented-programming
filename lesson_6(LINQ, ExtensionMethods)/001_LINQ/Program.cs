@@ -17,7 +17,7 @@ namespace _001_LINQ
                 where score > 80
                 select score;
 
-            // выполнение запроса.
+            // Выполнение запроса.
             foreach (int i in scoreQuery)
             {
                 Console.Write(i + " ");

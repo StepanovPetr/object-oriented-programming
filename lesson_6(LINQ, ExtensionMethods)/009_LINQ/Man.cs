@@ -101,17 +101,17 @@ namespace _009_LINQ
         */
         public string ManInfo()
         {
-            return string.Format("FirstName - {0} SecondName - {1} Age - {2} Hash - {3}", this.FirstName, this.SecondName, this.Age, this.GetHashCode());
-            //https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated Стандарт C# 6
-            //return string.Format($"FirstName - {this.FirstName} SecondName - {this.SecondName} Age - {this.Age}");
+            return
+                $"FirstName - {this.FirstName} SecondName - {this.SecondName} Age - {this.Age} Hash - {this.GetHashCode()}";
+            // https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated Стандарт C# 6
+            // return string.Format($"FirstName - {this.FirstName} SecondName - {this.SecondName} Age - {this.Age}");
         }
 
         // значение переменной по умолчанию.
         public string ManInfoWithPlanet(string planet = "Татуин")
         {
-            return string.Format("FirstName - {0} SecondName - {1} Age - {2} Planet - {3}", this.FirstName, this.SecondName, this.Age, planet);
-            //https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated Стандарт C# 6
-            //return string.Format($"FirstName - {this.FirstName} SecondName - {this.SecondName} Age - {this.Age}");
+            return $"FirstName - {this.FirstName} SecondName - {this.SecondName} Age - {this.Age} Planet - {planet}";
+            // https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated Стандарт C# 6
         }
         #endregion
     }

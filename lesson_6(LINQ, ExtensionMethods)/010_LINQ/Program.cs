@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using LibExample;
 
 namespace _010_LINQ
 {
@@ -17,7 +18,7 @@ namespace _010_LINQ
 
             foreach (var person in queryMenByFirstName)
             {
-                Console.WriteLine("{0}-{1}",person.FirstName, person.Age );
+                Console.WriteLine($"{person.FirstName}-{person.Age }");
             }
             Console.ReadLine();
         }

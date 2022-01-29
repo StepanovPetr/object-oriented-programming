@@ -2,7 +2,7 @@
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 
-namespace _025_LINQ
+namespace LibExample
 {
     [System.Serializable()]
     public class Man
@@ -11,6 +11,7 @@ namespace _025_LINQ
         #region static fields
         static string[] _firstNames = new string[] { "Вова", "Алексей", "Егор", "Дима", "Николай", "Петр", "Максим", "Иван" };
         static string[] _secondNames = new string[] { "Мусихин", "Цыганок", "Чердынцев", "Степанов", "Куянов", "Атинк", "Максим", "Блинов" };
+        static string[] _cities = new string[] { "Омск", "Москва", "Хацупетовка", "Исилькуль", "Магадан" };
         static Random _rand = new Random();
         #endregion
 
@@ -21,7 +22,7 @@ namespace _025_LINQ
         #endregion
 
         #region   Constructors
-        // Конструктор по умолчанию
+        // Конструктор по умолчанию.
         public Man()
         {
             this.FirstName = "Энакин";
@@ -29,7 +30,7 @@ namespace _025_LINQ
             this.Age = 33;
         }
 
-        // Конструктор с параметрами
+        // Конструктор с параметрами.
         public Man(string firstName, string secondName, int age)
         {
             this.FirstName = firstName;
@@ -49,6 +50,7 @@ namespace _025_LINQ
             {
                 FirstName = _firstNames[_rand.Next(0, _firstNames.Length)],
                 SecondName = _secondNames[_rand.Next(0, _secondNames.Length)],
+                City = _cities[_rand.Next(0, _cities.Length)],
                 Age = _rand.Next(1, 101)
             };
         }
@@ -78,18 +80,20 @@ namespace _025_LINQ
 
         public string ManInfo()
         {
-            return string.Format("FirstName - {0} SecondName - {1} Age - {2} Hash - {3}", this.FirstName, this.SecondName, this.Age, this.GetHashCode());
-            //https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated Стандарт C# 6
-            //return string.Format($"FirstName - {this.FirstName} SecondName - {this.SecondName} Age - {this.Age}");
+            return $"FirstName - {this.FirstName} SecondName - {this.SecondName} Age - {this.Age} City - {this.City} Hash - {this.GetHashCode()}";
+            // https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated Стандарт C# 6
         }
 
         // значение переменной по умолчанию.
         public string ManInfoWithPlanet(string planet = "Татуин")
         {
-            return string.Format("FirstName - {0} SecondName - {1} Age - {2} Planet - {3}", this.FirstName, this.SecondName, this.Age, planet);
-            //https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated Стандарт C# 6
-            //return string.Format($"FirstName - {this.FirstName} SecondName - {this.SecondName} Age - {this.Age}");
+            return $"FirstName - {this.FirstName} SecondName - {this.SecondName} Age - {this.Age} Planet - {planet}";
+            // https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated Стандарт C# 6
         }
+        #endregion
+
+        #region public property
+        public string City { get; set; }
         #endregion
     }
 }
