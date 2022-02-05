@@ -37,7 +37,7 @@ namespace _004_LINQ
             // Определите выражение запроса.
             var personQuery =
                 from person in persons
-                where (person.FirstName != "Петр"  && person.Age <= 40)
+                where (person.FirstName != "Петр" && person.Age <= 40)
                 select person;
 
             Console.WriteLine("Отфильтрованная коллекция.");
