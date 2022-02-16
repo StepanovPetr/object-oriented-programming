@@ -3,7 +3,11 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>_008_Delegate</RootNamespace>
+    <RootNamespace>_004_Delegate</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LibExample\LibExample.csproj" />
+  </ItemGroup>
 
 </Project>

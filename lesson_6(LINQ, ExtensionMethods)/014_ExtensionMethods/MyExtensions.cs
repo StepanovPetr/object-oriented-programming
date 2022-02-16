@@ -10,7 +10,7 @@ namespace _014_ExtensionMethods
             return "!@#$%^&*()" + str + "!@#$%^&*()";
         }
 
-        // Пример создания метода расширения для типа string.
+        // Пример создания метода расширения для типа Man.
         public static string AddSomething(this Man man)
         {
             return "!@#$%^&*()" + man.GetType() + "!@#$%^&*()";

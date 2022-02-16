@@ -1,4 +1,5 @@
 ﻿using System;
+using LibExample;
 
 // Комбинированные (групповые).
 namespace _004_Delegate

@@ -4,8 +4,6 @@
 // События.
 namespace Events
 {
-
-
     /*
      * События представляют собой специальный вид многоадресного делегата, который можно вызвать только из класса или структуры, в которых он объявлен (класс Publisher). 
      * Если другие классы или структуры подписываются на событие, их методы обработчиков событий будут вызываться, когда класс 
@@ -27,12 +25,12 @@ namespace Events
     {
         // Методы обработчики события.
 
-        static private void Handler1()
+        private static void Handler1()
         {
             Console.WriteLine("Выплыть");
         }
 
-        static private void Handler2()
+        private static void Handler2()
         {
             Console.WriteLine("Утонуть");
         }

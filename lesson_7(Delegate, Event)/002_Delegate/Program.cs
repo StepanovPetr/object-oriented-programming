@@ -1,4 +1,5 @@
 ﻿using System;
+using LibExample;
 
 /*
  Возвращаемое значение делегата.
@@ -13,10 +14,10 @@ namespace _002_Delegate
             SimpleClass simpleClass = new SimpleClass();
 
             // Пример создания делегата используя конструктор.
-            MyDelegate handler1 = new MyDelegate(simpleClass.DelegateMethod);
+            MyDelegateWithInputValueAndReturnValue handler1 = new MyDelegateWithInputValueAndReturnValue(simpleClass.DelegateMethodWithReturnValue);
 
             // Пример предположения типа делегата.
-            MyDelegate handler2 = simpleClass.DelegateMethod;
+            MyDelegateWithInputValueAndReturnValue handler2 = simpleClass.DelegateMethodWithReturnValue;
 
             // Пример вызова делегата.
             string resultHandler1 = handler1.Invoke("Hello word for handler1");

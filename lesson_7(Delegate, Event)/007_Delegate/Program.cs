@@ -11,7 +11,7 @@ namespace _007_Delegate
         {
             int summand1 = 1, summand2 = 2, sum = 0;
 
-            MyDelegate myDelegate = delegate (int a, int b) { return a + b; };
+            MyDelegate myDelegate = (a, b) => a + b;
 
             sum = myDelegate.Invoke(summand1, summand2);
 

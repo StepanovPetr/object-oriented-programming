@@ -17,10 +17,11 @@ namespace Events
 
         public event EventDelegate SessionStart
         {
-            add {
+            add 
+            {
                 if (!value.Method.Name.Contains("Bad"))
                     sessionStart += value;
-                }
+            }
             remove { SessionStart -= value; }
         }
 
@@ -34,22 +35,22 @@ namespace Events
     {
         // Методы обработчики события.
 
-        static private void GoodHandler1()
+        private static void GoodHandler1()
         {
             Console.WriteLine("Начинать учить.");
         }
 
-        static private void GoodHandler2()
+        private static void GoodHandler2()
         {
             Console.WriteLine("Появиться в универе.");
         }
 
-        static private void BadHandler1()
+        private static void BadHandler1()
         {
             Console.WriteLine("Учить устав.");
         }
 
-        static private void BadHandler2()
+        private static void BadHandler2()
         {
             Console.WriteLine("Написать заявление на отчисление");
         }
