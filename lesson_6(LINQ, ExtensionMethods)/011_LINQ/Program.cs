@@ -32,7 +32,7 @@ namespace _011_LINQ
             var queryMenByFirstName =
             from person in persons 
             join city in cities on person.City equals city.Name
-            select new { person.FirstName, person.Age, city.Name, city.Population, city.Mayor};
+            select new {person.FirstName, person.Age, city.Name, city.Population, city.Mayor};
 
             foreach (var person in queryMenByFirstName)
             {

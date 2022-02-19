@@ -20,7 +20,7 @@ namespace _003_LINQ
 
             List<int> scoreQueryToLit = scoreQuery.ToList();
 
-            // выполнение запроса.
+            // Выполнение запроса.
             Console.WriteLine("Выполнение до изменения коллекции.");
             foreach (int i in scoreQueryToLit)
             {
@@ -29,7 +29,7 @@ namespace _003_LINQ
             Console.WriteLine();
             scores.RemoveRange(0, 2);
 
-            // выполнение запроса.
+            // Выполнение запроса.
             Console.WriteLine("Выполнение после изменения коллекции.");
             foreach (int i in scoreQueryToLit)
             {
