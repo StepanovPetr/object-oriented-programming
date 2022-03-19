@@ -19,7 +19,7 @@ namespace _017_LINQ
             //    where score > 80
             //    select score;
 
-            // выполнение запроса.
+            // Выполнение запроса.
             Console.WriteLine("Выполнение до изменения коллекции.");
             foreach (int i in scoreQuery)
             {
@@ -28,7 +28,7 @@ namespace _017_LINQ
             Console.WriteLine();
             scores.RemoveRange(0, 2);
 
-            // выполнение запроса.
+            // Выполнение запроса.
             Console.WriteLine("Выполнение после изменения коллекции.");
             foreach (int i in scoreQuery)
             {
