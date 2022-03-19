@@ -18,7 +18,7 @@ namespace _001_Reflection
             Man man = new Man();
             // Вызов метода GetType() (Метод базового класса object).
             type = man.GetType();
-            Console.WriteLine("Class name: " + type);
+            Console.WriteLine("Class name: " + type.FullName);
             Console.WriteLine("Class name: " + type.Name);
 
             Console.ReadLine();

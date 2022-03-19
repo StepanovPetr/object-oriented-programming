@@ -7,6 +7,10 @@ namespace LibExample
     [System.Serializable()]
     public class Man
     {
+        #region private fields
+        private int _age;
+        #endregion
+
         #region static fields
         static string[] _firstNames = new string[] { "Вова", "Алексей", "Егор", "Дима", "Николай", "Петр", "Максим", "Иван" };
         static string[] _secondNames = new string[] { "Мусихин", "Цыганок", "Чердынцев", "Степанов", "Куянов", "Атинк", "Максим", "Блинов" };
@@ -52,7 +56,6 @@ namespace LibExample
         #endregion
 
         #region public metods
-
         public bool BinarySerialization(string fileName = "Man.bin")
         {
             bool result = false;
@@ -78,9 +81,8 @@ namespace LibExample
 
         public string ManInfo()
         {
-            return string.Format("FirstName - {0} SecondName - {1} Age - {2} Hash - {3}", this.FirstName, this.SecondName, this.Age, this.GetHashCode());
-            //https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated Стандарт C# 6
-            //return string.Format($"FirstName - {this.FirstName} SecondName - {this.SecondName} Age - {this.Age}");
+            return string.Format($"FirstName - {FirstName} SecondName - {SecondName} Age - {_age} Hash - {GetHashCode()}");
+
         }
 
         // значение переменной по умолчанию.
@@ -90,6 +92,14 @@ namespace LibExample
             //https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated Стандарт C# 6
             //return string.Format($"FirstName - {this.FirstName} SecondName - {this.SecondName} Age - {this.Age}");
         }
+        #endregion
+
+        #region public metods
+        private string examplePrivateMethod(string strginParam, int numParam, bool boolParam)
+        {
+            return $"{strginParam}  {numParam}  {boolParam}";
+        }
+
         #endregion
 
         #region public property

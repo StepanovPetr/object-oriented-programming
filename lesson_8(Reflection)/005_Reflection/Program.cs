@@ -33,6 +33,5 @@ namespace _005_Reflection
             Console.WriteLine($"Приватный член? {fieldInfo.IsPrivate}");
             Console.WriteLine($"Открытый член? {fieldInfo.IsPublic}");
         }
-
     }
 }

@@ -15,7 +15,6 @@ namespace _013_Reflection
                 Console.WriteLine(type.FullName);
             }
 
-
             Console.WriteLine("Hello World!");
         }
     }

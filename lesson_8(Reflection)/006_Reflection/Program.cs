@@ -24,7 +24,7 @@ namespace _006_Reflection
             Console.WriteLine($"First Name {firstName}");
 
             // Установка значения переменной.
-            fieldInfo.SetValue(man,"Энакин");
+            fieldInfo.SetValue(man,"Vasy");
             Console.WriteLine(man.ManInfo());
 
             fieldInfo = type.GetField("_age",

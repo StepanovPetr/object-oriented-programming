@@ -19,11 +19,11 @@ namespace _009_Reflection
             foreach (var propertyInfo in propertiesInfo)
             {
                string value = propertyInfo.GetValue(man).ToString();
-               Console.WriteLine($"Текущие значение свойтва {propertyInfo.Name}  - {value}");
-               propertyInfo.SetValue(man, "Мордор");
+               Console.WriteLine($"Текущие значение свойтва {propertyInfo.Name} - {value}");
+               propertyInfo.SetValue(man, "Mordor");
             }
 
-            Console.WriteLine(man.ManInfo()); ;
+            Console.WriteLine(man.City); ;
             Console.ReadLine();
         }
     }

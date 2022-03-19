@@ -14,7 +14,7 @@ namespace _011_Reflection
             var type = man.GetType();
 
             // Получение всех методов из класса.
-            MethodInfo methodInfo = type.GetMethod("ExamplePrivateMethod", BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public);
+            MethodInfo methodInfo = type.GetMethod("examplePrivateMethod", BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public);
 
             // Вызов приватного метода с параметрами!!!
             string result =  methodInfo.Invoke(man, new object[] {"StrginParam", 666, true}).ToString();
