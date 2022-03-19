@@ -1,4 +1,5 @@
 ﻿using System;
+using LibExample;
 
 // https://docs.microsoft.com/en-us/dotnet/api/system.type.gettype?view=netframework-4.5#System_Type_GetType_System_String_
 namespace _003_Reflection
@@ -17,7 +18,7 @@ namespace _003_Reflection
 
             Man man = new Man();
             // Вызов метода GetType() класса Type (Нужно передать полное имя класса включая namespace).
-            type = Type.GetType("_003_Reflection.Man");
+            type = Type.GetType("LibExample.Man");
             Console.WriteLine("Class name: " + type);
             Console.WriteLine("Class name: " + type.Name);
 

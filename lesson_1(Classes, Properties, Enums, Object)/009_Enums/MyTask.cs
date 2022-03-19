@@ -1,7 +1,6 @@
-﻿using System;
-using _010_Enums.Enums;
+﻿using _009_Enums.Enums;
 
-namespace _010_Enums
+namespace _009_Enums
 {
     class MyTask
     {
@@ -14,6 +13,6 @@ namespace _010_Enums
             this._taskOfDay = taskOfDay;
         }
 
-        public string Message => $"{this._dayOfWeek} я должен сделать {this._taskOfDay}";
+        public string Message => $"{_dayOfWeek} {(int)_dayOfWeek} я должен сделать {_taskOfDay}";
     }
 }

@@ -2,6 +2,7 @@
 using System.IO;
 // Пространство имен для работы с рефлексией.
 using System.Reflection;
+using LibExample;
 
 namespace _006_Reflection
 {

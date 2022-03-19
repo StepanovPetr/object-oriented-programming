@@ -6,7 +6,11 @@ namespace _004_Properties
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var person = new Man();
+            Console.WriteLine($"{person.FirstName}, {person.SecondName}, {person.Age}");
+            person.FirstName = "Ivan";
+            Console.WriteLine($"{person.FirstName}, {person.SecondName}, {person.Age}");
+            Console.ReadKey();
         }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 // Пространство имен для работы с рефлексией.
 using System.Reflection;
+using LibExample;
 
 // https://docs.microsoft.com/en-us/dotnet/api/system.type.getfield?view=netframework-4.8
 // https://docs.microsoft.com/en-us/dotnet/api/system.reflection.fieldinfo.setvalue?view=netframework-4.8

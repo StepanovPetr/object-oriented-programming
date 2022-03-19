@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace _004_Properties
+﻿namespace _004_Properties
 {
     internal class Man
     {

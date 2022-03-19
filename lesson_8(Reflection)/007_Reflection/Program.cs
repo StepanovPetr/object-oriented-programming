@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Reflection;
+using LibExample;
 
 // https://docs.microsoft.com/en-us/dotnet/api/system.type.getfields?view=netframework-4.5
 namespace _007_Reflection

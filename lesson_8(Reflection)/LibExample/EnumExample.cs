@@ -1,6 +1,6 @@
-﻿namespace _004_Reflection
+﻿namespace LibExample
 {
-    enum EnumExample
+    public enum EnumExample
     {
         None = 0,
         Unknown = 1,

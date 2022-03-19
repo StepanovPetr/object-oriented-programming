@@ -1,7 +1,7 @@
 ﻿using System;
-using _010_Enums.Enums;
+using _009_Enums.Enums;
 
-namespace _010_Enums
+namespace _009_Enums
 {
     class Program
     {
@@ -12,7 +12,6 @@ namespace _010_Enums
 
             Console.WriteLine(task.Message);
             Console.WriteLine(task2.Message);
-
             Console.ReadLine();
         }
     }

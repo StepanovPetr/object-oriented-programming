@@ -2,12 +2,11 @@
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 
-namespace _011_Reflection
+namespace LibExample
 {
     [System.Serializable()]
     public class Man
     {
-
         #region static fields
         static string[] _firstNames = new string[] { "Вова", "Алексей", "Егор", "Дима", "Николай", "Петр", "Максим", "Иван" };
         static string[] _secondNames = new string[] { "Мусихин", "Цыганок", "Чердынцев", "Степанов", "Куянов", "Атинк", "Максим", "Блинов" };
@@ -15,14 +14,10 @@ namespace _011_Reflection
         static Random _rand = new Random();
         #endregion
 
-        #region private fields
-        public int _age;
-        #endregion
-
         #region public fields
         public string FirstName;
         public string SecondName;
-        //public int Age;
+        public int Age;
         #endregion
 
         #region   Constructors
@@ -31,7 +26,7 @@ namespace _011_Reflection
         {
             this.FirstName = "Энакин";
             this.SecondName = "Скайуокер";
-            this._age = 33;
+            this.Age = 33;
         }
 
         // Конструктор с параметрами
@@ -39,7 +34,7 @@ namespace _011_Reflection
         {
             this.FirstName = firstName;
             this.SecondName = secondName;
-            this._age = age;
+            this.Age = age;
         }
         #endregion
 
@@ -51,7 +46,7 @@ namespace _011_Reflection
                 FirstName = _firstNames[_rand.Next(0, _firstNames.Length)],
                 SecondName = _secondNames[_rand.Next(0, _secondNames.Length)],
                 City = _cities[_rand.Next(0, _cities.Length)],
-                _age = _rand.Next(1, 101)
+                Age = _rand.Next(1, 101)
             };
         }
         #endregion
@@ -83,7 +78,7 @@ namespace _011_Reflection
 
         public string ManInfo()
         {
-            return string.Format("FirstName - {0} SecondName - {1} Age - {2}  City - {3} Hash - {4}", this.FirstName, this.SecondName, this._age, this.City, this.GetHashCode());
+            return string.Format("FirstName - {0} SecondName - {1} Age - {2} Hash - {3}", this.FirstName, this.SecondName, this.Age, this.GetHashCode());
             //https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated Стандарт C# 6
             //return string.Format($"FirstName - {this.FirstName} SecondName - {this.SecondName} Age - {this.Age}");
         }
@@ -91,16 +86,9 @@ namespace _011_Reflection
         // значение переменной по умолчанию.
         public string ManInfoWithPlanet(string planet = "Татуин")
         {
-            return string.Format("FirstName - {0} SecondName - {1} Age - {2} Planet - {3}", this.FirstName, this.SecondName, this._age, planet);
+            return string.Format("FirstName - {0} SecondName - {1} Age - {2} Planet - {3}", this.FirstName, this.SecondName, this.Age, planet);
             //https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated Стандарт C# 6
             //return string.Format($"FirstName - {this.FirstName} SecondName - {this.SecondName} Age - {this.Age}");
-        }
-        #endregion
-
-        #region private metods
-        private string ExamplePrivateMethod(string stringParam, int intParam, bool boolParam)
-        {
-            return stringParam + intParam + boolParam;
         }
         #endregion
 

@@ -7,10 +7,25 @@ namespace _008_Operators
         static void Main(string[] args)
         {
             Man firstMan = new Man();
-            Man seconMan = new Man();
-            //seconMan.FirstName = "Ivan";
+         
+            Console.WriteLine(firstMan.ManInfo());
+            firstMan  = firstMan + 60;
+            Console.WriteLine(firstMan.ManInfo());
 
-            string result = (firstMan == seconMan) ? "Значения равны" : "Значения не равны";
+            firstMan = new Man();
+            Man secondMan = new Man();
+
+            string result = (firstMan == secondMan) 
+                ? "Значения равны" 
+                : "Значения не равны";
+
+            Console.WriteLine(result);
+
+            secondMan.FirstName = "Ivan";
+            result = (firstMan == secondMan)
+                ? "Значения равны" 
+                : "Значения не равны";
+
             Console.WriteLine(result);
             Console.ReadKey();
         }

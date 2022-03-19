@@ -1,4 +1,5 @@
 ﻿using System;
+using LibExample;
 
 // https://docs.microsoft.com/en-us/dotnet/api/system.type.isenum?view=netframework-4.5
 // https://docs.microsoft.com/en-us/dotnet/api/system.type.isinterface?view=netframework-4.5

@@ -20,6 +20,9 @@
         public string SecondName { get; set; }
 
         public int Age { get; set; }
+
+        public string Fio => $"{FirstName} {SecondName}";
+
         #endregion
     }
 }

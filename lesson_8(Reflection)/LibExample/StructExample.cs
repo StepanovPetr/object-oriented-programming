@@ -1,6 +1,6 @@
-﻿namespace _004_Reflection
+﻿namespace LibExample
 {
-    struct StructExample
+    public struct StructExample
     {
        public int field1 ;
        public int field2 ;

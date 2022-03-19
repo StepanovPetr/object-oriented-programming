@@ -1,4 +1,5 @@
 ﻿using System;
+using LibExample;
 
 // https://docs.microsoft.com/en-us/dotnet/api/system.type.gettype?view=netframework-4.5#System_Type_GetType_System_String
 namespace _002_Reflection
@@ -11,7 +12,7 @@ namespace _002_Reflection
         { 
             Man man = new Man();
             // Оператор typeof  возвращает экземпляр класса Type.
-            var type = Type.GetType("Man");
+            var type = typeof(Man);
             Console.WriteLine("Class name: " + type);
             Console.WriteLine("Class name: " + type.Name);
 

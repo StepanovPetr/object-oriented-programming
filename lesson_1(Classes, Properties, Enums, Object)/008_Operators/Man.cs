@@ -52,13 +52,7 @@
             set { _secondName = value; }
         }
 
-        public int Age
-        {
-            get
-            {
-                return _age;
-            }
-        }
+        public int Age { get; set; }
         #endregion
 
         #region public metods
@@ -70,22 +64,25 @@
         }
         #endregion
 
+
+        public static Man operator +(Man firstMan, int age)
+        {
+             firstMan.Age += age;
+             return firstMan;
+        }
+
         public static bool operator ==(Man firstMan, Man secondMan)
         {
             return ((firstMan.Age == secondMan.Age)
                     && (firstMan.FirstName == secondMan.FirstName)
-                    && (firstMan._secondName == secondMan._secondName))
-                ? true
-                : false;
+                    && (firstMan._secondName == secondMan._secondName));
         }
 
         public static bool operator !=(Man firstMan, Man secondMan)
         {
-            return ((firstMan.Age == secondMan.Age)
-                    && (firstMan.FirstName == secondMan.FirstName)
-                    && (firstMan._secondName == secondMan._secondName))
-                ? false
-                : true;
+            return ((firstMan.Age != secondMan.Age)
+                    || (firstMan.FirstName != secondMan.FirstName)
+                    || (firstMan._secondName != secondMan._secondName));
         }
     }
 }
