@@ -3,38 +3,47 @@ namespace Builder
 {
     class EmployeeBuilder : IEmployeeBuilder
     {
-        private readonly Employee employee = new Employee();
+        private Employee _employee = new Employee();
+
+        public static EmployeeBuilder CreateBuilder() => new EmployeeBuilder();
+
+        public static EmployeeBuilder CreateCorrectBuilder() => new EmployeeBuilder()
+                .SetFirstName("Вася")
+                .SetLastName("Иванов")
+                .SetDepartment("Отдел разработки")
+                .SetPositon(".Net разработчик")
+                .SetManagerName("Линус Торвальдс");
 
         public EmployeeBuilder SetFirstName(string firstName)
         {
-            employee.FirstName = firstName;
+            _employee.FirstName = firstName;
             return this;
         }
 
         public EmployeeBuilder SetLastName(string lastName)
         {
-            employee.LastName = lastName;
+            _employee.LastName = lastName;
             return this;
         }
 
         public EmployeeBuilder SetDepartment(string department)
         {
-            employee.Department = department;
+            _employee.Department = department;
             return this;
         }
 
         public EmployeeBuilder SetManagerName(string managerName)
         {
-            employee.ManagerName = managerName;
+            _employee.ManagerName = managerName;
             return this;
         }
 
         public EmployeeBuilder SetPositon(string position)
         {
-            employee.Position = position;
+            _employee.Position = position;
             return this;
         }
 
-        public IEmployee Build() => employee;
+        public IEmployee Build() => _employee;
     }
 }

@@ -8,7 +8,8 @@ namespace Builder
         private static void Main(string[] args)
         {
             var employeeBuilder = new EmployeeBuilder();
-            var employee = employeeBuilder.SetFirstName("Вася")
+            var employee = EmployeeBuilder.CreateBuilder()
+                .SetFirstName("Вася")
                 .SetLastName("Иванов")
                 .SetDepartment("Отдел разработки")
                 .SetPositon(".Net разработчик")

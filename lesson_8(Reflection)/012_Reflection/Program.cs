@@ -23,8 +23,8 @@ namespace _012_Reflection
             {
                 var person =
                 (constructor.GetParameters().Length == 0)
-                ? constructor.Invoke(new object[0]{})
-                : constructor.Invoke(new object[3] {"Обиван", "Кеноби", 33});
+                ? constructor.Invoke(new object[0] { })
+                : constructor.Invoke(new object[3] { "Обиван", "Кеноби", 33 });
 
                 men.Add((Man)person);
             }
