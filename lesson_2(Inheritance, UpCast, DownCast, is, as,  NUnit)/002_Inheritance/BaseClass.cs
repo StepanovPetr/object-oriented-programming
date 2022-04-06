@@ -8,9 +8,9 @@ namespace _002_Inheritance
         // Закрытое поле.
         private string _privateField = "private Field";
         // Защищенное поле.
-        protected string protectedField = "protected Field";
+        protected string ProtectedField = "protected Field";
         // Открытое поле.
-        public string publicField = "public Field";
+        public string PublicField = "public Field";
         #endregion
 
         public BaseClass()
@@ -19,8 +19,8 @@ namespace _002_Inheritance
             Console.ForegroundColor = ConsoleColor.Black;
             Console.WriteLine("BaseClass constructor");
             Console.WriteLine(_privateField);
-            Console.WriteLine(protectedField);
-            Console.WriteLine(publicField);
+            Console.WriteLine(ProtectedField);
+            Console.WriteLine(PublicField);
         }
     }
 }

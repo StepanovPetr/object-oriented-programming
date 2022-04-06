@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace _011_Virtual
+﻿namespace _011_Virtual
 {
     public class BaseClass
     {

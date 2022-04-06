@@ -8,17 +8,17 @@ namespace Inheritance_1
         // Закрытое поле.
         private string _privateField = "private Field";
         // Защищенное поле.
-        protected string protectedField = "protected Field";
+        protected string ProtectedField = "protected Field";
         // Открытое поле.
-        public string publicField = "public Field";
+        public string PublicField = "public Field";
 
         public void ShowFields()
         {
             Console.BackgroundColor = ConsoleColor.White;
             Console.ForegroundColor = ConsoleColor.Black;
             Console.WriteLine(_privateField);
-            Console.WriteLine(protectedField);
-            Console.WriteLine(publicField);
+            Console.WriteLine(ProtectedField);
+            Console.WriteLine(PublicField);
         }
     }
 }

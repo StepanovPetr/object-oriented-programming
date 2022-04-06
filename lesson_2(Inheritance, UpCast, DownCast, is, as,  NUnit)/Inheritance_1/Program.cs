@@ -8,12 +8,14 @@ namespace Inheritance_1
         {
             BaseClass baseClass = new BaseClass();
 
-            Console.WriteLine(baseClass.publicField);
+            Console.WriteLine(baseClass.PublicField);
             //Console.WriteLine(baseClass.);
             baseClass.ShowFields();
 
             DerivedClass derivedClass = new DerivedClass();
-            derivedClass.ShowFields(); 
+            derivedClass.ShowFields();
+
+            Console.WriteLine($"PublicField {derivedClass.PublicField}");
             //Console.WriteLine(derivedClass.protectedField);
             Console.ReadLine();
         }

@@ -8,13 +8,13 @@ namespace _002_Inheritance
         public DerivedClass()
         {
             // Изменяем все доступные поля, унаследованные от базового класса.
-            publicField = "New public Field";
-            protectedField = "New protected  Field";
+            PublicField = "New public Field";
+            ProtectedField = "New protected  Field";
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Derived Class constructor");
-            Console.WriteLine(publicField);
-            Console.WriteLine(protectedField);
+            Console.WriteLine(PublicField);
+            Console.WriteLine(ProtectedField);
         }
     }
 }

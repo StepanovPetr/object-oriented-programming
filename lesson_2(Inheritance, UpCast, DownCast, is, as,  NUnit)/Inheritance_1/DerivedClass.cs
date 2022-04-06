@@ -8,17 +8,17 @@ namespace Inheritance_1
         public DerivedClass()
         {
             // Изменяем все доступные поля, унаследованные от базового класса.
-            protectedField = "New protected  Field";
-            publicField = "New public Field";
+            ProtectedField = "New protected  Field";
+            PublicField = "New public Field";
         }
 
         public void ShowFields()
         {
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(publicField);
+            Console.WriteLine(PublicField);
             //Console.WriteLine(privateField);
-            Console.WriteLine(protectedField);
+            Console.WriteLine(ProtectedField);
         }
     }
 }

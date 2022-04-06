@@ -7,6 +7,7 @@ namespace _002_Inheritance
         static void Main(string[] args)
         {
             DerivedClass derivedClass = new DerivedClass();
+
             Console.ReadLine();
         }
     }

@@ -2,6 +2,7 @@
 {
     public class ClassForUnitTesting
     {
+        // Сила тока.
         public static double Amperage(double electricalVoltage, double electricalResistance)
         {
             return electricalVoltage / electricalResistance;
@@ -12,7 +13,7 @@
             return amperage * electricalResistance;
         }
 
-        public static double electricalResistance(double amperage, double electricalVoltage)
+        public static double ElectricalResistance(double amperage, double electricalVoltage)
         {
             return electricalVoltage / amperage;
         }

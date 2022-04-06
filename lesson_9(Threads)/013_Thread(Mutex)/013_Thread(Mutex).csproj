@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>_006_Thread</RootNamespace>
+    <RootNamespace>_013_Thread_Mutex_</RootNamespace>
   </PropertyGroup>
 
 </Project>

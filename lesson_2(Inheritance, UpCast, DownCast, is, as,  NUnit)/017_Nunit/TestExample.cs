@@ -11,16 +11,13 @@ namespace _17_Nunit
         [Test]
         public void AmperageIsTrue()
         {
-            double result = ClassForUnitTesting.Amperage(50, 5);
-            Assert.AreEqual(result, 10);
-        }
+            // Arrange.
 
-        // Метод помечен как unit тест.
-        [Test]
-        public void AmperageIsFalse()
-        {
-            double result = ClassForUnitTesting.Amperage(60, 5);
-            Assert.AreNotEqual(result, 10);
+            // Act.
+            double result = ClassForUnitTesting.Amperage(50, 5);
+            
+            // Assert.
+            Assert.AreEqual(result, 10);
         }
     }
 }

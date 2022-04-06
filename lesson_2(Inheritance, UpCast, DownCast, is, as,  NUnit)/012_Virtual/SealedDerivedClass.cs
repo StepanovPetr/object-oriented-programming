@@ -2,7 +2,7 @@
 
 namespace _010_Virtual
 {
-    public class SealdDerivedClass : BaseClass
+    public class SealedDerivedClass : BaseClass
     {
         // Пример замещения метода в дочернем классе.
         public new void NormalMethod()
