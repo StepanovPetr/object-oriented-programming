@@ -26,10 +26,10 @@ namespace _017_ConcurrentBag
 
         static void Main(string[] args)
         {
-            ThreadPool.UnsafeQueueUserWorkItem(MethodForThread, "001");
-            ThreadPool.UnsafeQueueUserWorkItem(MethodForThread, "002");
-            ThreadPool.UnsafeQueueUserWorkItem(MethodForThread, "003");
-            ThreadPool.UnsafeQueueUserWorkItem(MethodForThread, "004");
+            ThreadPool.QueueUserWorkItem(MethodForThread, "001");
+            ThreadPool.QueueUserWorkItem(MethodForThread, "002");
+            ThreadPool.QueueUserWorkItem(MethodForThread, "003");
+            ThreadPool.QueueUserWorkItem(MethodForThread, "004");
 
             Thread.Sleep(11000);
             foreach (var item in concurrentBag)

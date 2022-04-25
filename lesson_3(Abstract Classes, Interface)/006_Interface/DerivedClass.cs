@@ -2,12 +2,12 @@
 
 namespace _006_Interface
 {
-    class DerivedClass : BaseClass, Interface1, Interface2
+    class DerivedClass : BaseClass, IInterface1, IInterface2
     {
         public void Method1()
         {
             Console.WriteLine("Реализация метода " +
-                "Method1() из Interface1");
+                "Method1() из IInterface1");
         }
     }
 }

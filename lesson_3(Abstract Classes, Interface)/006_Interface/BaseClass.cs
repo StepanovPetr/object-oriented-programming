@@ -11,7 +11,7 @@ namespace _006_Interface
 
         public void Method2()
         {
-            Console.WriteLine("Реализация метода Method2() из Interface2");
+            Console.WriteLine("Реализация метода Method2() из IInterface2");
         }
     }
 }

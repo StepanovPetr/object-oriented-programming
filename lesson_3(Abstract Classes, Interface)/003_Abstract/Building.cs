@@ -6,8 +6,8 @@ namespace _003_Abstract
     abstract class Building : Place
     {
         // Не абстактные члены.
-        public string _ownerName = "Василий";
-        public string _ownerLastName = "Пупкин";
+        public string OwnerName = "Василий";
+        public string OwnerLastName = "Пупкин";
 
         // Не абстактный метод.
         public abstract int Price(int value);
@@ -20,8 +20,8 @@ namespace _003_Abstract
 
         public string GetOwner()
         {
-            return $"Имя владельца - {_ownerName}, " +
-                $"Фамилия владельца - {_ownerLastName}";
+            return $"Имя владельца - {OwnerName}, " +
+                $"Фамилия владельца - {OwnerLastName}";
         }
         public abstract int Area
         {
