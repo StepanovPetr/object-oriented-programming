@@ -24,7 +24,23 @@ namespace _016_LINQ
             {
                 Console.Write(i + " ");
             }
+
             Console.ReadLine();
+
+
+            var str = "123";
+            var newStr = str;
+            str = newStr + "356";
+
+            Console.Write(newStr);
+
+            var count = 5;
+
+            Enumerable.Repeat(1, 100)
+                .Where((_) => count < 50)
+                .Select((x) => count++);
+
+            Console.WriteLine(count);
         }
     }
 }
