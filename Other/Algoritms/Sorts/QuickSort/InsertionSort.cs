@@ -26,9 +26,7 @@ namespace QuickSort
             {
                 if (max < array[i])
                 {
-                    var tmp = max;
-                    max = array[i];
-                    array[i] = tmp;
+                    (max, array[i]) = (array[i], max);
                 }
             }
 
