@@ -19,24 +19,24 @@ namespace _004_Md5
                 using (stream)
                 {
                     // Пример получения Md5 хеша файла.
-                    Console.WriteLine(Encoding.UTF8.GetString(md5.ComputeHash(stream)));
+                    Console.WriteLine(BitConverter.ToString(md5.ComputeHash(stream)));
                 }
 
                 using (var stream2 = File.OpenRead("Copy04"))
                 {
                     // Пример получения Md5 хеша файла.
-                    Console.WriteLine(Encoding.UTF8.GetString(md5.ComputeHash(stream2)));
+                    Console.WriteLine(BitConverter.ToString(md5.ComputeHash(stream2)));
                 }
 
                 using (var stream3 = File.OpenRead("CopyCopy04"))
                 {
                     // Пример получения Md5 хеша файла.
-                    Console.WriteLine(Encoding.UTF8.GetString(md5.ComputeHash(stream3)));
+                    Console.WriteLine(BitConverter.ToString(md5.ComputeHash(stream3)));
                 }
 
                 using var stream4 = File.OpenRead("Example.txt");
                 // Пример получения Md5 хеша файла.
-                Console.WriteLine(Encoding.UTF8.GetString(md5.ComputeHash(stream4)));
+                Console.WriteLine(BitConverter.ToString(md5.ComputeHash(stream4)));
             }
 
             Console.ReadLine();
