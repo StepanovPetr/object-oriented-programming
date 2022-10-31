@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30011.22
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001_DriveInfo", "001_DriveInfo\001_DriveInfo.csproj", "{D2D3CE72-38BC-4A53-8387-8F6667F82DC1}"
 EndProject
@@ -39,13 +39,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "017_Stream", "017_Stream\01
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "018_StreamWriter", "018_StreamWrite\018_StreamWriter.csproj", "{562B183A-0553-44F9-A58E-7CE9200AEBD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "019_Serialize", "019_Serialize\019_Serialize.csproj", "{CF950D80-673E-41E1-BEF5-4BEBF3662719}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "019_Serialize", "019_Serialize\019_Serialize.csproj", "{CF950D80-673E-41E1-BEF5-4BEBF3662719}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibExample", "LibExample\LibExample.csproj", "{4B790F33-E703-4D11-A69B-6A6E9793F724}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibExample", "LibExample\LibExample.csproj", "{4B790F33-E703-4D11-A69B-6A6E9793F724}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "020_Serialize", "020_Serialize\020_Serialize.csproj", "{6810296E-B86F-4663-A5F0-12D2BED469CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "020_Serialize", "020_Serialize\020_Serialize.csproj", "{6810296E-B86F-4663-A5F0-12D2BED469CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "021_Serialize", "021_Serialize\021_Serialize.csproj", "{7FB5503E-7A90-41D2-84C6-5C96F72482C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "021_Serialize", "021_Serialize\021_Serialize.csproj", "{7FB5503E-7A90-41D2-84C6-5C96F72482C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "022_Registry", "022_Registry\022_Registry.csproj", "{41AB1CE4-62C6-445B-B42A-26FD300BFBEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "023_Registry", "23_Registry\023_Registry.csproj", "{AC7D7F87-AEAB-4CB3-969F-19C25FC61AA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "024_Processes", "024_Processes\024_Processes.csproj", "{461E2A54-F07A-4DD6-A477-EE9A361577A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "025_Processes", "025_Processes\025_Processes.csproj", "{4A326FA6-9871-4052-897D-4BDF2D3D7E4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +149,22 @@ Global
 		{7FB5503E-7A90-41D2-84C6-5C96F72482C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FB5503E-7A90-41D2-84C6-5C96F72482C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FB5503E-7A90-41D2-84C6-5C96F72482C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41AB1CE4-62C6-445B-B42A-26FD300BFBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41AB1CE4-62C6-445B-B42A-26FD300BFBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41AB1CE4-62C6-445B-B42A-26FD300BFBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41AB1CE4-62C6-445B-B42A-26FD300BFBEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC7D7F87-AEAB-4CB3-969F-19C25FC61AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7D7F87-AEAB-4CB3-969F-19C25FC61AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7D7F87-AEAB-4CB3-969F-19C25FC61AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7D7F87-AEAB-4CB3-969F-19C25FC61AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{461E2A54-F07A-4DD6-A477-EE9A361577A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{461E2A54-F07A-4DD6-A477-EE9A361577A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{461E2A54-F07A-4DD6-A477-EE9A361577A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{461E2A54-F07A-4DD6-A477-EE9A361577A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A326FA6-9871-4052-897D-4BDF2D3D7E4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A326FA6-9871-4052-897D-4BDF2D3D7E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A326FA6-9871-4052-897D-4BDF2D3D7E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A326FA6-9871-4052-897D-4BDF2D3D7E4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
