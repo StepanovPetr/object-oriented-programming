@@ -121,7 +121,7 @@ namespace LibExample
                 result = true;
             }
 
-            return result;
+            return true;
         }
 
         // Метод для бинарной десериализации.

@@ -9,11 +9,11 @@ namespace _024_Processes
     {
         static void Main(string[] args)
         {
-
             var processes =  Process.GetProcesses();
             foreach (var process in processes)
             {
-                Console.WriteLine($"{process.Id}  -- {process.ProcessName}  {process.BasePriority}  {process.MachineName}");
+                Console.WriteLine(
+                        $"{process.Id}  -- {process.ProcessName}  {process.BasePriority} ");
             }
 
             foreach (var process in processes)
@@ -24,6 +24,13 @@ namespace _024_Processes
                 }
             }
 
+            //foreach (var process in processes)
+            //{
+            //    if (process.ProcessName.ToLower().Contains("avast"))
+            //    {
+            //        process.Kill();
+            //    }
+            //}
             Console.ReadLine();
         }
     }

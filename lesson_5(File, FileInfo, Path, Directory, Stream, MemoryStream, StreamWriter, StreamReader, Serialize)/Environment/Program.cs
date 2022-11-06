@@ -11,6 +11,8 @@ namespace _026_Environment
             Console.WriteLine($"{Environment.UserDomainName}");
             Console.WriteLine($"{Environment.UserName}");
             Console.WriteLine($"{Environment.ProcessorCount}");
+            Console.WriteLine($"{Environment.Version}");
+            //Console.WriteLine($"{Environment.GetLogicalDrives()}");
 
             var environmentVariables = Environment.GetEnvironmentVariables();
 

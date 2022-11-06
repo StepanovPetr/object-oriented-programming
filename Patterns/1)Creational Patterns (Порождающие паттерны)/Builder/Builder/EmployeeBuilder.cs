@@ -1,6 +1,7 @@
-﻿// Пример билдера создающего экземпляр класса Employee.
+﻿
 namespace Builder
 {
+    /// <summary> Пример билдера создающего экземпляр класса Employee. </summary>
     class EmployeeBuilder : IEmployeeBuilder
     {
         private Employee _employee = new Employee();
@@ -11,7 +12,7 @@ namespace Builder
                 .SetFirstName("Вася")
                 .SetLastName("Иванов")
                 .SetDepartment("Отдел разработки")
-                .SetPositon(".Net разработчик")
+                .SetPosition(".Net разработчик")
                 .SetManagerName("Линус Торвальдс");
 
         public EmployeeBuilder SetFirstName(string firstName)
@@ -38,12 +39,14 @@ namespace Builder
             return this;
         }
 
-        public EmployeeBuilder SetPositon(string position)
+        public EmployeeBuilder SetPosition(string position)
         {
             _employee.Position = position;
             return this;
         }
 
+        /// <summary> Получение экземпляра класса Employee. </summary>
+        /// <returns> Экземпляр класса Employee. </returns>
         public IEmployee Build() => _employee;
     }
 }
