@@ -2,12 +2,12 @@
 {
     public class ConcreteFactory2 : IFactory
     {
-        public IProductB GreateProductB()
+        public IProductB CreateProductB()
         {
             return new ProductB2();
         }
 
-        public IProductA GreateProductA()
+        public IProductA CreateProductA()
         {
             return new ProductA2();
         }

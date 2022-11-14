@@ -1,9 +1,14 @@
 ﻿namespace LibExample.AbstractFactory2
 {
+    /// <summary> Абстрактная фабрика. </summary>
     public interface IFactory
     {
-        IProductA GreateProductA();
+        /// <summary> Создание продукта А.</summary>
+        /// <returns> Продукт А. </returns>
+        IProductA CreateProductA();
 
-        IProductB GreateProductB();
+        /// <summary> Создание продукта B.</summary>
+        /// <returns> Продукт B. </returns>
+        IProductB CreateProductB();
     }
 }

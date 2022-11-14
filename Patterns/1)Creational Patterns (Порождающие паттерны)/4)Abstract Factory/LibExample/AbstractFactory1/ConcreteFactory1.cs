@@ -2,12 +2,14 @@
 {
     public class ConcreteFactory1 : AbstractFactory
     {
-        public override AbstractProductB GreateProducB()
+        /// <inheritdoc> </inheritdoc> 
+        public override AbstractProductB CreateProductB()
         {
             return new ProductB1();
         }
 
-        public override AbstractProductA GreateProductA()
+        /// <inheritdoc> </inheritdoc> 
+        public override AbstractProductA CreateProductA()
         {
             return new ProductA1();
         }

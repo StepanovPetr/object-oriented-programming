@@ -1,9 +1,14 @@
 ﻿namespace LibExample.AbstractFactory1
 {
+    /// <summary> Абстрактная фабрика. </summary>
     public abstract class AbstractFactory
     {
-        public abstract AbstractProductA GreateProductA();
+        /// <summary> Создание продукта А.</summary>
+        /// <returns> Продукт А. </returns>
+        public abstract AbstractProductA CreateProductA();
 
-        public abstract AbstractProductB GreateProducB();
+        /// <summary> Создание продукта B.</summary>
+        /// <returns> Продукт B. </returns>
+        public abstract AbstractProductB CreateProductB();
     }
 }

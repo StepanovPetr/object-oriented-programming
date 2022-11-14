@@ -8,15 +8,15 @@ namespace _002_Abstract_Factory
         static void Main(string[] args)
         {
             IFactory factory = new ConcreteFactory1();
-            IProductA productA = factory.GreateProductA();
-            IProductB productB = factory.GreateProductB();
+            IProductA productA = factory.CreateProductA();
+            IProductB productB = factory.CreateProductB();
 
             Console.WriteLine($"productA.name - {productA.Name}");
             Console.WriteLine($"productB.name - {productB.Name}");
 
             factory = new ConcreteFactory2();
-            productA = factory.GreateProductA();
-            productB = factory.GreateProductB();
+            productA = factory.CreateProductA();
+            productB = factory.CreateProductB();
 
             Console.WriteLine($"productA.name - {productA.Name}");
             Console.WriteLine($"productB.name - {productB.Name}");
