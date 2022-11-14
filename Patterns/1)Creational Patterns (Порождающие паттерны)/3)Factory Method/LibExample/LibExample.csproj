@@ -2,11 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Prototype1\" />
+    <Folder Include="FactoryMethod1\" />
     <Folder Include="pics\" />
   </ItemGroup>
 
