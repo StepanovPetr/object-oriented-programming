@@ -1,5 +1,7 @@
 ﻿using System;
 
+using LibExample.Builders;
+using LibExample;
 // Пример построяния обьекта используя Builder.
 namespace Builder
 {
@@ -7,12 +9,11 @@ namespace Builder
     {
         private static void Main(string[] args)
         {
-            var employeeBuilder = new EmployeeBuilder();
-            var employee = EmployeeBuilder.CreateBuilder()
+            var employee = EmployeeBuilderSecond.CreateBuilder()
                 .SetFirstName("Вася")
                 .SetLastName("Иванов")
                 .SetDepartment("Отдел разработки")
-                .SetPositon(".Net разработчик")
+                .SetPosition(".Net разработчик")
                 .SetManagerName("Линус Торвальдс")
                 .Build();
 

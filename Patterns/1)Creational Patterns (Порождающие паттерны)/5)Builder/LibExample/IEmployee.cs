@@ -1,6 +1,6 @@
-﻿namespace Builder
+﻿namespace LibExample
 {
-    interface IEmployee
+    public interface IEmployee
     {
         string FirstName {get;}
         

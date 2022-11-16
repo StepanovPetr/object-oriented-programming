@@ -1,7 +1,7 @@
 ﻿// Класс экземпляр которого нужно построить.
-namespace Builder 
+namespace LibExample 
 {
-    class Employee : IEmployee
+    public class Employee : IEmployee
     {
         public string FirstName { get; set;}
 

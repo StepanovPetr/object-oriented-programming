@@ -1,45 +1,48 @@
-﻿
-namespace Builder
+﻿namespace LibExample.Builders
 {
     /// <summary> Пример билдера создающего экземпляр класса Employee. </summary>
-    class EmployeeBuilder : IEmployeeBuilder
+    public class EmployeeBuilderSecond : IEmployeeBuilder
     {
         private Employee _employee = new Employee();
 
-        public static EmployeeBuilder CreateBuilder() => new EmployeeBuilder();
+        /// <summary> Создание нового экземпляра EmployeeBuilderSecond. </summary>
+        /// <returns> Новый экземпляр EmployeeBuilderSecond </returns>
+        public static IEmployeeBuilder CreateBuilder() => new EmployeeBuilderSecond();
 
-        public static EmployeeBuilder CreateCorrectBuilder() => new EmployeeBuilder()
+        /// <summary> Создание нового экземпляра EmployeeBuilderSecond с корректными параметрами. </summary>
+        /// <returns> Новый экземпляр EmployeeBuilderSecond </returns>
+        public static IEmployeeBuilder CreateCorrectBuilder() => new EmployeeBuilderSecond()
                 .SetFirstName("Вася")
                 .SetLastName("Иванов")
                 .SetDepartment("Отдел разработки")
                 .SetPosition(".Net разработчик")
                 .SetManagerName("Линус Торвальдс");
 
-        public EmployeeBuilder SetFirstName(string firstName)
+        public IEmployeeBuilder SetFirstName(string firstName)
         {
             _employee.FirstName = firstName;
             return this;
         }
 
-        public EmployeeBuilder SetLastName(string lastName)
+        public IEmployeeBuilder SetLastName(string lastName)
         {
             _employee.LastName = lastName;
             return this;
         }
 
-        public EmployeeBuilder SetDepartment(string department)
+        public IEmployeeBuilder SetDepartment(string department)
         {
             _employee.Department = department;
             return this;
         }
 
-        public EmployeeBuilder SetManagerName(string managerName)
+        public IEmployeeBuilder SetManagerName(string managerName)
         {
             _employee.ManagerName = managerName;
             return this;
         }
 
-        public EmployeeBuilder SetPosition(string position)
+        public IEmployeeBuilder SetPosition(string position)
         {
             _employee.Position = position;
             return this;
