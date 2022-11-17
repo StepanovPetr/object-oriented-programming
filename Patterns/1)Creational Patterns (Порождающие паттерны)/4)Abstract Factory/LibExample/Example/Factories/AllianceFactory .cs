@@ -11,7 +11,7 @@ namespace LibExample.Example.Factories
 
         public IHero CreateHero()
         {
-            return new Archmage();
+            return new ArchMage();
         }
 
         public IUnit CreateUnit()

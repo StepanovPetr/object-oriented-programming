@@ -2,11 +2,11 @@
 
 namespace LibExample.Examle.Units
 {
-    public class Archmage : IHero
+    public class ArchMage : IHero
     {
         private Random _random  = new Random();
 
-        public string Name => "Archmage";
+        public string Name => "ArchMage";
         public int HitPoints { get; set; } = 420;
         public int Gold { get; set; } = 425;
         public int Food { get; set; } = 5;

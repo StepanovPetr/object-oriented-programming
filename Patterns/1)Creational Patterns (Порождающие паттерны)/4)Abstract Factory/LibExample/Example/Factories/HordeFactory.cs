@@ -11,7 +11,7 @@ namespace LibExample.Example.Factories
 
         public IHero CreateHero()
         {
-            return new Blademaster();
+            return new BladeMaster();
         }
 
         public IUnit CreateUnit()
