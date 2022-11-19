@@ -1,4 +1,7 @@
 ﻿// Класс экземпляр которого нужно построить.
+
+using LibExample.Enums;
+
 namespace LibExample 
 {
     public class Employee : IEmployee
@@ -7,11 +10,11 @@ namespace LibExample
 
         public string LastName { get; set;}
 
-        public string Department { get; set;}
+        public Department Department { get; set;}
 
         public string ManagerName { get; set;}
 
-        public string Position { get; set;}
+        public Position Position { get; set;}
 
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace LibExample.Builders
+﻿using LibExample.Enums;
+
+namespace LibExample.Builders
 {
     public interface IEmployeeBuilder
     {
@@ -16,7 +18,7 @@
 
         /// <summary> Задать отдел. </summary>
         /// <returns> Экземпляр класса IEmployeeBuilder. </returns>
-        IEmployeeBuilder SetDepartment(string department);
+        IEmployeeBuilder SetDepartment(Department department);
 
         /// <summary> Задать руководителя. </summary>
         /// <returns> Экземпляр класса IEmployeeBuilder. </returns>
@@ -24,7 +26,6 @@
 
         /// <summary> Задать должность. </summary>
         /// <returns> Экземпляр класса IEmployeeBuilder. </returns>
-        IEmployeeBuilder SetPosition(string position);
-
+        IEmployeeBuilder SetPosition(Position position);
     }
 }

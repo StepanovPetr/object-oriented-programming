@@ -1,7 +1,8 @@
 ﻿using System;
 
 using LibExample.Builders;
-using LibExample;
+using LibExample.Enums;
+
 // Пример построяния обьекта используя Builder.
 namespace Builder
 {
@@ -12,8 +13,8 @@ namespace Builder
             var employee = EmployeeBuilderSecond.CreateBuilder()
                 .SetFirstName("Вася")
                 .SetLastName("Иванов")
-                .SetDepartment("Отдел разработки")
-                .SetPosition(".Net разработчик")
+                .SetDepartment(Department.It)
+                .SetPosition(Position.Senior)
                 .SetManagerName("Линус Торвальдс")
                 .Build();
 

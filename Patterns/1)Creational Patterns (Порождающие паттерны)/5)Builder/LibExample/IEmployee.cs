@@ -1,4 +1,6 @@
-﻿namespace LibExample
+﻿using LibExample.Enums;
+
+namespace LibExample
 {
     public interface IEmployee
     {
@@ -6,10 +8,10 @@
         
         string LastName {get;}
 
-        string Department {get;}
+        Department Department {get;}
 
         string ManagerName { get;}
 
-        string Position { get; }
+        Position Position { get; }
     }
 }

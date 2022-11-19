@@ -1,4 +1,6 @@
-﻿namespace LibExample.Builders
+﻿using LibExample.Enums;
+
+namespace LibExample.Builders
 {
     /// <summary> Пример билдера создающего экземпляр класса Employee. </summary>
     public class EmployeeBuilderSecond : IEmployeeBuilder
@@ -14,8 +16,8 @@
         public static IEmployeeBuilder CreateCorrectBuilder() => new EmployeeBuilderSecond()
                 .SetFirstName("Вася")
                 .SetLastName("Иванов")
-                .SetDepartment("Отдел разработки")
-                .SetPosition(".Net разработчик")
+                .SetDepartment(Department.It)
+                .SetPosition(Position.Senior)
                 .SetManagerName("Линус Торвальдс");
 
         public IEmployeeBuilder SetFirstName(string firstName)
@@ -30,7 +32,7 @@
             return this;
         }
 
-        public IEmployeeBuilder SetDepartment(string department)
+        public IEmployeeBuilder SetDepartment(Department department)
         {
             _employee.Department = department;
             return this;
@@ -42,7 +44,7 @@
             return this;
         }
 
-        public IEmployeeBuilder SetPosition(string position)
+        public IEmployeeBuilder SetPosition(Position position)
         {
             _employee.Position = position;
             return this;
