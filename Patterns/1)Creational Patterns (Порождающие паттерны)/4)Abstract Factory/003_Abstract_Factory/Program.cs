@@ -1,6 +1,8 @@
 ﻿using System;
-using LibExample.Examle.Units;
+using LibExample.Example.Buildings;
 using LibExample.Example.Factories;
+using LibExample.Example.Heroes;
+using LibExample.Example.Units;
 
 namespace _003_Abstract_Factory
 {

@@ -1,4 +1,4 @@
-﻿namespace LibExample.Examle.Units
+﻿namespace LibExample.Example.Buildings
 {
     public class TownHall : IBuilding
     {

@@ -1,0 +1,6 @@
+
+
+
+    
+// test Tests.dll --test-adapter-path NUnit3.TestAdapter.dll  -v=normal
+// dotnet test Tests.dll --test-adapter-path NUnit3.TestAdapter.dll

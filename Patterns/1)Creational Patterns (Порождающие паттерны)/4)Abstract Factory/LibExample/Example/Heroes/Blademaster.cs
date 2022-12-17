@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LibExample.Examle.Units
+namespace LibExample.Example.Heroes
 {
     public class BladeMaster : IHero
     {

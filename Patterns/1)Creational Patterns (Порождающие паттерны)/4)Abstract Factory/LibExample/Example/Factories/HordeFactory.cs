@@ -1,4 +1,6 @@
-﻿using LibExample.Examle.Units;
+﻿using LibExample.Example.Buildings;
+using LibExample.Example.Heroes;
+using LibExample.Example.Units;
 
 namespace LibExample.Example.Factories
 {

@@ -1,4 +1,4 @@
-﻿namespace LibExample.Examle.Units
+﻿namespace LibExample.Example.Units
 {
     /// <summary> Основной юнит. </summary>
     public interface IUnit

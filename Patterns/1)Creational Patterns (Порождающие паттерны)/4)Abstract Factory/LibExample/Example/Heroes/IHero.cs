@@ -1,4 +1,4 @@
-﻿namespace LibExample.Examle.Units
+﻿namespace LibExample.Example.Heroes
 {
     /// <summary> Основной Герой. </summary>
     public interface IHero
