@@ -21,6 +21,10 @@ namespace _016_List
             stringList.AddRange(new[] 
                 {"First", "Second", "Third", "Fourth"});
 
+            Console.WriteLine(stringList.Capacity);
+            stringList.Add("Five");
+            Console.WriteLine(stringList.Capacity);
+
             foreach (var item in stringList)
                 Console.WriteLine(item);
 
