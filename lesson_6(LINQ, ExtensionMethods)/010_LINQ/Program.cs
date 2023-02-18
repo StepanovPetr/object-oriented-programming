@@ -18,7 +18,7 @@ namespace _010_LINQ
 
             foreach (var person in queryMenByFirstName)
             {
-                Console.WriteLine($"{person.FirstName}-{person.Age }");
+                Console.WriteLine($"{person.FirstName}-{person.Age} -- {person.GetType().ToString()}");
             }
             Console.ReadLine();
         }

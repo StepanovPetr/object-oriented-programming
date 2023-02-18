@@ -17,7 +17,10 @@ namespace _023_LINQ
             }
             // Группировка по полю FirstName.
             // И вополенение действий с результатом группировки
-            var queryMenByFirstName = persons.GroupBy(p => p.FirstName).Where(p => p.Count() > 1).OrderBy(p => p.Key);
+            var queryMenByFirstName = persons
+                .GroupBy(p => p.FirstName)
+                .Where(p => p.Count() > 1)
+                .OrderBy(p => p.Key);
 
             //from person in persons
             //group person by person.FirstName into cout

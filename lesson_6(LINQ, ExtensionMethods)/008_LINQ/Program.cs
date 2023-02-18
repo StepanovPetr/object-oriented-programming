@@ -12,6 +12,11 @@ namespace _008_LINQ
         {
             List<Man> persons = new List<Man>() { Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan() };
 
+            foreach (var person in persons)
+            {
+                Console.WriteLine(person.ManInfo());
+            }
+
             var queryMenByFirstName =
             from person in persons
             // Группировка по полю FirstName.

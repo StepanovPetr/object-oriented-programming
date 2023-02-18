@@ -36,7 +36,7 @@ namespace _011_LINQ
 
             foreach (var person in queryMenByFirstName)
             {
-                Console.WriteLine($"Имя - {0}, Возраст - {1} Название города - {2} Население - {3} Мэр - {4}", person.FirstName, person.Age, person.Name, person.Population, person.Mayor);
+                Console.WriteLine("Имя - {0}, Возраст - {1} Название города - {2} Население - {3} Мэр - {4}", person.FirstName, person.Age, person.Name, person.Population, person.Mayor);
             }
             Console.ReadLine();
         }
