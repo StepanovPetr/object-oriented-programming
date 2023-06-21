@@ -1,6 +1,0 @@
-D:\Исходники\Sources\C#\OOP\object-oriented-programming\Other\Constructor001\Constructor001\bin\Debug\Constructor001.exe.config
-D:\Исходники\Sources\C#\OOP\object-oriented-programming\Other\Constructor001\Constructor001\bin\Debug\Constructor001.exe
-D:\Исходники\Sources\C#\OOP\object-oriented-programming\Other\Constructor001\Constructor001\bin\Debug\Constructor001.pdb
-D:\Исходники\Sources\C#\OOP\object-oriented-programming\Other\Constructor001\Constructor001\obj\Debug\Constructor001.csprojResolveAssemblyReference.cache
-D:\Исходники\Sources\C#\OOP\object-oriented-programming\Other\Constructor001\Constructor001\obj\Debug\Constructor001.exe
-D:\Исходники\Sources\C#\OOP\object-oriented-programming\Other\Constructor001\Constructor001\obj\Debug\Constructor001.pdb
