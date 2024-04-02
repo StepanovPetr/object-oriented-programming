@@ -6,7 +6,7 @@ namespace _013_Thread_Mutex_
     internal class Program
     {
         // Переменная нового мьютекса.
-        private static readonly Mutex myMutex = new Mutex(true, "MyMutex");
+        private static readonly Mutex myMutex = new Mutex(false, "MyMutex");
 
         // Метод который будет выполняться в отдельном потоке.
         private static void MethodForThread(object id)
