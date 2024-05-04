@@ -1,5 +1,23 @@
+dotnet --info // Информация оо SDK
+dotnet --list-sdks // Версии SDK
+dotnet --list-runtimes // Версии сред выполнения
+dotnet-core-uninstall remove --all-previews-but-latest --sdk
+dotnet --version
+dotnet sdk check // Проверка обновлений
 
+dotnet clean -- Clean Solution 
 
+dotnet restore — скачивает зависимости проекта;
+dotnet build — собирает, или компилирует, проект;
+dotnet test — собирает и запускает модульные тесты проекта;
+dotnet run — собирает и запускает проект;
+dotnet pack — создает пакет NuGet для проекта;
+dotnet publish — компилирует, а затем публикует проект с зависимостями или как отдельное приложение;
+dotnet add — добавляет ссылку на пакет или библиотеку классов в проект;
+dotnet remove — удаляет ссылку на пакет или библиотеку классов из проекта;
+dotnet list — перечисляет ссылки на пакет или библиотеки классов для проекта.
+
+dotnet publish -c Release -r win10-x64
 
     
 // test Tests.dll --test-adapter-path NUnit3.TestAdapter.dll  -v=normal

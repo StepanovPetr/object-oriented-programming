@@ -9,7 +9,6 @@ namespace _003_Reflection
         // Третий способ создания обьекта класса type.
         static void Main(string[] args)
         {
-      
             string myString = "Example string";
             // Вызов метода GetType() класса Type (Нужно передать полное имя класса включая namespace).
             var type = Type.GetType("System.String");

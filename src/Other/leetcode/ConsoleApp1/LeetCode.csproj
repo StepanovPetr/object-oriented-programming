@@ -6,6 +6,8 @@
 
   <ItemGroup>
     <Folder Include="Common\Factories\" />
+    <Folder Include="Easy\" />
+    <Folder Include="Normal\" />
   </ItemGroup>
 
 </Project>
