@@ -11,6 +11,7 @@ namespace _016_List
             var intList = new List<int>();
             intList.AddRange(new[] 
                 {1, 2, 3, 4, 5, 6, 7, 8, 9, 10});
+            //intList.Add("dfdf");
 
             foreach (var item in intList)
                 Console.WriteLine(item);

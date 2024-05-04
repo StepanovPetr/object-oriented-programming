@@ -39,7 +39,6 @@ namespace _011_Thread_Monitor_
             {
                 Monitor.Exit(_block);
             }
-
         }
 
         static void Main(string[] args)

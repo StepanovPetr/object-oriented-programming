@@ -12,7 +12,7 @@ namespace _009_Params
             Console.ReadLine();
         }
 
-        private static void ParamsExample(string firstString, 
+        private static void ParamsExample(string firstString,
             string secondString, 
             params int[] array)
         {

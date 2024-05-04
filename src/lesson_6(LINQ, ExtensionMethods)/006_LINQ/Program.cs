@@ -33,7 +33,7 @@ namespace _006_LINQ
             personQuery =
                 from person in persons
                     //where (person.FirstName != "Петр" && person.Age <= 40)
-                orderby person.FirstName descending, person.Age descending
+                orderby person.FirstName descending, person.Age
                 select person;
 
             Console.WriteLine("Отсортированная коллекция по убыванию.");

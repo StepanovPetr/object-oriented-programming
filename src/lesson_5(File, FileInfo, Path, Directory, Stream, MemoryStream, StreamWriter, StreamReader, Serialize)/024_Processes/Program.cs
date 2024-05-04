@@ -24,13 +24,13 @@ namespace _024_Processes
                 }
             }
 
-            //foreach (var process in processes)
-            //{
-            //    if (process.ProcessName.ToLower().Contains("avast"))
-            //    {
-            //        process.Kill();
-            //    }
-            //}
+            foreach (var process in processes)
+            {
+                if (process.ProcessName.ToLower().Contains("avast"))
+                {
+                    process.Kill();
+                }
+            }
             Console.ReadLine();
         }
     }

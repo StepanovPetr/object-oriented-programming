@@ -12,7 +12,7 @@ namespace _015_Directory
             if (!Directory.Exists(path))
                 Directory.CreateDirectory(path);
 
-            for (var i = 0; i < 10; i++)
+            for (var i = 0; i < 100; i++)
                 File.Create(Path.Combine(path, Path.GetRandomFileName())).Dispose();
 
             // Пример перемещения директории.

@@ -11,7 +11,7 @@ namespace _025_Processes
             process = Process.Start("ipconfig", "-all");
 
             process = Process.Start("calc", "www.google.ru");
-            process = Process.Start(@"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe", "www.google.ru");
+            ///process = Process.Start(@"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe", "www.google.ru");
 
             Console.ReadLine();
         }

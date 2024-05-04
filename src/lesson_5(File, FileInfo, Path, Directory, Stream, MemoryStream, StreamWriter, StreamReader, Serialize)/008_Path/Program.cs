@@ -11,7 +11,7 @@ namespace _008_Path
             var badFileName = @"C:\mydir\";
 
             var result = Path.ChangeExtension(goodFileName, ".old");
-            Console.WriteLine($"ChangeExtension(   {goodFileName},  '.old') returns '{result}' ");
+            Console.WriteLine($"ChangeExtension({goodFileName},  '.old') returns '{result}' ");
 
             result = Path.ChangeExtension(goodFileName, "");
             Console.WriteLine($"ChangeExtension({goodFileName},  '') returns '{result}'");

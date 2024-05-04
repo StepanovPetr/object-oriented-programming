@@ -18,7 +18,7 @@ namespace _003_Reflection
 
             Man man = new Man();
             // Вызов метода GetType() класса Type (Нужно передать полное имя класса включая namespace).
-            type = Type.GetType("LibExample.Man,LibExample");
+            type = Type.GetType("LibExample.Man, LibExample");
             Console.WriteLine("Class name: " + type);
             Console.WriteLine("Class name: " + type.Name);
 

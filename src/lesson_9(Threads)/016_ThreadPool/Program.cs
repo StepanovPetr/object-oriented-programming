@@ -35,8 +35,8 @@ namespace _016_ThreadPool
             ThreadPool.GetMinThreads(out countThread, out completionPortThreads);
             Console.WriteLine($"The number of MIN worker threads - {countThread}, number of MIN asynchronous I/O threads {completionPortThreads}");
 
-            ThreadPool.UnsafeQueueUserWorkItem(MethodForThread, "001");
-            ThreadPool.UnsafeQueueUserWorkItem(MethodForThread, "002");
+            ThreadPool.QueueUserWorkItem(MethodForThread, "001");
+            ThreadPool.QueueUserWorkItem(MethodForThread, "002");
             ThreadPool.UnsafeQueueUserWorkItem(MethodForThread, "003");
 
             ThreadPool.GetAvailableThreads(out countThread, out completionPortThreads);

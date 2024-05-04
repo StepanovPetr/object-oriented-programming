@@ -24,9 +24,9 @@ namespace _006_Thread
             Thread thread = new Thread(MethodForThread);
             // Запуск потока.
             thread.Start();
-            Thread.Sleep(3000);
+            //Thread.Sleep(3000);
             // Ожидание завершения дочернего потока по таймауту(Закоментировать для примера).
-            thread.Join(1);
+            thread.Join(4000);
             Console.WriteLine($"Main Thread {Thread.CurrentThread.ManagedThreadId} finished");
             Console.ReadLine();
         }
