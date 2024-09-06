@@ -5,6 +5,9 @@ namespace _005_Properties
     internal class Man
     {
         #region public metods
+        /// <summary> Пример метода. </summary>
+        /// <remarks> Получение информации об экземпляре класса. </remarks>
+        /// <returns> Информация об экземпляре класса. </returns>
         public string ManInfo()
         {
             return $"FirstName - {FirstName} " +
@@ -14,13 +17,18 @@ namespace _005_Properties
         #endregion
 
         #region private fields
+        /// <summary> Имя. </summary>
         private string _firstName;
+
+        /// <summary> Фамилия. </summary>
         private string _secondName;
+
+        /// <summary> Возраст. </summary>
         private int _age;
         #endregion
 
         #region Constructors
-        // Конструктор по умолчанию.
+        /// <summary> Конструктор по умолчанию. </summary>
         public Man()
         {
             _firstName = "";
@@ -28,7 +36,7 @@ namespace _005_Properties
             _age = 0;
         }
 
-        // Конструктор с параметрами.
+        /// <summary> Конструктор с параметрами. </summary>
         public Man(string firstName, string secondName, int age)
         {
             _firstName = firstName;

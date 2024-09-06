@@ -3,13 +3,18 @@
     public class Man
     {
         #region private fields
+        /// <summary> Имя. </summary>
         private string _firstName;
+
+        /// <summary> Фамилия. </summary>
         private string _secondName;
+
+        /// <summary> Возраст. </summary>
         private int _age;
         #endregion
 
         #region   Constructors
-        // Конструктор по умолчанию.
+        /// <summary> Конструктор по умолчанию. </summary>
         public Man()
         {
             _firstName = "Валерий";

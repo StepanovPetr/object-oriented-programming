@@ -2,10 +2,16 @@
 
 namespace _001_Classes
 {
+    /// <summary> Класс Man (человек). </summary>
     class Man
     {
+        /// <summary> Возраст. </summary>
         public int Age;
+
+        /// <summary> Имя. </summary>
         public string FirstName;
+
+        /// <summary> Фамилия. </summary>
         public string SecondName;
     }
 
