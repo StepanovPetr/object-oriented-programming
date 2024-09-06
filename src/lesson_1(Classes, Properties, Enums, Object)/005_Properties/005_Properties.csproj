@@ -2,12 +2,8 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <RootNamespace>_005_Properties</RootNamespace>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Remove="Man.cs~RF20a481.TMP" />
-  </ItemGroup>
 
 </Project>

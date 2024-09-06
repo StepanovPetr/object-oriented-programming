@@ -31,7 +31,7 @@ namespace _003_Task_ContinueWith
             Task<bool> t = new Task<bool>(MethodForThread, 6);
             t.Start();
 
-            t.ContinueWith(MethodForThread2, 6);
+            t.ContinueWith(x =>  MethodForThread2(6));
             Console.ReadLine();
         }
     }
