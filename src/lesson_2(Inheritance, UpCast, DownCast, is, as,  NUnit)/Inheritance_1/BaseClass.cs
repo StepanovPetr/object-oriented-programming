@@ -2,16 +2,19 @@
 
 namespace Inheritance_1
 {
-    // Базовый класс.
+    /// <summary> Базовый класс. </summary>
     class BaseClass
     {
-        // Закрытое поле.
+        /// <summary> Закрытое поле. </summary>
         private string _privateField = "private Field";
-        // Защищенное поле.
+
+        /// <summary> Защищенное поле. </summary>
         protected string ProtectedField = "protected Field";
+
         // Открытое поле.
         public string PublicField = "public Field";
 
+        /// <summary> Вывести значение полей на экран (BaseClass).  </summary>
         public void ShowFields()
         {
             Console.BackgroundColor = ConsoleColor.White;

@@ -14,6 +14,10 @@ namespace _018_boxing
             Console.WriteLine(valType);
             Console.WriteLine(refType);
             Console.ReadLine();
+
+            Console.WriteLine(valType.GetHashCode());
+            Console.WriteLine(refType.GetHashCode());
+            Console.ReadLine();
         }
     }
 }

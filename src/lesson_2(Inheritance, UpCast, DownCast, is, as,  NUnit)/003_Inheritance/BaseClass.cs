@@ -5,8 +5,9 @@ namespace _003_Inheritance
     public class BaseClass
     {
         #region fields
-        // Закрытое поле.
+        /// <summary> Закрытое поле. </summary>
         private string _privateField = "private Field";
+
         // Защищенное поле.
         protected string protectedField = "protected Field";
         // Открытое поле.

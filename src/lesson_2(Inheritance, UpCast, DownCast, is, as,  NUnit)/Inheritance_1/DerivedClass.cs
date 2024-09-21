@@ -2,7 +2,7 @@
 
 namespace Inheritance_1
 {
-    // Класс-наследник.
+    /// <summary> Класс-наследник. </summary>
     class DerivedClass : BaseClass
     {
         public DerivedClass()
@@ -12,6 +12,7 @@ namespace Inheritance_1
             PublicField = "New public Field";
         }
 
+        /// <summary> Вывести значение полей на экран (DerivedClass).  </summary>
         public void ShowFields()
         {
             Console.BackgroundColor = ConsoleColor.Black;
