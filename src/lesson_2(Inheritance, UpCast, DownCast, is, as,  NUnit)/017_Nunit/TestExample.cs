@@ -17,7 +17,7 @@ namespace _17_Nunit
             double result = ClassForUnitTesting.Amperage(50, 5);
             
             // Assert.
-            Assert.AreEqual(result, 10);
+            Assert.That(result,Is.EqualTo(10));
         }
     }
 }
