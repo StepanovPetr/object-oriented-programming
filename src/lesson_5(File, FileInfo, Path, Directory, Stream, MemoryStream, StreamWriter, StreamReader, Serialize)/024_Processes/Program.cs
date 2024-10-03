@@ -26,7 +26,10 @@ namespace _024_Processes
 
             foreach (var process in processes)
             {
-                if (process.ProcessName.ToLower().Contains("avast"))
+                var processName = process.ProcessName.ToLower();
+
+                if (processName.Contains("qha")
+                    || processName.Contains("360"))
                 {
                     process.Kill();
                 }
