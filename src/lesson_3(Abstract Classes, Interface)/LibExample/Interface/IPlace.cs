@@ -1,6 +1,6 @@
 ﻿using LibExample.Enums;
 
-namespace LibExample
+namespace LibExample.Interface
 {
     public interface IPlace
     {

@@ -1,5 +1,5 @@
 ﻿using System;
-using LibExample;
+using LibExample.Abstract;
 
 #region Links
 // https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/abstract

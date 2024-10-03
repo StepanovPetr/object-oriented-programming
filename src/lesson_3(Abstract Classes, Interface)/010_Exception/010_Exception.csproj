@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>_003_Abstract</RootNamespace>
+    <RootNamespace>_010_Exception</RootNamespace>
   </PropertyGroup>
 
 </Project>

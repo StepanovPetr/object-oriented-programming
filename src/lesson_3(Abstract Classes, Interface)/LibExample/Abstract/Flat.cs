@@ -1,4 +1,4 @@
-﻿namespace LibExample
+﻿namespace LibExample.Abstract
 {
     // Конкретный класс.
     public class Flat : Building

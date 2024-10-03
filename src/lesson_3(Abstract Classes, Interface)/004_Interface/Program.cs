@@ -1,5 +1,5 @@
 ﻿using System;
-using LibExample;
+using LibExample.Interface;
 
 #region Links
 // https://www.tutorialsteacher.com/csharp/csharp-interface
@@ -26,7 +26,7 @@ namespace _004_Interface
     {
         static void Main(string[] args)
         {
-            FlatFromInterface flat = new FlatFromInterface();
+            Flat flat = new Flat();
             IBuilding building = flat;
             Console.ReadLine();
         }

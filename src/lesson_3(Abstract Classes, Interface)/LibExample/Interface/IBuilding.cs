@@ -1,4 +1,4 @@
-﻿namespace LibExample
+﻿namespace LibExample.Interface
 {
     // Интерфейс.
     public interface IBuilding

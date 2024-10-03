@@ -1,5 +1,5 @@
 ﻿using System;
-using LibExample;
+using LibExample.Interface;
 
 namespace _005_Interface
 {
@@ -7,7 +7,7 @@ namespace _005_Interface
     {
         static void Main(string[] args)
         {
-            FlatFromInterface flat = new FlatFromInterface();
+            Flat flat = new Flat();
             IBuilding building = flat;
             IPlace place = flat;
         

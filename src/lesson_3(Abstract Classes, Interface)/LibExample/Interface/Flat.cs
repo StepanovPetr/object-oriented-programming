@@ -1,9 +1,9 @@
 ﻿using LibExample.Enums;
 
-namespace LibExample
+namespace LibExample.Interface
 {
     // Конкретный класс, реализующий интерфейс.
-    public class FlatFromInterface : IBuilding, IPlace
+    public class Flat : IBuilding, IPlace
     {
         #region Private Fields        
         private readonly int _roomCount;
@@ -19,14 +19,14 @@ namespace LibExample
         #endregion
 
         #region Constructors
-        public FlatFromInterface()
+        public Flat()
         {
             _floor = 1;
             _length = 1;
             _roomCount = 1;
             _width = 1;
         }
-        public FlatFromInterface(int roomCount = 1, int floor = 1, int length = 1, int width = 1)
+        public Flat(int roomCount = 1, int floor = 1, int length = 1, int width = 1)
         {
             _floor = floor;
             _length = length;
@@ -38,7 +38,7 @@ namespace LibExample
         #region Interface realization
         // Закомментировать для примера.
         public int Price() => _roomCount * _floor;
-     
+
         public int Area => _roomCount * _length * _width;
 
         public bool LivingRoom => true;
