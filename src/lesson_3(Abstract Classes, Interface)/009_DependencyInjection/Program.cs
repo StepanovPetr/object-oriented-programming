@@ -1,4 +1,5 @@
 ﻿using System;
+using LibExample.DependencyInjection;
 
 namespace _009_DependencyInjection
 {
@@ -6,6 +7,9 @@ namespace _009_DependencyInjection
     {
         static void Main(string[] args)
         {
+            Department department = new Department();
+            department.GetStudent("ivan.ivanov@example.com");
+
             Console.WriteLine("Hello World!");
         }
     }

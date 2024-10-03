@@ -15,10 +15,19 @@ public class Student
     /// <summary> Телефон. </summary>
     public string PhoneNumber;
 
-    /// <summary> Список долгов. </summary>
-    public string ListOfDebts;
-
     /// <summary> Стипендия </summary>
     public int Scholarship;
+
+    /// <summary> Философия. </summary>
+    public int Philosophy { get; set; }
+
+    /// <summary> ООП. </summary>
+    public int ObjectOrientedProgramming { get; set; }
+
+    /// <summary> Операционные системы. </summary>
+    public int OperatingSystems { get; set; }
+
+    /// <summary> Методы оптимизации. </summary>
+    public int OptimizationMethods { get; set; }
 
 }

@@ -23,19 +23,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "008_Interface", "008_Interf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "009_DependencyInjection", "009_DependencyInjection\009_DependencyInjection.csproj", "{C2331CA3-80B9-45E0-885C-FFCAA10AB60C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010_Exception", "010_Exception\010_Exception.csproj", "{34B46FB3-9A56-46E6-BD43-BFB46EC08179}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "010_Exception", "010_Exception\010_Exception.csproj", "{34B46FB3-9A56-46E6-BD43-BFB46EC08179}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011_Exception", "11_Exception\011_Exception.csproj", "{C517E637-0E3C-4288-8ED2-263C960F8596}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "011_Exception", "11_Exception\011_Exception.csproj", "{C517E637-0E3C-4288-8ED2-263C960F8596}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "012_Exception", "12_Exception\012_Exception.csproj", "{A5B57727-9B94-4920-8E3E-C13CFEBEEC8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "012_Exception", "12_Exception\012_Exception.csproj", "{A5B57727-9B94-4920-8E3E-C13CFEBEEC8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "013_Exception", "13_Exception\013_Exception.csproj", "{B63D773D-3E6A-4216-ABB9-04F21F3D35D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "013_Exception", "13_Exception\013_Exception.csproj", "{B63D773D-3E6A-4216-ABB9-04F21F3D35D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "014_Exception", "14_Exception\014_Exception.csproj", "{4D46E8B2-330D-4A49-BE78-37055D1448B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "014_Exception", "14_Exception\014_Exception.csproj", "{4D46E8B2-330D-4A49-BE78-37055D1448B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "015_Exception", "014_Exception\015_Exception.csproj", "{903757A6-28A6-4CC1-B0BF-5E39A782A6D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "015_Exception", "014_Exception\015_Exception.csproj", "{903757A6-28A6-4CC1-B0BF-5E39A782A6D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "016_Exception", "016_Exception\016_Exception.csproj", "{DE15BB75-3F64-42A6-80D5-6694DBACD510}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "016_Exception", "016_Exception\016_Exception.csproj", "{DE15BB75-3F64-42A6-80D5-6694DBACD510}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "017_Exception", "017_Exception\017_Exception.csproj", "{B21E13AF-1B5B-4CF2-B838-7C2A84C6679F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{DE15BB75-3F64-42A6-80D5-6694DBACD510}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE15BB75-3F64-42A6-80D5-6694DBACD510}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE15BB75-3F64-42A6-80D5-6694DBACD510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B21E13AF-1B5B-4CF2-B838-7C2A84C6679F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B21E13AF-1B5B-4CF2-B838-7C2A84C6679F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B21E13AF-1B5B-4CF2-B838-7C2A84C6679F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B21E13AF-1B5B-4CF2-B838-7C2A84C6679F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,35 @@
+[
+  {
+    "FirstName": "Ivan",
+    "SecondName": "Ivanov",
+    "Email": "ivan.ivanov@example.com",
+    "PhoneNumber": "+79001234567",
+    "Scholarship": 5000,
+    "Philosophy": 85,
+    "ObjectOrientedProgramming": 90,
+    "OperatingSystems": 88,
+    "OptimizationMethods": 92
+  },
+  {
+    "FirstName": "Anna",
+    "SecondName": "Petrova",
+    "Email": "anna.petrova@example.com",
+    "PhoneNumber": "+79009876543",
+    "Scholarship": 4500,
+    "Philosophy": 78,
+    "ObjectOrientedProgramming": 95,
+    "OperatingSystems": 85,
+    "OptimizationMethods": 89
+  },
+  {
+    "FirstName": "Dmitry",
+    "SecondName": "Sidorov",
+    "Email": "dmitry.sidorov@example.com",
+    "PhoneNumber": "+79001112233",
+    "Scholarship": 6000,
+    "Philosophy": 92,
+    "ObjectOrientedProgramming": 88,
+    "OperatingSystems": 90,
+    "OptimizationMethods": 94
+  }
+]

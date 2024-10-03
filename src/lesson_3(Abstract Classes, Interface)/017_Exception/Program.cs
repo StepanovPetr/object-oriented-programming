@@ -1,4 +1,4 @@
-﻿namespace _016_Exception
+﻿namespace _017_Exception
 {
     internal class Program
     {
@@ -12,25 +12,14 @@
                 string? s = null;
                 Console.WriteLine(s.Length);
             }
-            catch (DivideByZeroException e)
-            {
-                Console.WriteLine("Исключение обработано Деление на 0.");
-                Console.WriteLine(e.StackTrace);
-                Console.WriteLine(e.GetType().Namespace);
-            }
-
-            catch (NullReferenceException e)
-            {
-                Console.WriteLine("Исключение обработано - NullReferenceException.");
-                Console.WriteLine(e.StackTrace);
-                Console.WriteLine(e.GetType().Namespace);
-            }
-
+            
             catch (Exception e)
             {
                 Console.WriteLine("Исключение обработано.");
                 Console.WriteLine(e.StackTrace);
                 Console.WriteLine(e.GetType().Namespace);
+
+                throw e;
             }
 
             finally
