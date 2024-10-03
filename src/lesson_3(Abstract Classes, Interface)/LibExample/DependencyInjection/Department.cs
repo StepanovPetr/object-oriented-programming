@@ -19,6 +19,6 @@ public class Department : IDepartment
             students = (List<Student>)serializer.Deserialize(file, typeof(List<Student>));
         }
 
-        return students.FirstOrDefault();
+        return students.FirstOrDefault(s => s.Email == email);
     }
 }
