@@ -4,19 +4,19 @@
 public class Student
 {
     /// <summary> Имя. </summary>
-    public string FirstName;
+    public string FirstName { get; set; }
 
     /// <summary> Фамилия. </summary>
-    public string SecondName;
+    public string SecondName { get; set; }
 
     /// <summary> Почта. </summary>
-    public string Email;
+    public string Email { get; set; }
 
     /// <summary> Телефон. </summary>
-    public string PhoneNumber;
+    public string PhoneNumber { get; set; }
 
     /// <summary> Стипендия </summary>
-    public int Scholarship;
+    public int Scholarship { get; set; }
 
     /// <summary> Философия. </summary>
     public int Philosophy { get; set; }
