@@ -6,7 +6,13 @@ namespace _003_Abstract
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Абстрактный класс может наследовать от Абстрактного класса.
+            Flat flat = new Flat();
+            Building building = flat;
+            Place place = building;
+
+            Console.WriteLine(flat.GetOwner());
+            Console.ReadLine();
         }
     }
 }
