@@ -30,9 +30,12 @@ namespace _004_Array
             Console.ReadLine();
 
             string[,] stringArray = new[,]
-            { {"One","Two","Three"},
-                { "One", "Two", "Three" },
-                { "One", "Two", "Three" }};
+            { 
+                { "One", "Two", "Three"},
+                { "One", "Two", "Three"},
+                { "One", "Two", "Three"}
+
+            };
             for (int i = 0; i < 3; i++)
             {
                 for (int j = 0; j < 3; j++)
@@ -44,9 +47,11 @@ namespace _004_Array
             Console.ReadLine();
 
             Man[,] customClassArray = 
-            { { Man.GetMan(), Man.GetMan(), Man.GetMan() },
-                { Man.GetMan(), Man.GetMan(), Man.GetMan() },
-                { Man.GetMan(), Man.GetMan(), Man.GetMan()}};
+            { 
+                { Man.GetMan(), Man.GetMan(), Man.GetMan()},
+                { Man.GetMan(), Man.GetMan(), Man.GetMan()},
+                { Man.GetMan(), Man.GetMan(), Man.GetMan()}
+            };
             for (int i = 0; i < 3; i++)
             {
                 for (int j = 0; j < 3; j++)

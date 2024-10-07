@@ -14,9 +14,11 @@ namespace _003_Array
                 rand.Next(1, 11) * 10, rand.Next(1, 11) * 10,
                 rand.Next(1, 11) * 10, rand.Next(1, 11) * 10, 
                 rand.Next(1, 11) * 10, rand.Next(1, 11) * 10, 
-                rand.Next(1, 11) * 10 }; 
+                rand.Next(1, 11) * 10 };
+            
             string[] stringArray = new string[] { "SomeStrgin", 
                 "SomeStrgin", "SomeStrgin", "SomeStrgin", "SomeStrign" };
+
             Man[] customClassArray = new [] { Man.GetMan(), 
                 Man.GetMan(), Man.GetMan(), Man.GetMan(), Man.GetMan(), 
                 Man.GetMan(), Man.GetMan(), Man.GetMan() };
