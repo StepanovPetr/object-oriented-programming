@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 // Необходимое пространство имен для работы с файлама, папками, дисками и файловыми потоками.
 
 #region Links
@@ -8,14 +9,14 @@
 
 #endregion
 
-namespace DriveInfo
+namespace DriveInfoExaple
 {
     internal class Program
     {
         private static void Main(string[] args)
         {
             // Получение списка дисков.
-            var disks = System.IO.DriveInfo.GetDrives();
+            var disks = DriveInfo.GetDrives();
 
             // Вывод информации о каждом диске.
             foreach (var disk in disks)
