@@ -39,10 +39,6 @@ namespace LibExample
         }
         #endregion
 
-        #region static metods
-
-        #endregion
-
         #region public metods
         public static Man GetMan()
         {
