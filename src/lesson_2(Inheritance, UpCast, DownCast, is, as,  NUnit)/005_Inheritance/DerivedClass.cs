@@ -3,7 +3,7 @@
 namespace _005_Inheritance
 {
     // Пример наследования от запечатанного класса 
-    class DerivedClass : BaseClass
+    class DerivedClass  //: BaseClass
     {
         public DerivedClass()
         { 
