@@ -7,11 +7,11 @@ namespace _004_Inheritance
     {
         static void Main(string[] args)
         {
-            InternalExample internalExample;
+            //InternalExample internalExample;
 
             InternalExample2 example2 = new InternalExample2();
             example2.Age = 16;
-            example2.City = "Omsk";
+            //example2.City = "Omsk";
             
             Console.WriteLine("Hello World!");
         }
