@@ -5,7 +5,7 @@ namespace _010_Virtual
     public class DerivedClass : BaseClass
     {
         // Пример замещения метода в дочернем классе.
-        public new void NormalMethod()
+        public void NormalMethod()
         {
             Console.WriteLine("Normal method from derived class");
         }

@@ -10,6 +10,7 @@ namespace _006_UpCast
 
             // Пример явного приведения типа.
             BaseClass baseClass = (BaseClass) derivedClass;
+            //Console.WriteLine(baseClass.PublicField4);
 
             // Пример неявного приведения типа.
             BaseClass baseClass2 = derivedClass;

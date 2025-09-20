@@ -13,6 +13,7 @@ namespace _008_DownCast
 
             // Пример неявного приведения типа.
             BaseClass baseClass = derivedClass;
+            //BaseClass baseClass = new BaseClass();
             // Вызов метода ShowFileds() после приведения к базовому типу.
             baseClass.ShowFileds();
 

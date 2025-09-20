@@ -2,7 +2,10 @@
 {
     public class ClassForUnitTesting
     {
-        // Сила тока.
+        /// <summary> Сила тока. </summary>
+        /// <param name="electricalVoltage">Электрическое Напряжение.</param>
+        /// <param name="electricalResistance"> Электрическое Сопротивление.</param>
+        /// <returns></returns>
         public static double Amperage(double electricalVoltage, double electricalResistance)
         {
             return electricalVoltage / electricalResistance;

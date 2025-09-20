@@ -11,7 +11,7 @@ namespace Inheritance_1
         /// <summary> Защищенное поле. </summary>
         protected string ProtectedField = "protected Field";
 
-        // Открытое поле.
+        /// <summary> Открытое поле. </summary>
         public string PublicField = "public Field";
 
         /// <summary> Вывести значение полей на экран (BaseClass).  </summary>

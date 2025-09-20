@@ -8,7 +8,7 @@ namespace _002_Inheritance
         /// <summary> Закрытое поле. </summary>
         private string _privateField = "private Field";
 
-        // Защищенное поле.
+        //  Защищенное поле.
         protected string ProtectedField = "protected Field";
         // Открытое поле.
         public string PublicField = "public Field";

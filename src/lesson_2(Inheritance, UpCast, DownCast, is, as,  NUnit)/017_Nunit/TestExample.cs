@@ -8,7 +8,7 @@ namespace _17_Nunit
     public class TestExample
     {
         // Метод помечен как unit тест.
-        [Test]
+        [Test(Description = "Сила тока.", Author = "PStepanov")]
         public void AmperageIsTrue()
         {
             // Arrange.
