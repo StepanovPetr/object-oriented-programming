@@ -28,7 +28,7 @@
         #endregion
 
         #region Override abstract members 
-        // Закомментировать для примера.
+        //Закомментировать для примера.
         public override int Price()
         {
             return _roomCount * _floor;

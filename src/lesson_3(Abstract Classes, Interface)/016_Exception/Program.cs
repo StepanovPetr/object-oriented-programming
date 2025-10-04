@@ -11,6 +11,8 @@
 
                 string? s = null;
                 Console.WriteLine(s.Length);
+
+                Console.WriteLine("*****");
             }
             catch (DivideByZeroException e)
             {

@@ -13,6 +13,7 @@ namespace UnitTests
         [TestCase(7, false)]
         [TestCase(8, true)]
         [TestCase(10, true)]
+        [TestCase(23, false)]
         public void OmGTUFixTests_IsOpen(int hour, bool result)
         {
             // Arrange.

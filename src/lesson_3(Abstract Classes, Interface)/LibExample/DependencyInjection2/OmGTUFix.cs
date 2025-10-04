@@ -19,7 +19,7 @@ namespace LibExample.DependencyInjection2
         { 
             DateTime dateTime = _timeManager.GetDateTimeNow();
 
-            return dateTime.Hour >= 8 
+            return dateTime.Hour >= 8 && dateTime.Hour <= 22
                 ? true
                 : false;
         }

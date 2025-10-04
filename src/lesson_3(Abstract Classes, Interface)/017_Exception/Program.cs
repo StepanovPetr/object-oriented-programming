@@ -19,7 +19,7 @@
                 Console.WriteLine(e.StackTrace);
                 Console.WriteLine(e.GetType().Namespace);
 
-                throw e;
+                throw;
             }
 
             finally

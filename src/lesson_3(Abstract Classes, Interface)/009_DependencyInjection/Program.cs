@@ -1,5 +1,6 @@
 ﻿using System;
 using LibExample.DependencyInjection;
+using LibExample.DependencyInjection2;
 
 namespace _009_DependencyInjection
 {
@@ -12,6 +13,13 @@ namespace _009_DependencyInjection
 
             Deanery deanery = new Deanery(department);
             deanery.SetStudentnetAssessment("ivan.ivanov@example.com");
+
+            OmGTU omgtu = new OmGTU();
+            Console.WriteLine(omgtu.IsOpen());
+
+            OmGTUFix omgtuFix = new OmGTUFix(new DateTimeManager());
+            Console.WriteLine(omgtuFix.IsOpen());
+
 
             Console.WriteLine("Hello World!");
         }
