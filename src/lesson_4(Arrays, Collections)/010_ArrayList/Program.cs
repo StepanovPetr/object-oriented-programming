@@ -18,6 +18,14 @@ namespace _10_ArrayList
             foreach (var item in myList)
                 Console.WriteLine(item.ToString());
 
+            myList = new ArrayList();
+
+            for (int i = 0; i < 1000; i++)
+            {
+                Console.WriteLine($"i = {i} Count = {myList.Count} Capacity = {myList.Capacity} ");
+                myList.Add(i);
+            }
+
             Console.ReadLine();
         }
     }
