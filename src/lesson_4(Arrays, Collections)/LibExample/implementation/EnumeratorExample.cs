@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 
-namespace LibExample.implementation
+namespace LibExample.Implementation
 {
-    public class EnumeratorExample : IEnumerator
+    public class EnumeratorExample : IEnumerator, IEnumerable
     {
         private int _current = 0;
 
@@ -36,5 +36,10 @@ namespace LibExample.implementation
         }
 
         public object Current => _men[_current];
+
+        public IEnumerator GetEnumerator()
+        {
+            return this;
+        }
     }
 }
