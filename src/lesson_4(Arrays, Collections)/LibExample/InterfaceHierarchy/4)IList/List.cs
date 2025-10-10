@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace LibExample.implementation
+namespace LibExample.InterfaceHierarchy._4_IList
 {
     public class List : IList
     {

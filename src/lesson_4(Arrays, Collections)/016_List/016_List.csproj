@@ -6,4 +6,8 @@
     <RootNamespace>_016_List</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LibExample\LibExample.csproj" />
+  </ItemGroup>
+
 </Project>

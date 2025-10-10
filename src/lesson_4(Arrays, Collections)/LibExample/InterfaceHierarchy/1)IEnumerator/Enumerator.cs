@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace LibExample.implementation
+namespace LibExample.InterfaceHierarchy._1_IEnumerator
 {
     public class Enumerator : IEnumerator
     {

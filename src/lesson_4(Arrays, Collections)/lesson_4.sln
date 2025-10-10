@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30011.22
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001_Array", "001_Array\001_Array.csproj", "{4832F809-C624-449A-8056-9DE8D180E673}"
 EndProject
@@ -37,11 +37,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "010_ArrayList", "010_ArrayL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "016_List", "016_List\016_List.csproj", "{384A0853-251B-43F8-8160-6EAB7513F0AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "017_List", "017_List\017_List.csproj", "{81F33CCF-D39B-4FF8-82F8-76987EAE51F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "017_List", "017_List\017_List.csproj", "{81F33CCF-D39B-4FF8-82F8-76987EAE51F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "018_Dictionary", "018_Dictionary\018_Dictionary.csproj", "{6FF15D52-0EEB-491E-9676-C8ADFDF199F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "018_Dictionary", "018_Dictionary\018_Dictionary.csproj", "{6FF15D52-0EEB-491E-9676-C8ADFDF199F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "019_Dictionary", "019_Dictionary\019_Dictionary.csproj", "{D7BF1233-DEA7-48F3-AFD2-E29718727E38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "019_Dictionary", "019_Dictionary\019_Dictionary.csproj", "{D7BF1233-DEA7-48F3-AFD2-E29718727E38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "020_Interfaces", "20_Interfaces\020_Interfaces.csproj", "{9B00A7C9-278E-4135-BE78-EB4EF0E33975}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{D7BF1233-DEA7-48F3-AFD2-E29718727E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7BF1233-DEA7-48F3-AFD2-E29718727E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7BF1233-DEA7-48F3-AFD2-E29718727E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B00A7C9-278E-4135-BE78-EB4EF0E33975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B00A7C9-278E-4135-BE78-EB4EF0E33975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B00A7C9-278E-4135-BE78-EB4EF0E33975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B00A7C9-278E-4135-BE78-EB4EF0E33975}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

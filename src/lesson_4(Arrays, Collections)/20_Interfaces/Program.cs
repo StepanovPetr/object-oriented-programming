@@ -1,5 +1,5 @@
 ﻿using LibExample;
-using LibExample.implementation;
+using LibExample.Implementation;
 
 namespace _20_Interfaces
 {
@@ -7,7 +7,7 @@ namespace _20_Interfaces
     {
         static void Main(string[] args)
         {
-            var enumeratorExample = new EnumerableExample();
+            var enumeratorExample = new EnumeratorExample ();
 
             foreach (Man item in enumeratorExample)
             {
