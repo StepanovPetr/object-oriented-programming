@@ -18,7 +18,7 @@ namespace _001_Task
         static void Main(string[] args)
         {
             //ThreadPool.QueueUserWorkItem(MethodForThread);
-             Task t = new Task(MethodForThread);
+            Task t = new Task(MethodForThread);
             t.Start();
 
             new Task(MethodForThread).Start();
